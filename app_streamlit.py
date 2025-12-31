@@ -7,6 +7,8 @@ Streamlit UI 應用程式 - 美化版
 import streamlit as st
 import subprocess
 import sys
+import os
+from datetime import datetime
 from database import (
     init_db, get_offers, get_offer_stats, get_banks, get_categories,
     get_cards, add_card, update_card, delete_card, get_card
@@ -171,6 +173,15 @@ with st.sidebar:
             """, unsafe_allow_html=True)
     
     st.divider()
+    
+    # 顯示資料庫更新時間
+    offers_file = os.path.join(os.path.dirname(__file__), "all_bank_offers.json")
+    if os.path.exists(offers_file):
+        mtime = os.path.getmtime(offers_file)
+        update_time = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M")
+        st.caption(f"📅 資料更新時間: {update_time}")
+    else:
+        st.caption("📅 尚無資料")
     
     if st.button("🔄 更新資料（執行爬蟲）", use_container_width=True):
         with st.spinner("正在爬取資料..."):

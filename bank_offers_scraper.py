@@ -9,8 +9,12 @@
 import asyncio
 import json
 import csv
+import os
 from datetime import datetime
 from playwright.async_api import async_playwright
+
+# 檢測是否在 CI 環境 (GitHub Actions)
+IS_CI = os.environ.get("CI") == "true" or os.environ.get("GITHUB_ACTIONS") == "true"
 
 # ============================================================
 # 中國信託 (CTBC) 設定
@@ -482,7 +486,7 @@ async def main():
     
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=False,
+            headless=IS_CI,  # CI 環境用 headless，本機可開視窗
             args=["--disable-blink-features=AutomationControlled"]
         )
         context = await browser.new_context(

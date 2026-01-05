@@ -41,9 +41,11 @@ CTBC_EXTRACT_SCRIPT = """
     style1.forEach(el => {
         let title = el.getAttribute('title') || el.innerText.trim();
         let href = el.getAttribute('href');
+        let img = el.querySelector('img');
+        let image = img ? img.src : null;
         if (title && href && href !== '#' && !seen.has(title)) {
             seen.add(title);
-            offers.push({ title, url: href });
+            offers.push({ title, url: href, image });
         }
     });
 
@@ -55,6 +57,10 @@ CTBC_EXTRACT_SCRIPT = """
         
         let title = titleEl.innerText.trim();
         if (!title || seen.has(title)) return;
+        
+        // 找圖片
+        let img = card.querySelector('img');
+        let image = img ? img.src : null;
         
         const links = Array.from(card.querySelectorAll('a'));
         let activityLink = links.find(a => {
@@ -76,7 +82,7 @@ CTBC_EXTRACT_SCRIPT = """
         let href = activityLink ? activityLink.getAttribute('href') : null;
         if (title && href && href !== '#') {
             seen.add(title);
-            offers.push({ title, url: href });
+            offers.push({ title, url: href, image });
         }
     });
 
@@ -84,6 +90,9 @@ CTBC_EXTRACT_SCRIPT = """
     const style3 = Array.from(document.querySelectorAll('.twrbo-l-productCard'));
     style3.forEach(card => {
         const titleEl = card.querySelector('.twrbo-c-h3, h3');
+        let img = card.querySelector('img');
+        let image = img ? img.src : null;
+        
         const links = Array.from(card.querySelectorAll('a'));
         let activityLink = links.find(a => {
             const href = a.getAttribute('href') || '';
@@ -98,7 +107,7 @@ CTBC_EXTRACT_SCRIPT = """
         
         if (title && href && href !== '#' && !href.startsWith('tel:') && !seen.has(title)) {
             seen.add(title);
-            offers.push({ title, url: href });
+            offers.push({ title, url: href, image });
         }
     });
 
@@ -111,7 +120,16 @@ CTBC_EXTRACT_SCRIPT = """
                 finalUrl = window.location.origin + finalUrl;
             }
         }
-        return { title: o.title, url: finalUrl };
+        // 處理圖片相對路徑
+        let finalImage = o.image;
+        if (finalImage && !finalImage.startsWith('http')) {
+            try {
+                finalImage = new URL(finalImage, window.location.href).href;
+            } catch(e) {
+                finalImage = null;
+            }
+        }
+        return { title: o.title, url: finalUrl, image: finalImage };
     });
 }
 """
@@ -144,6 +162,10 @@ CATHAY_EXTRACT_SCRIPT = """
     // 嘗試多種選擇器
     const cards = document.querySelectorAll('a.eventcard, a[class*="eventcard"], div[class*="event"] a[href*="/event/"]');
     cards.forEach(card => {
+        // 找圖片
+        const img = card.querySelector('img');
+        let image = img ? img.src : null;
+        
         // 找標題 (嘗試多種方式)
         let title = null;
         const titleEl = card.querySelector('h3, h4, .title, [class*="title"]');
@@ -151,7 +173,6 @@ CATHAY_EXTRACT_SCRIPT = """
             title = titleEl.innerText.trim();
         } else {
             // 從 alt 屬性或 innerText 取得
-            const img = card.querySelector('img');
             title = (img && img.alt) || card.innerText.trim().split('\\n')[0];
         }
         
@@ -163,7 +184,10 @@ CATHAY_EXTRACT_SCRIPT = """
             if (!href.startsWith('http')) {
                 href = window.location.origin + href;
             }
-            offers.push({ title, url: href });
+            if (image && !image.startsWith('http')) {
+                image = window.location.origin + image;
+            }
+            offers.push({ title, url: href, image });
         }
     });
     
@@ -192,6 +216,10 @@ UBOT_EXTRACT_SCRIPT = """
     const seen = new Set();
     
     document.querySelectorAll('.card').forEach(card => {
+        // 找圖片
+        const img = card.querySelector('img');
+        let image = img ? img.src : null;
+        
         // 找標題 (card-body 內第一個文字區塊)
         const body = card.querySelector('.card-body');
         if (!body) return;
@@ -216,10 +244,13 @@ UBOT_EXTRACT_SCRIPT = """
         if (href && !href.startsWith('http')) {
             href = window.location.origin + href;
         }
+        if (image && !image.startsWith('http')) {
+            image = window.location.origin + image;
+        }
         
         if (title && href) {
             seen.add(title);
-            offers.push({ title, url: href });
+            offers.push({ title, url: href, image });
         }
     });
     
@@ -463,7 +494,7 @@ def deduplicate(offers: list) -> list:
 def save_to_csv(offers: list, filename: str = "all_bank_offers.csv"):
     """儲存為 CSV"""
     with open(filename, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=["bank", "category", "title", "url"])
+        writer = csv.DictWriter(f, fieldnames=["bank", "category", "title", "url", "image"])
         writer.writeheader()
         writer.writerows(offers)
     print(f"已儲存 CSV: {filename}")

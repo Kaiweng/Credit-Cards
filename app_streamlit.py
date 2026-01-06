@@ -14,6 +14,7 @@ from database import (
     get_cards, add_card, update_card, delete_card, get_card
 )
 from geopy.geocoders import Nominatim
+import pandas as pd
 
 
 # ============================================================
@@ -286,74 +287,104 @@ if page == "💰 優惠瀏覽":
     
     st.caption(f"共 {len(offers)} 筆優惠")
     
-    # 優惠列表
-    for offer in offers:
-        bank = offer.get("bank", "")
-        category = offer.get("category", "")
-        title = offer.get("title", "")
-        url = offer.get("url", "")
-        image = offer.get("image", "")
-        bank_color = get_bank_color(bank)
-        
-        # 使用 expander 顯示詳情和圖片
-        with st.expander(f"**{bank}** | {category} | {title[:50]}{'...' if len(title) > 50 else ''}"):
-            col1, col2 = st.columns([1, 4])
-            with col1:
-                # 排除無效或預設圖示 (如時鐘 icon)
-                valid_image = image
-                if image and "icon_clock" in image:
-                    valid_image = None
-                
-                if valid_image:
-                    try:
-                        st.image(valid_image, use_container_width=True)
-                    except Exception:
-                        st.write("🖼️")
-                else:
-                    st.write("🖼️")
-            with col2:
-                # 標題與連結合併 (單行顯示)
-                if url:
-                    st.markdown(f"**[{title}]({url})**")
-                else:
-                    st.markdown(f"**{title}**")
-                
-                st.caption(f"銀行：{bank} | 分類：{category}")
-
     # ============================================================
-    # 地圖整合 (顯示於列表下方)
+    # V4 佈局：左右分割 (左列表 | 右地圖)
     # ============================================================
-    st.divider()
+    # 使用 st.columns 建立左右區塊 (比例 3:2)
+    left_panel, right_panel = st.columns([3, 2])
     
-    # 只有當有搜尋關鍵字時，才嘗試顯示相關地圖
-    if search_term:
-        st.subheader(f"🗺️ '{search_term}' 相關地點")
-        import pandas as pd
-        
-        try:
-            # 建立 geolocator
-            geolocator = Nominatim(user_agent="credit_card_app_taiwan_refine_v2")
-            location = geolocator.geocode(search_term)
+    # --- 左側：優惠列表 (可捲動) ---
+    with left_panel:
+        with st.container(border=True, height=600):
+            st.subheader("📋 優惠列表")
             
-            if location:
-                st.info(f"📍 已定位：{location.address}")
-                map_data = pd.DataFrame([{
-                    'lat': location.latitude,
-                    'lon': location.longitude,
-                    'name': search_term
-                }])
-                st.map(map_data, zoom=15)
-            else:
-                st.caption(f"⚠️ 無法在地圖上找到 '{search_term}' 的確切位置")
+            # 使用較小的字體 CSS
+            st.markdown("""
+            <style>
+                .small-font { font-size: 0.9rem !important; }
+                .offer-title { font-size: 1.05rem !important; font-weight: bold; }
+            </style>
+            """, unsafe_allow_html=True)
+            
+            for offer in offers:
+                bank = offer.get("bank", "")
+                category = offer.get("category", "")
+                title = offer.get("title", "")
+                url = offer.get("url", "")
+                image = offer.get("image", "")
+                bank_color = get_bank_color(bank)
                 
-        except Exception as e:
-            st.caption("地圖服務暫時忙碌中")
-    else:
-        # 無搜尋時顯示預設地圖或折疊起來
-        with st.expander("🗺️ 開啟地圖 (搜尋關鍵字可定位)"):
-             st.caption("請在上方輸入關鍵字搜尋 (如: 台北101, 星巴克) 以顯示地圖定位")
-             default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
-             st.map(default_map, zoom=12)
+                # 卡片式設計
+                with st.container():
+                    col1, col2 = st.columns([1, 3])
+                    with col1:
+                        valid_image = image
+                        if image and "icon_clock" in image:
+                            valid_image = None
+                        
+                        if valid_image:
+                            try:
+                                # 限制圖片高度
+                                st.markdown(f'<img src="{valid_image}" style="max-height:70px; max-width:100%; border-radius:5px;">', unsafe_allow_html=True)
+                            except Exception:
+                                st.write("🖼️")
+                        else:
+                            st.markdown(f'<div style="height:70px; width:70px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
+                    
+                    with col2:
+                        # 標題 (連結) - 使用較緊湊的 H4 或自訂 class
+                        if url:
+                            st.markdown(f'<a href="{url}" target="_blank" class="offer-title" style="text-decoration:none; color:inherit;">{title}</a>', unsafe_allow_html=True)
+                        else:
+                            st.markdown(f'<span class="offer-title">{title}</span>', unsafe_allow_html=True)
+                        
+                        st.write("") # 間距
+                        
+                        # 標籤列 - 字體縮小
+                        st.markdown(f"""
+                            <span class="bank-tag" style="background:{bank_color}; font-size:0.75rem; padding:4px 8px;">{bank}</span>
+                            <span style="color:gray; font-size:0.8rem; margin-left:8px;">{category}</span>
+                        """, unsafe_allow_html=True)
+                    
+                    st.divider()
+
+    # --- 右側：地圖整合 (固定高度視窗) ---
+    with right_panel:
+        with st.container(border=True, height=600):
+            st.subheader("🗺️ 地點搜尋")
+            
+            # 只有當有搜尋關鍵字時，才嘗試顯示相關地圖
+            if search_term:
+                st.info(f"📍 搜尋：'{search_term}'")
+                
+                try:
+                    # 建立 geolocator
+                    geolocator = Nominatim(user_agent="credit_card_app_taiwan_refine_v4")
+                    location = geolocator.geocode(search_term)
+                    
+                    if location:
+                        map_data = pd.DataFrame([{
+                            'lat': location.latitude,
+                            'lon': location.longitude,
+                            'name': search_term
+                        }])
+                        st.map(map_data, zoom=15, use_container_width=True)
+                        
+                        # Google Maps 按鈕
+                        google_maps_url = f"https://www.google.com/maps/search/?api=1&query={search_term}"
+                        st.link_button("🌏 在 Google 地圖開啟 (查看評論/導航)", google_maps_url, use_container_width=True)
+                        
+                    else:
+                        st.warning(f"⚠️ 無法在地圖上找到 '{search_term}'")
+                        default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
+                        st.map(default_map, zoom=12, use_container_width=True)
+                        
+                except Exception as e:
+                    st.error("地圖服務暫時忙碌中")
+            else:
+                st.caption("👈 請在左上方輸入關鍵字搜尋")
+                default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
+                st.map(default_map, zoom=12, use_container_width=True)
 
 
 # ============================================================

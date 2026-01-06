@@ -41,8 +41,27 @@ CTBC_EXTRACT_SCRIPT = """
     style1.forEach(el => {
         let title = el.getAttribute('title') || el.innerText.trim();
         let href = el.getAttribute('href');
+        
+        let image = null;
+        // 1. 嘗試找 img 標籤
         let img = el.querySelector('img');
-        let image = img ? img.src : null;
+        if (img) image = img.src;
+        
+        // 2. 嘗試找 style background-image
+        if (!image) {
+            let style = el.getAttribute('style');
+            if (style) {
+                let match = style.match(/background-image:\s*url\(['"]?(.*?)['"]?\)/);
+                if (match) image = match[1];
+            }
+        }
+        
+        // 3. 嘗試找 data-src (常見於 span)
+        if (!image) {
+            let span = el.querySelector('[data-src]');
+            if (span) image = span.getAttribute('data-src');
+        }
+
         if (title && href && href !== '#' && !seen.has(title)) {
             seen.add(title);
             offers.push({ title, url: href, image });

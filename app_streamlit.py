@@ -156,7 +156,8 @@ with st.sidebar:
     st.divider()
     
     # 頁面選擇
-    page = st.radio("功能選擇", ["💰 優惠瀏覽", "💳 信用卡管理", "🗺️ 地圖搜尋"], label_visibility="collapsed")
+    # 頁面選擇
+    page = st.radio("功能選擇", ["💰 優惠瀏覽", "💳 信用卡管理"], label_visibility="collapsed")
     
     st.divider()
     
@@ -188,8 +189,10 @@ with st.sidebar:
     if st.button("🔄 更新資料（執行爬蟲）", use_container_width=True):
         with st.spinner("正在爬取資料..."):
             try:
-                subprocess.run([sys.executable, "run_scraper.py"], 
-                             cwd="j:\\我的云端硬盘\\antigravity\\ccard",
+                # 使用相對路徑執行 scraper
+                scraper_script = os.path.join(os.path.dirname(__file__), "bank_offers_scraper.py")
+                subprocess.run([sys.executable, scraper_script], 
+                             cwd=os.path.dirname(__file__),
                              check=True)
                 st.success("更新完成！")
                 st.rerun()
@@ -294,23 +297,63 @@ if page == "💰 優惠瀏覽":
         
         # 使用 expander 顯示詳情和圖片
         with st.expander(f"**{bank}** | {category} | {title[:50]}{'...' if len(title) > 50 else ''}"):
-            col1, col2 = st.columns([2, 3])
+            col1, col2 = st.columns([1, 4])
             with col1:
-                if image:
+                # 排除無效或預設圖示 (如時鐘 icon)
+                valid_image = image
+                if image and "icon_clock" in image:
+                    valid_image = None
+                
+                if valid_image:
                     try:
-                        st.image(image, use_container_width=True)
+                        st.image(valid_image, use_container_width=True)
                     except Exception:
-                        st.caption("🖼️ 圖片無法載入")
+                        st.write("🖼️")
                 else:
-                    st.caption("🖼️ 無圖片")
+                    st.write("🖼️")
             with col2:
-                # 標題與連結合併
+                # 標題與連結合併 (單行顯示)
                 if url:
-                    st.markdown(f"### [{title}]({url})")
+                    st.markdown(f"**[{title}]({url})**")
                 else:
-                    st.markdown(f"### {title}")
+                    st.markdown(f"**{title}**")
                 
                 st.caption(f"銀行：{bank} | 分類：{category}")
+
+    # ============================================================
+    # 地圖整合 (顯示於列表下方)
+    # ============================================================
+    st.divider()
+    
+    # 只有當有搜尋關鍵字時，才嘗試顯示相關地圖
+    if search_term:
+        st.subheader(f"🗺️ '{search_term}' 相關地點")
+        import pandas as pd
+        
+        try:
+            # 建立 geolocator
+            geolocator = Nominatim(user_agent="credit_card_app_taiwan_refine_v2")
+            location = geolocator.geocode(search_term)
+            
+            if location:
+                st.info(f"📍 已定位：{location.address}")
+                map_data = pd.DataFrame([{
+                    'lat': location.latitude,
+                    'lon': location.longitude,
+                    'name': search_term
+                }])
+                st.map(map_data, zoom=15)
+            else:
+                st.caption(f"⚠️ 無法在地圖上找到 '{search_term}' 的確切位置")
+                
+        except Exception as e:
+            st.caption("地圖服務暫時忙碌中")
+    else:
+        # 無搜尋時顯示預設地圖或折疊起來
+        with st.expander("🗺️ 開啟地圖 (搜尋關鍵字可定位)"):
+             st.caption("請在上方輸入關鍵字搜尋 (如: 台北101, 星巴克) 以顯示地圖定位")
+             default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
+             st.map(default_map, zoom=12)
 
 
 # ============================================================
@@ -417,90 +460,4 @@ elif page == "💳 信用卡管理":
 # ============================================================
 # 地圖搜尋頁面
 # ============================================================
-elif page == "🗺️ 地圖搜尋":
-    st.header("🗺️ 優惠地點搜尋")
-    
-    st.info("輸入地點關鍵字，搜尋附近的優惠商家")
-    
-    # 搜尋輸入
-    col1, col2 = st.columns([3, 1])
-    with col1:
-        location_query = st.text_input("📍 輸入地點或商家名稱", placeholder="例如: 台北101、信義區、星巴克...")
-    with col2:
-        search_radius = st.selectbox("範圍", ["500m", "1km", "2km", "5km"])
-    
-    # 模擬地圖 (使用 Streamlit 的 map 功能)
-    import pandas as pd
-    
-    # 預設台北市中心座標
-    default_lat = 25.0478
-    default_lon = 121.5171
-    map_data = pd.DataFrame([{
-        'lat': default_lat,
-        'lon': default_lon,
-        'name': '台北車站'
-    }])
 
-    # 根據搜尋詞過濾優惠
-    if location_query:
-        # 1. 嘗試地理編碼
-        try:
-            geolocator = Nominatim(user_agent="credit_card_app_taiwan_user")
-            location = geolocator.geocode(location_query)
-            
-            if location:
-                st.success(f"📍 已定位：{location.address}")
-                # 更新地圖中心
-                map_data = pd.DataFrame([{
-                    'lat': location.latitude,
-                    'lon': location.longitude,
-                    'name': location_query
-                }])
-            else:
-                st.warning(f"⚠️ 找不到地點：{location_query}，顯示預設位置")
-        except Exception as e:
-            st.error(f"地圖定位發生錯誤: {e}")
-
-        # 2. 搜尋優惠
-        related_offers = get_offers(search=location_query)
-        if related_offers:
-            st.info(f"找到 {len(related_offers)} 筆相關優惠")
-            
-            for offer in related_offers[:10]:  # 只顯示前10筆
-                bank = offer.get("bank", "")
-                title = offer.get("title", "")
-                url = offer.get("url", "")
-                bank_color = get_bank_color(bank)
-                
-                col1, col2 = st.columns([1.5, 7])
-                with col1:
-                    st.markdown(f'<span class="bank-tag" style="background:{bank_color}">{bank}</span>', 
-                               unsafe_allow_html=True)
-                with col2:
-                    if url:
-                        st.markdown(f"[{title}]({url})")
-                    else:
-                        st.write(title)
-        else:
-            st.warning("沒有找到相關優惠")
-    
-    # 顯示地圖
-
-    st.subheader("📍 地圖檢視")
-    
-    st.map(map_data, zoom=14)
-    
-    if not location_query:
-        # 如果沒有搜尋，顯示一些熱門地標作為參考
-        st.write("熱門商圈參考：")
-        demo_spots = pd.DataFrame({
-        'lat': [25.0330, 25.0418, 25.0478, 25.0339, 25.0577],
-        'lon': [121.5654, 121.5067, 121.5171, 121.5645, 121.5234],
-        'name': ['信義區', '西門町', '中山區', '台北101', '大直']
-        })
-        st.dataframe(demo_spots, hide_index=True)
-
-    
-
-    
-    st.caption("💡 提示：點擊地圖上的點可查看該區域的優惠商家")

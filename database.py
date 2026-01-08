@@ -24,6 +24,7 @@ def init_db():
     cursor = conn.cursor()
     
     # 優惠表
+    # Note: Adding image column. If table exists, this won't run unless dropped.
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS offers (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -31,6 +32,7 @@ def init_db():
             category TEXT,
             title TEXT NOT NULL,
             url TEXT,
+            image TEXT,
             scraped_at DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     """)
@@ -82,9 +84,9 @@ def add_offers(offers: List[Dict]):
     
     for o in offers:
         cursor.execute("""
-            INSERT INTO offers (bank, category, title, url, scraped_at)
-            VALUES (?, ?, ?, ?, ?)
-        """, (o.get("bank"), o.get("category"), o.get("title"), o.get("url"), now))
+            INSERT INTO offers (bank, category, title, url, image, scraped_at)
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, (o.get("bank"), o.get("category"), o.get("title"), o.get("url"), o.get("image"), now))
     
     conn.commit()
     conn.close()

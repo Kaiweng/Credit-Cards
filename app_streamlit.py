@@ -15,6 +15,8 @@ from database import (
 )
 from geopy.geocoders import Nominatim
 import pandas as pd
+import requests
+import base64
 
 
 # ============================================================
@@ -136,6 +138,25 @@ def get_bank_color(bank_name: str) -> str:
 # ============================================================
 init_db()
 
+# Function to fetch image bytes (Bypasses Hotlink Protection)
+# Using st.cache_data as verified in image_verifier.py
+@st.cache_data(show_spinner=False)
+def fetch_image_bytes(url):
+    if not url or not isinstance(url, str):
+        return None
+    try:
+        # User-Agent to mimic a browser
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+            "Referer": "" # Empty referer sometimes helps, or mimic the bank site
+        }
+        r = requests.get(url, headers=headers, timeout=5)
+        if r.status_code == 200:
+            return r.content
+    except:
+        pass
+    return None
+
 # Session state
 if "theme" not in st.session_state:
     st.session_state.theme = "🌙 深色主題"
@@ -145,6 +166,12 @@ if "theme" not in st.session_state:
 # ============================================================
 with st.sidebar:
     st.title("💳 信用卡優惠戰情室")
+    
+    # 簡潔統計 (放在標題下方)
+    stats = get_offer_stats()
+    by_bank = stats.get("by_bank", {})
+    st.caption(f"📊 總計 {stats.get('total', 0)} 筆 | 🟢 中信 {by_bank.get('中國信託', 0)} | 🔴 國泰 {by_bank.get('國泰世華', 0)} | 🔵 聯邦 {by_bank.get('聯邦銀行', 0)}")
+    
     st.divider()
     
     # 主題選擇
@@ -200,6 +227,7 @@ with st.sidebar:
             except Exception as ex:
                 st.error(f"更新失敗: {ex}")
 
+
 # ============================================================
 # 套用主題 CSS
 # ============================================================
@@ -242,21 +270,6 @@ st.markdown(f"""
 # 優惠瀏覽頁面
 # ============================================================
 if page == "💰 優惠瀏覽":
-    # 統計區
-    stats = get_offer_stats()
-    by_bank = stats.get("by_bank", {})
-    
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("📊 總計", stats.get("total", 0))
-    with col2:
-        st.metric("🟢 中國信託", by_bank.get("中國信託", 0))
-    with col3:
-        st.metric("🔴 國泰世華", by_bank.get("國泰世華", 0))
-    with col4:
-        st.metric("🔵 聯邦銀行", by_bank.get("聯邦銀行", 0))
-    
-    st.divider()
     
     # 搜尋與篩選
     col1, col2, col3, col4 = st.columns([3, 1.5, 1.5, 2])
@@ -306,47 +319,55 @@ if page == "💰 優惠瀏覽":
             </style>
             """, unsafe_allow_html=True)
             
-            for offer in offers:
-                bank = offer.get("bank", "")
-                category = offer.get("category", "")
-                title = offer.get("title", "")
-                url = offer.get("url", "")
-                image = offer.get("image", "")
-                bank_color = get_bank_color(bank)
+            
+            # 多欄卡片式排版
+            num_cols = 3  # 每列顯示3張卡片
+            
+            # 將 offers 分成多列
+            for row_start in range(0, len(offers), num_cols):
+                row_offers = offers[row_start:row_start + num_cols]
+                cols = st.columns(num_cols)
                 
-                # 卡片式設計
-                with st.container():
-                    col1, col2 = st.columns([1, 3])
-                    with col1:
-                        valid_image = image
-                        if image and "icon_clock" in image:
-                            valid_image = None
-                        
-                        if valid_image:
-                            try:
-                                # 限制圖片高度
-                                st.markdown(f'<img src="{valid_image}" style="max-height:70px; max-width:100%; border-radius:5px;">', unsafe_allow_html=True)
-                            except Exception:
-                                st.write("🖼️")
-                        else:
-                            st.markdown(f'<div style="height:70px; width:70px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
+                for idx, offer in enumerate(row_offers):
+                    bank = offer.get("bank", "")
+                    category = offer.get("category", "")
+                    title = offer.get("title", "")
+                    url = offer.get("url", "")
+                    image = offer.get("image", "")
+                    bank_color = get_bank_color(bank)
                     
-                    with col2:
-                        # 標題 (連結) - 使用較緊湊的 H4 或自訂 class
-                        if url:
-                            st.markdown(f'<a href="{url}" target="_blank" class="offer-title" style="text-decoration:none; color:inherit;">{title}</a>', unsafe_allow_html=True)
-                        else:
-                            st.markdown(f'<span class="offer-title">{title}</span>', unsafe_allow_html=True)
-                        
-                        st.write("") # 間距
-                        
-                        # 標籤列 - 字體縮小
-                        st.markdown(f"""
-                            <span class="bank-tag" style="background:{bank_color}; font-size:0.75rem; padding:4px 8px;">{bank}</span>
-                            <span style="color:gray; font-size:0.8rem; margin-left:8px;">{category}</span>
-                        """, unsafe_allow_html=True)
-                    
-                    st.divider()
+                    with cols[idx]:
+                        with st.container(border=True):
+                            # 圖片區 (無 caption，避免重複標題)
+                            valid_image = image
+                            if image and "icon_clock" in image:
+                                valid_image = None
+                            
+                            if valid_image:
+                                try:
+                                    img_bytes = fetch_image_bytes(valid_image)
+                                    if img_bytes:
+                                        st.image(img_bytes, use_column_width=True)
+                                    else:
+                                        st.image(valid_image, use_column_width=True)
+                                except Exception:
+                                    st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
+                            else:
+                                st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
+                            
+                            # 標題 (連結)
+                            if url:
+                                st.markdown(f'<a href="{url}" target="_blank" style="text-decoration:none; color:inherit; font-weight:bold; font-size:0.9rem; display:block; margin-top:8px;">{title}</a>', unsafe_allow_html=True)
+                            else:
+                                st.markdown(f'<span style="font-weight:bold; font-size:0.9rem; display:block; margin-top:8px;">{title}</span>', unsafe_allow_html=True)
+                            
+                            # 銀行 + 分類標籤
+                            st.markdown(f'''
+                                <div style="margin-top:6px;">
+                                    <span style="background:{bank_color}; color:white; padding:3px 8px; border-radius:4px; font-size:0.7rem;">{bank}</span>
+                                    <span style="color:gray; font-size:0.75rem; margin-left:6px;">{category}</span>
+                                </div>
+                            ''', unsafe_allow_html=True)
 
     # --- 右側：地圖整合 (固定高度視窗) ---
     with right_panel:

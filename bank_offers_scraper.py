@@ -568,6 +568,17 @@ async def main():
     save_to_csv(all_offers)
     save_to_json(all_offers)
     
+    # 更新資料庫
+    try:
+        from database import init_db, clear_offers, add_offers
+        print("\n正在更新資料庫...")
+        init_db()  # 確保資料表存在
+        clear_offers()  # 清除舊資料
+        add_offers(all_offers)  # 匯入新資料
+        print("資料庫更新完成！")
+    except Exception as e:
+        print(f"資料庫更新失敗: {e}")
+    
     # 顯示各銀行統計
     print("\n各銀行統計:")
     from collections import Counter

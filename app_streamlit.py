@@ -167,11 +167,17 @@ def fetch_image_bytes(url):
 # ============================================================
 @st.cache_data(ttl=3600, show_spinner=False)
 def search_nearby_pois(keyword, lat, lon, radius=5000):
-    """使用 Overpass API 搜尋周邊興趣點"""
-    overpass_url = "https://overpass-api.de/api/interpreter"
-    # 建立 Overpass QL 查詢
+    """使用 Overpass API 搜尋周邊興趣點 (具備多鏡像重試機制)"""
+    # 列出多個公共 Overpass 鏡像，增加穩定性
+    overpass_mirrors = [
+        "https://overpass-api.de/api/interpreter",
+        "https://lz4.overpass-api.de/api/interpreter",
+        "https://z.overpass-api.de/api/interpreter",
+        "https://overpass.kumi.systems/api/interpreter"
+    ]
+    
     query = f"""
-    [out:json][timeout:25];
+    [out:json][timeout:30];
     (
       node["name"~"{keyword}"](around:{radius}, {lat}, {lon});
       way["name"~"{keyword}"](around:{radius}, {lat}, {lon});
@@ -179,23 +185,28 @@ def search_nearby_pois(keyword, lat, lon, radius=5000):
     );
     out center;
     """
-    try:
-        response = requests.get(overpass_url, params={'data': query}, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            pois = []
-            for element in data.get('elements', []):
-                poi = {
-                    'name': element.get('tags', {}).get('name', keyword),
-                    'lat': element.get('lat') or element.get('center', {}).get('lat'),
-                    'lon': element.get('lon') or element.get('center', {}).get('lon'),
-                    'addr': element.get('tags', {}).get('addr:full', '') or element.get('tags', {}).get('addr:street', '')
-                }
-                if poi['lat'] and poi['lon']:
-                    pois.append(poi)
-            return pois
-    except Exception as e:
-        st.error(f"搜尋據點時出錯: {e}")
+    
+    for url in overpass_mirrors:
+        try:
+            # 增加連線與讀取逾時設定
+            response = requests.get(url, params={'data': query}, timeout=(5, 25))
+            if response.status_code == 200:
+                data = response.json()
+                pois = []
+                for element in data.get('elements', []):
+                    poi = {
+                        'name': element.get('tags', {}).get('name', keyword),
+                        'lat': element.get('lat') or element.get('center', {}).get('lat'),
+                        'lon': element.get('lon') or element.get('center', {}).get('lon'),
+                        'addr': element.get('tags', {}).get('addr:full', '') or element.get('tags', {}).get('addr:street', '')
+                    }
+                    if poi['lat'] and poi['lon']:
+                        pois.append(poi)
+                return pois
+        except Exception:
+            # 如果目前鏡像失敗，嘗試下一個
+            continue
+            
     return []
 
 # Session state

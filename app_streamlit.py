@@ -169,14 +169,40 @@ if "theme" not in st.session_state:
 with st.sidebar:
     st.title("💳 信用卡優惠戰情室")
     
-    # 簡潔統計 (放在標題下方)
-    stats = get_offer_stats()
-    by_bank = stats.get("by_bank", {})
-    st.caption(f"📊 總計 {stats.get('total', 0)} 筆 | 🟢 中信 {by_bank.get('中國信託', 0)} | 🔴 國泰 {by_bank.get('國泰世華', 0)} | 🔵 聯邦 {by_bank.get('聯邦銀行', 0)}")
+    # 1. 頁面導覽 (移回側邊欄)
+    page = option_menu(
+        menu_title=None,
+        options=["💰 優惠瀏覽", "💳 信用卡管理"],
+        icons=["cash-stack", "credit-card"],
+        menu_icon="cast",
+        default_index=0,
+        orientation="vertical",
+        styles={
+            "container": {"padding": "0!important", "background-color": "transparent"},
+            "icon": {"color": "#e94560", "font-size": "18px"}, 
+            "nav-link": {"font-size": "15px", "text-align": "left", "margin":"0px"},
+            "nav-link-selected": {"background-color": "#e94560", "color": "white"},
+        }
+    )
     
     st.divider()
     
-    # 主題選擇
+    # 2. 數據統計
+    stats = get_offer_stats()
+    by_bank = stats.get("by_bank", {})
+    st.markdown(f"""
+        <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 10px; border-left: 3px solid #e94560;">
+            <div style="font-size: 0.8rem; color: #a0a0a0;">總優惠數</div>
+            <div style="font-size: 1.2rem; font-weight: bold; color: white;">{stats.get('total', 0)} 筆</div>
+            <div style="font-size: 0.7rem; color: #a0a0a0; margin-top: 5px;">
+                🟢 中信 {by_bank.get('中國信託', 0)} | 🔴 國泰 {by_bank.get('國泰世華', 0)} | 🔵 聯邦 {by_bank.get('聯邦銀行', 0)}
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    st.divider()
+    
+    # 3. 主題選擇
     st.session_state.theme = st.selectbox(
         "🎨 選擇主題",
         list(THEMES.keys()),
@@ -185,42 +211,16 @@ with st.sidebar:
     
     st.divider()
     
-    st.divider()
-    
-    # 頁面選擇 (已移至頂部，此處僅保留佔位或移除)
-    # page = st.radio("功能選擇", ["💰 優惠瀏覽", "💳 信用卡管理"], label_visibility="collapsed")
-    
-    st.divider()
-    
-    # 我的信用卡快速檢視
-    my_cards = get_cards()
-    if my_cards:
-        st.subheader("📌 我的信用卡")
-        for card in my_cards:
-            bank_color = get_bank_color(card.get("bank", ""))
-            st.markdown(f"""
-                <div style="background:{bank_color}; color:white; padding:8px 12px; 
-                     border-radius:8px; margin:5px 0; font-size:0.85rem;">
-                    <strong>{card.get('bank', '')}</strong><br>
-                    {card.get('card_name', '')}
-                </div>
-            """, unsafe_allow_html=True)
-    
-    st.divider()
-    
-    # 顯示資料庫更新時間
+    # 4. 更新資訊與按鈕
     offers_file = os.path.join(os.path.dirname(__file__), "all_bank_offers.json")
     if os.path.exists(offers_file):
         mtime = os.path.getmtime(offers_file)
         update_time = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M")
         st.caption(f"📅 資料更新時間: {update_time}")
-    else:
-        st.caption("📅 尚無資料")
     
     if st.button("🔄 更新資料（執行爬蟲）", use_container_width=True):
         with st.spinner("正在爬取資料..."):
             try:
-                # 使用相對路徑執行 scraper
                 scraper_script = os.path.join(os.path.dirname(__file__), "bank_offers_scraper.py")
                 subprocess.run([sys.executable, scraper_script], 
                              cwd=os.path.dirname(__file__),
@@ -268,24 +268,6 @@ st.markdown(f"""
     }}
 </style>
 """, unsafe_allow_html=True)
-
-# ============================================================
-# 頂部導覽列 (分頁選擇)
-# ============================================================
-page = option_menu(
-    menu_title=None,
-    options=["💰 優惠瀏覽", "💳 信用卡管理"],
-    icons=["cash-stack", "credit-card"],
-    menu_icon="cast",
-    default_index=0,
-    orientation="horizontal",
-    styles={
-        "container": {"padding": "0!important", "background-color": theme['bg_secondary'], "border-radius": "10px", "margin-bottom": "20px"},
-        "icon": {"color": theme['accent'], "font-size": "18px"}, 
-        "nav-link": {"font-size": "16px", "text-align": "center", "margin":"0px", "--hover-color": theme['bg_card']},
-        "nav-link-selected": {"background-color": theme['accent'], "color": "white"},
-    }
-)
 
 # 套用 Metric Card 樣式 (如果之後有用到)
 style_metric_cards(background_color=theme['bg_secondary'], border_left_color=theme['accent'])

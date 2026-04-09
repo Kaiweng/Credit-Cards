@@ -1,3 +1,6 @@
 streamlit
 pandas
 geopy
+streamlit-option-menu
+streamlit-extras
+streamlit-lottie

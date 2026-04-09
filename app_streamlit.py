@@ -17,6 +17,8 @@ from geopy.geocoders import Nominatim
 import pandas as pd
 import requests
 import base64
+from streamlit_option_menu import option_menu
+from streamlit_extras.metric_cards import style_metric_cards
 
 
 # ============================================================
@@ -183,9 +185,10 @@ with st.sidebar:
     
     st.divider()
     
-    # 頁面選擇
-    # 頁面選擇
-    page = st.radio("功能選擇", ["💰 優惠瀏覽", "💳 信用卡管理"], label_visibility="collapsed")
+    st.divider()
+    
+    # 頁面選擇 (已移至頂部，此處僅保留佔位或移除)
+    # page = st.radio("功能選擇", ["💰 優惠瀏覽", "💳 信用卡管理"], label_visibility="collapsed")
     
     st.divider()
     
@@ -265,6 +268,27 @@ st.markdown(f"""
     }}
 </style>
 """, unsafe_allow_html=True)
+
+# ============================================================
+# 頂部導覽列 (分頁選擇)
+# ============================================================
+page = option_menu(
+    menu_title=None,
+    options=["💰 優惠瀏覽", "💳 信用卡管理"],
+    icons=["cash-stack", "credit-card"],
+    menu_icon="cast",
+    default_index=0,
+    orientation="horizontal",
+    styles={
+        "container": {"padding": "0!important", "background-color": theme['bg_secondary'], "border-radius": "10px", "margin-bottom": "20px"},
+        "icon": {"color": theme['accent'], "font-size": "18px"}, 
+        "nav-link": {"font-size": "16px", "text-align": "center", "margin":"0px", "--hover-color": theme['bg_card']},
+        "nav-link-selected": {"background-color": theme['accent'], "color": "white"},
+    }
+)
+
+# 套用 Metric Card 樣式 (如果之後有用到)
+style_metric_cards(background_color=theme['bg_secondary'], border_left_color=theme['accent'])
 
 # ============================================================
 # 優惠瀏覽頁面
@@ -347,9 +371,9 @@ if page == "💰 優惠瀏覽":
                                 try:
                                     img_bytes = fetch_image_bytes(valid_image)
                                     if img_bytes:
-                                        st.image(img_bytes, use_column_width=True)
+                                        st.image(img_bytes, use_container_width=True)
                                     else:
-                                        st.image(valid_image, use_column_width=True)
+                                        st.image(valid_image, use_container_width=True)
                                 except Exception:
                                     st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
                             else:

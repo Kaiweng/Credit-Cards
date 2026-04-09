@@ -1,12 +1,2942 @@
 [
   {
-    "name": "offers",
-    "seq": 791,
-    "image": ""
+    "title": "41",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
   },
   {
-    "name": "cards",
-    "seq": 1,
-    "image": ""
+    "title": "【中信卡】EZTABLE專屬保留位",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】王品集團全品牌餐廳",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台北六福萬怡酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】EZTABLE滿額享10%",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】石二鍋",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台北艾麗酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】12mini",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台北遠東香格里拉",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】青花驕麻辣鍋",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】臺中勤美洲際酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】和牛涮 日式鍋物放題",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台中李方艾美酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】陶板屋 和風創作料理",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台糖長榮酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】夏慕尼 新香榭鉄板燒",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】台北凱撒大飯店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】TASTy 西堤牛排",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】福勝亭",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content2-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】品田牧場",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/wowapp/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】勝博殿",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content2-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】茹曦酒店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】板橋凱撒大飯店",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-2.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】涓豆腐",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content2-1.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】犇 極上 微風信義館",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content2-2.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "30",
+    "url": "https://www.freeliving.com.tw/EVENT/ctbcrewards/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】肯驛休閒旅遊",
+    "url": "https://www.freeliving.com.tw/EVENT/ctbcrewards/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】停車大聲公",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/parking/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】近鐵百貨 KINTETSU",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/japan.html#s2-harukas",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】日本三越伊勢丹百貨",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/japan.html#s2-daimaru",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】BicCamera",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/japan.html#s5-camera",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】日本購物可分期",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/qrjpbic/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】飯店、免稅店滿額回饋",
+    "url": "https://mkt.ctbcbank.com/recent/202703/N2026032000035_01-31/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】帶你飛 旅遊天天享折扣",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/N2026032500061_01/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】東南旅遊",
+    "url": "https://www.settour.com.tw/act/mkt/ctbcbank/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】易遊網 天天折600",
+    "url": "https://www.eztravel.com.tw/activity/ctbcbank/coupon/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】日本優惠",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/japan.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】日本大丸松坂屋百貨",
+    "url": "https://ctbc.tw/daimar",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】指定旅行社滿額回饋",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelSP/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】Trip.com",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/room.html#trip",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】kkday",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/air.html#kkday",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】雄獅旅遊",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#lion",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】可樂旅遊",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#cola",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】五福旅遊",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#lifetour",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】大嘴鳥假期",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#yoyofly",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】太平洋旅行社",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#pactour",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】喜鴻假期",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#besttour",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】博海旅行社",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/stroke.html#seascape",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】日本MITSUI購物園區",
+    "url": "https://mitsui-shopping-park.com/lalaport/msp-info/coupon/?rsapp=116_1",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】中國南方航空",
+    "url": "https://www.csair.com/mcms/mcms/TW/tc/2025/20251224_5/flight.html?lang=tc&country=tw&utm_campaign=2026zxkyh&utm_source=gw&utm_channel=twtcpc-lb&rc=TPE001&orderChannel=HLB",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】可樂旅遊 遊日本",
+    "url": "https://www.colatour.com.tw/webDM/bankCard/ctbc/discount/sale.html?utm_campaign=bankcamp&utm_medium=payad&utm_source=ctbc&utm_content=ctbcEDM",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "27",
+    "url": "https://www.feds.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】遠東百貨",
+    "url": "https://www.feds.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】漢神巨蛋購物廣場",
+    "url": "http://www.hanshinarena.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】勤美 誠品綠園道",
+    "url": "https://parklane.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】金典 綠園道商場",
+    "url": "https://parklanes.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】台北101購物中心",
+    "url": "https://www.taipei-101.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】環球購物中心",
+    "url": "https://www.twglobalmall.com/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】大葉髙島屋",
+    "url": "http://www.dayeh-takashimaya.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】統一時代百貨",
+    "url": "http://www.uni-ustyle.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】京站時尚廣場",
+    "url": "https://www.qsquare.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】廣三SOGO",
+    "url": "http://www.kssogo.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】耐斯廣場購物中心",
+    "url": "http://www.niceplaza.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】太平洋百貨豐原店",
+    "url": "https://fy.pacific-mall.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】南紡購物中心",
+    "url": "http://www.tsrd.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】太平洋百貨屏東店",
+    "url": "http://pd.pacific-mall.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】漢神百貨",
+    "url": "https://www.hanshin.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】遠東SOGO",
+    "url": "https://www.sogo.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】美麗華百樂園",
+    "url": "http://www.miramar.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】雅詩蘭黛母親節",
+    "url": "https://mkt.ctbcbank.com/recent/202605/N2026033000034_02-10/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】歡慶百貨母親節",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/NB20231222189/index.html?item=2",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】新光三越初夏購物節",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/NB20231222189/index.html?item=21",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】誠品生活",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/NB20231222189/index.html?item=27",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】耆妙屋",
+    "url": "https://mkt.ctbcbank.com/recent/202612/N2025121200004_02-31/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】席伊麗Sealy",
+    "url": "https://mkt.ctbcbank.com/recent/202712/N2026031000014_01-31/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】丹普TEMPUR",
+    "url": "https://mkt.ctbcbank.com/recent/202712/N2026031000014_01-31/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "【中信卡】藥妝採購日",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/beauty/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "百貨藥妝"
+  },
+  {
+    "title": "2",
+    "url": "http://www.santacruz.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "超商量販"
+  },
+  {
+    "title": "【中信卡】聖德科斯生機食品",
+    "url": "http://www.santacruz.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "超商量販"
+  },
+  {
+    "title": "【中信卡】大全聯",
+    "url": "https://mkt.ctbcbank.com/recent/202605/N2026032400004_01-10/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "超商量販"
+  },
+  {
+    "title": "6",
+    "url": "http://www.ctmall.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】CTMall紅利市集",
+    "url": "http://www.ctmall.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】電商最新活動",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/online-shopping/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】酷澎",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/online-shopping/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】博客來",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/online-shopping/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】蝦皮",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/online-shopping/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "線上購物"
+  },
+  {
+    "title": "【中信卡】台灣大車隊",
+    "url": "http://www.taiwantaxi.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】台灣中油",
+    "url": "https://www.cpc.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】BEING sport",
+    "url": "https://www.beingsport.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】白永恩神父基金會",
+    "url": "https://www.beunen.org.tw/contents/text?id=54",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】BEING spa",
+    "url": "https://www.beingspa.com.tw/index.php",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】BEING fit",
+    "url": "https://www.beingfit.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】墊腳石圖書",
+    "url": "http://www.steppingstone.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】中興嘟嘟房停車場",
+    "url": "http://www.dodohome.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】台灣聯通停車場",
+    "url": "http://www.taiwan-parking.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】ViVi PARK",
+    "url": "http://www.vivi-park.com",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】生活繳費",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/withholdedm/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】中華電信費",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/chunghwa/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】中租租車",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/rental/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】中信特攻籃球隊",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/baseketball/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】保費6期0利率",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/insterm/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】漫威無限傳奇音樂會",
+    "url": "https://ticket.mna.com.tw/UTK0102_?TYPE=8&AD_TAB_ID=P16J3AYE",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】衛武營國家藝術文化中心",
+    "url": "https://www.opentix.life/o/weiwuying",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】臺中國家歌劇院",
+    "url": "https://www.npac-ntt.org/index",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】高雄環球影城",
+    "url": "https://www.u-movie.com.tw/cinema/page.php?page_type=now&ver=tw&portal=cinema",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】哈拉影城",
+    "url": "http://www.halarcity.com/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】總督影城",
+    "url": "https://www.governor.com.tw/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】臺北戲棚",
+    "url": "https://www.taipeieye.com/tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/icon/icon_clock_dark.svg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "信用卡",
+    "url": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview?category=credit-card",
+    "image": null,
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "數位服務",
+    "url": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview?category=digital-service",
+    "image": null,
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "2026《媽媽寶寶親子風格市集》",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/2026mombabyfair.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/AEM_KV_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "蝦皮購物 4月狂購盛典\n(4/5~4/18)",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202604/shopee202604_2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/shopee3.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新光三越卡利HIGH兌換",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202509/skmcardlihigh.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/skm1050x630_01.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "升級你的校園生活！新開戶享10%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/2026/campus.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/campus_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新光三越初夏購物節\n刷CUBE信用卡最高享3.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202603/skm2026q2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E6%96%B0%E5%85%89%E4%B8%89%E8%B6%8ASKM1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "屈臣氏官方網路商店/APP，單筆滿額現折",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/2026-watsons-ec-04.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/watsons1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "康是美網購eShop",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/cosmed_eshop_202604.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E5%BA%B7%E6%98%AF%E7%BE%8EAEM%E8%83%8C%E6%99%AF%E5%9C%96_NEW.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "寶雅POYA",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/POYA_2026Q2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/poya_aem_2026q2.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "OPEN錢包綁定CUBE卡滿額最高享9%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/OPENPOINT2026Q2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/711.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "大樹藥局刷CUBE信用卡\n滿額享最高5%小樹點(信用卡)回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/greattree_2026Q2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E5%A4%A7%E6%A8%B9%E8%97%A5%E5%B1%80_1050x630.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "蝦皮購物聯名卡加碼",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202410/sp-permonth.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/shopee7.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "momo購物網 刷卡優惠 (4/1~4/30)",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202604/momo202604_1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/momo_new_1050x630_.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "PChome 24h購物 刷卡優惠 (4/1~4/30)",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202604/pchomeonline202604_1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/PC_1050x630_new_3.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "蝦皮購物4月購物嘉年華\n(4/1~4/30)",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202604/shopee202604_1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/shopee1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡&麥當勞專屬優惠 | 國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202604/mcdonalds_202604.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/MCD_1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡新戶專屬\n麥當勞APP手機點餐優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202604/mcdonalds_202604_2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/MCD.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE慶生月踩點吉章",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202604/cube_birthday_202604.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/1050x630-2026Q2BD-1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "U-POWER刷CUBE信用卡領券滿千享最高回饋7%小樹點(信用卡)",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/U-POWERQ2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/082_%E8%B2%B7%E8%BB%8A%E3%80%81%E5%85%85%E9%9B%BB_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "刷國泰世華萬事達卡\n海外消費滿額享最高50%回饋！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/mastercardmtrq1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026mtrq1%20(%E4%BF%AE).jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "亞洲萬里通聯名卡，海外實體消費里數2倍贈，最優享5元=1里!",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202604/AM-202604.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01_AM%E5%8D%A1/AM%20shopping%201050X630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "大全聯刷國泰世華信用卡單筆消費滿額享加碼回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/RTMart_202603.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/pxpay1050x630.jpeg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "遠東百貨美麗購物節\n國際精品最高享7%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202604/feds2026q2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E9%81%A0%E7%99%BEKV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華銀行 孫燕姿《就在日落以後》巡迴演唱會 – 台北",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/Yanzi.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/Yanzi_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【兌換完畢】《就在日落以後》巡迴演唱會 - 台北場 購票資格",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/concert_SunYanzi.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%9B%BB%E5%BD%B1%E3%80%81%E8%97%9D%E6%96%87/SunYanzi_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【日本賞獨家獻禮】\n期間限定！權益加碼由你決定",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/prejpr202603.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/jprmountain_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "《國泰世華 x 詹記麻辣火鍋》專屬訂位、領券消費加碼2%小樹點(信用卡)回饋！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202603/chanchihotpotlab.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/%E8%A9%B9%E8%A8%98AEM.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華銀行2026韋禮安「HI WE1 韋，您好 巡迴演唱會」台北場",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/WeiBird.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/WeiBird_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新光三越日本賞\nCUBE信用卡最高享13%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202602/skm2026jp.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_2026jpdep.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【日本賞獨家獻禮】\n日本指定百貨領券消費累積滿額最高5%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202603/jpdep202603.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/jprdep_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【日本賞獨家獻禮】\n日本MITSUI OUTLET PARK 指定商場領券最高享10%小樹點(信用卡)回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/JPMitsuiOutletPark.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E4%B8%89%E4%BA%95%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF%20%E4%BB%99%E5%8F%B0%E6%B8%AF_%E5%A4%96%E8%A6%B32.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【福岡機場免稅店兌換限定】CUBE x 福砂屋聯名蛋糕",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/fukusaya.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/fukusaya/1050x630%20AEM%20(1).jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "點數轉換JAL哩程加碼40%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/JAL202603.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/Ascenda_KV_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "電器愛好者必逛日本愛電王 消費最高享7%折扣+10%免稅",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/JPEDION.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%84%9B%E9%9B%BB%E7%8E%8B3D%20(4).jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡日本賞\n精彩日本每一刻",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/japanrewards/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/1050x630_%E6%97%A5%E6%9C%AC%E8%B3%9EKV.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "台塑Pay支付F幣加碼三重送",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/formosa2026cny.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/FORMOSAPAY-1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華專屬 │人氣餐廳專屬訂位",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202602/cathay_dining",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF%E5%B0%88%E5%B1%AC%E8%A8%82%E4%BD%8D.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【日本賞獨家獻禮】\n［完美行購物］日本伴手禮線上購物\n領券最高享10%回饋+10%折扣+10%免稅",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202502/WAmazing.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E5%AE%8C%E7%BE%8E%E8%A1%8C%E8%B3%BC%E7%89%A9_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "寒舍飯店集團CUBE信用卡活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202501/mhhgroup2025.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%A4%90%E9%A3%B2%E5%84%AA%E6%83%A0/%E5%AF%92%E8%88%8D%E9%9B%86%E5%9C%98AEM_%E5%9B%9B%E9%A4%A8%E6%8B%9A%E6%8E%A5%E5%9C%96.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE 信用卡 & 易遊網 App 專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/ezTravel.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_%E6%98%93%E9%81%8A%E7%B6%B2%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "日本實體消費刷CUBE JCB信用卡\n最高享13.5%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202602/jcb10arigato.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/JCB_10.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "ONE OK ROCK DETOX Asia Tour 2026 in Taipei",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/OOR.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/2026OOR_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & KKday專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/KKday2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_KKday%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "台南晶英酒店 獨家CUBE信用卡友禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Silks-Place-Tainan.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%A4%90%E9%A3%B2%E5%84%AA%E6%83%A0/resize%E5%8F%B0%E5%8D%97%E6%99%B6%E8%8B%B1.JPG",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "桃園捷運閘門領券刷CUBE信用卡享最高5%小樹點(信用卡)回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/TYMetro1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/TYMetro2026-1_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【日本賞獨家獻禮】日本大丸百貨福岡天神店刷CUBE信用卡\n領券消費享8%小樹點(信用卡)回饋無上限",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202507/Daimaru2025H2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/gaikan_0.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "爸媽專屬！攜手孩子開戶，解鎖高達 10%親子通路回饋！",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/discount/2026/familypillar/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/familypillar_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "屈臣氏官方網路商店/APP\n刷CUBE信用卡最高享5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/2026-watsons-ec-cube-h1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/2025%20kv%20web%20.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "屈臣氏每週二卡友日",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/2026-watsons-bankday-h1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/2025%20kv%20web%20.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "康是美週六卡友日",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/2026-cosmed-bankday.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E5%BA%B7%E6%98%AF%E7%BE%8EAEM%E8%83%8C%E6%99%AF%E5%9C%96_NEW.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全支付刷CUBE信用卡滿額享最高8%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/PXPayPlus_CreditCard_Y26Q1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/pxpayplus_1050x630_202307.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "icash Pay綁國泰世華icash聯名卡\n指定通路消費最高10%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/icashpay-life.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/093_%E9%80%9F%E9%A3%9F%E5%BA%97%E7%94%A8%E9%A4%90.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "icash Pay綁國泰世華icash聯名卡\n康是美門市消費最高10%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202601/icashpay-cosmed.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/088_%E5%8C%96%E5%A6%9D%E5%93%81%E6%8E%A1%E8%B2%B7.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "青年專屬簽帳金融卡優惠\n限25歲(含)以下用戶",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/2026/debityouth.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/2026debityouth_KV.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "蝦皮購物促刷檔期再加碼6%蝦幣",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202411/sp-campaign.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/sp-campaign.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "蝦皮卡指定外送、交通、旅遊最高7%",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202506/sp-travel.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/travelnew.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹購 卡友限時專屬優惠\nCUBE信用卡最高享5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202601/treebuy2026h1_2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/treebuy_1050X630_1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹購 週三卡友日\n單筆滿額最高享10%現折優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202601/treebuy2026h1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/treebuy2024.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "icash Pay綁國泰世華icash聯名卡\n指定網購3C消費最高10%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202601/icashpay-3C.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/064_%E7%B6%B2%E8%B3%BC.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "Apple Pay新綁定國泰世華CUBE JCB信用卡活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202601/CUBEJCB_ApplePay.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/1050X630%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF4588.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華『專屬美食優惠』 │餐餐盡享非凡體驗",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202501/2025-dining.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/20220620_1804.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "卡友獨家！米其林韓式燒肉「金豬食堂」專屬訂位，刷CUBE信用卡再享最高10.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202505/goldpig.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/%E9%87%91%E8%B1%AC%E9%A3%9F%E5%A0%82%E5%B0%81%E9%9D%A2%E5%9C%96_v2.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全球通派車App訂車享最高3.8%小樹點(信用卡)回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2025/Global-Rental.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/214.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華卡指定油站享加油降價優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/GasStation2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/gas_02.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "台塑聯名卡\n站內加油每公升折抵2元",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/formosa_point.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/formosacard.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "長榮極致無限卡專享年消費達檻受邀換發金屬卡面",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202401/metalcard.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/EVA%20metal%20card_FINAL.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "日本BicCamera刷國泰世華卡享優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202411/BicCamera.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/Mastercard_Q4.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "旅日優惠口袋｜刷國泰世華卡超划算",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202501/JP_DiscountPocket.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/Japan%20Girl%201050x630.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全台飯店優惠｜刷國泰世華卡最划算",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202501/Hotels.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%A4%90%E9%A3%B2%E5%84%AA%E6%83%A0/%E5%93%81%E6%96%87%E6%97%85-%E6%96%87%E6%BC%BE%E5%AE%B6%E5%BA%AD%E6%88%BF.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡 & Hotels.com全球訂房享5%小樹點(信用卡)回饋｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Hotelscom.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_Hotel%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & Expedia全球訂房享優惠，帶你玩遍全世界！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Expedia.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_Expedia%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "日本三越伊勢丹刷JCB信用卡\n滿額享5%現金回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/jcbq1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/jcbq1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & Hotels.com全球訂房享優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Hotelscom2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/HCOM_1050%20x%20630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & Trip.com年度卡友優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Tripcom.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_Trip%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE 信用卡 & 可樂旅遊專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/colatour.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_%E5%8F%AF%E6%A8%82%E6%97%85%E9%81%8A%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & AsiaYo 年度卡友優惠(限App)｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/AsiaYo.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_AsiaYo%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87%E4%BA%8C.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & 東南旅行社專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Settour.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_%E6%9D%B1%E5%8D%97%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華卡 & 雄獅旅遊專屬優惠｜國泰世華卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Liontravel2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_%E9%9B%84%E7%8D%85%E6%97%85%E9%81%8A%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE 信用卡 & Agoda 專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Agoda2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/2026_Agoda%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%87.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華信用卡 & Klook 全站商品天天 95 折｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/Klook2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E3%80%90CUBE%E3%80%91Klook2026%E5%B9%B4%E5%BA%A6%E5%84%AA%E6%83%A0_1050x630_01.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "雲朗觀光集團官網訂房享93折\n指定餐廳95折",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/LDC.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%A4%90%E9%A3%B2%E5%84%AA%E6%83%A0/%E9%9B%B2%E5%93%81-932%E6%B9%96%E6%99%AF%E6%88%BF.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【童樂匯爸媽專屬】\n青少兒暑期遊學團專屬說明會",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/2026tutorabcstudy.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/tutorABCSTUDY.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【童樂匯爸媽專屬】\nISK滑雪俱樂部95折優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/202601_iSK.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/ISKI_KV2.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "恐龍大復活 關渡探險樂園｜CUBE卡友禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/2026dinosaur.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%88%86%E7%9C%BE%E6%B4%BB%E5%8B%95/%E6%81%90%E9%BE%8D%E5%A4%A7%E5%BE%A9%E6%B4%BB.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【童樂匯爸媽專屬】\nSKI SCHOOL滑雪9折優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/202601_SKISCHOOL.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/SKISCHOOL.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【童樂匯爸媽專屬】安納塔拉度假會禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202601/2026Anantara_kids.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E9%A4%90%E9%A3%B2%E5%84%AA%E6%83%A0/2026KhaoLak.jpeg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "刷卡繳稅享優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2024/billpayment-tax-111.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/1050x630_5.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "eTag自動儲值/eTag智慧停車服務",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2025/eparking.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/20230131_1.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "刷 CUBE 信用卡刷保費\n最高2%回饋或12期0利率",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2026/2026insh1.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/2026h1ins1050x630.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "台灣永生刷CUBE信用卡 領券享最高 5% 回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2026/StemCyte2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/AEM%20KV_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰優惠CUBE Rewards App兌換票券/商品",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/202405/_app_.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/2.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡)抵停車費\n最經濟的消費體驗",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/parkingfee.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/bonus_parking_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡)折抵申購基金手續費 最靈活的點數應用",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/pointforfundfee.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "點數兌換U.First全球貴賓室",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/viproom.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/vipclearance_1050X630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "點數轉換航空里程/飯店積分好優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/point-exchange/airmiles.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/airmiles_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡)兌換台灣高鐵會員TGo點數",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/point-exchange/tgopoint.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/%E9%AB%98%E9%90%B5TGo_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡)累積辦法",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/rule/conditions.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/conditions_kv.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡)及\n小樹點(生活)FAQ",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/rule/faq.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/bonusFAQ_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "小樹點(信用卡) 指定商戶折抵",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/rule/redemption.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/redemption_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "萌寵召集令!\n魚中魚刷CUBE信用卡享最高5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202512/202512petsmall.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_%E9%AD%9A%E4%B8%AD%E9%AD%9A.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "萌寵召集令!\n寵物好事刷CUBE信用卡享最高5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202512/202512Happypet.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_%E5%AF%B5%E7%89%A9%E5%A5%BD%E4%BA%8B.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "萌寵召集令!\n領券 刷CUBE信用卡享最高5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202512/202512pets.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/Pets202512.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "萌寵召集令!\n東森寵物刷CUBE信用卡享最高5.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202512/202512etpets.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_%E6%9D%B1%E6%A3%AE%E5%AF%B5%E7%89%A9.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "aeroride台灣快綫全站刷CUBE信用卡最高享8%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202510/Aeroride2025Q4.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E5%8F%B0%E7%81%A3%E5%BF%AB%E7%B7%9A%E6%A9%9F%E5%A0%B4%E6%8E%A5%E9%80%81.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "肯德基 | 必勝客 專屬連結訂餐享優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202507/JARDINE-FOOD.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/KFCPH_.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "桃園捷運2025Q4乘車優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2025/TYMetroQ4.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/TYMetro2025Q4_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "台北101歡慶週年慶\n館內最高11.5%優惠+3.3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202509/cube101.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/101KV_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡 X Uber/Uber Eats 強強聯手，專屬優惠禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202507/uberone.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/Uber_BN.PNG",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "亞洲萬里通聯名世界卡，\n享「巧虎夢想樂園」門票7折起優惠！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202509/chiaohu.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01_AM%E5%8D%A1/tiger%201050X630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "長榮航空極致無限卡，\n享「巧虎夢想樂園」門票7折起優惠！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202509/evachiaohu.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/chaiohu_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "代扣繳服務",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2024/billpayment-04.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/Payment_04.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "愛地球\n從申辦電子帳單開始",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2024/billpaymentq2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "充電出發，Power無限",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/u-power2026.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/U-POWER_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "繳費平台",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2024/billpayment-04-2.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/1050x630_2.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "樹享券",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/treecoupon/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/%E6%A8%B9%E4%BA%AB%E5%88%B8.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "線上繳信用卡費",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2024/billpayment.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/Bill_06.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【年輕人專屬】CUBE 好友大募集適用對象 : 限18~25歲(含)用戶",
+    "url": "https://www.cathaybk.com.tw/cathaybk/personal/campaigns/ebanking/youthdepositmgm",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/YouthdepositMGM_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "日本賞・換匯禮遇新戶加碼",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/digital-service/All/2026/JapanExchangeNew.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/1050x630_osaka.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "日本賞・換匯禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/digital-service/All/2026/JapanExchange.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/JapanExchange_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "萊爾富首綁送萬點，交易再送Hi點",
+    "url": "https://www.cathaybk.com.tw/cathaybk/campaign/atm/hiatm",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/HiATM20251H_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE精選貴賓理財入門加碼任務",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/digital-service/All/2026/CUBEPrimeEvent.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/CUBEPrimeEvent_2026Q1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "基金投資500元起靈活投資富足未來",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/fund500/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/fund500_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "你優職，我優貸",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/AJOB_PJ/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E8%B2%B8%E6%AC%BE/AJOB_PJ_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "彈力貸",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/revolving/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E8%B2%B8%E6%AC%BE/220728_BN_1-.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "大樹速貸",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/treeloan/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E8%B2%B8%E6%AC%BE/220728_BN_4-.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "泰幸福信用貸款",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/loan/product/personalloan/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E8%B2%B8%E6%AC%BE/220728_BN_2-.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰薪動禮",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/investment/product/bsacctran-salary01/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/bsacctransalary01_banner.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "好投資救地球！",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/investment/ESG/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99/ESG10_1050_630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新戶限定！基金手續費0元",
+    "url": "https://www.cathaybk.com.tw/cathaybk/personal/campaigns/ebanking/newacfund0",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/newacfund0_new_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "基金新朋友禮",
+    "url": "https://www.cathaybk.com.tw/cathaybk/personal/campaigns/ebanking/newfundfriends",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/newfriends_new_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華帳戶　讓你投投是道！",
+    "url": "https://www.cathaybk.com.tw/cathaybk/personal/campaigns/ebanking/totalacct26JFM/",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/totalacct_web_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "讓投資 變 ∙ 簡 ∙ 單1對1免費專業人員諮詢",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Invest/All/2026/roboconsult.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/roboconsult_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "智能投資基金全平台終身 0 管理費",
+    "url": "https://www.cathayrobo.com/welcome/activity/2024gbi",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/1201robo_1050X630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新臺幣優利定存",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/TWDnewmoney.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/TWDnewmoney_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "刷Mastercard簽帳金融卡最高享5%點數回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/Mastercard_Debit.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/2026Mastercard_Debit.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "帳戶綁定LINE Pay Money完成任務最高享120點數",
+    "url": "https://www.cathaybk.com.tw/cathaybk/personal/campaigns/ebanking/LINEPayMoney",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/LINEPayMoney_kv.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全盈支付日本跨境消費加碼6%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/payplus_paypay_202602.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/aem_logo_4.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "帳戶新戶連結全支付享回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2024/pxpay_202411_newaccount.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/pxpay_202411_newaccount.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "青年專屬優惠大禮包適用對象:限25歲(含)以下用戶",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/youth.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/2026youth_KV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全支付日韓跨境消費享回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/PXPayPlus_Y26Q1_ACL_Campaign_Japan_Korea.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/PXPayPlus_Test_1050x630_202410.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "全支付指定通路消費享回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/PXPayPlus_Y26Q1_ACL_Campaign.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/pxpayplus_1050x630_202307.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "聯邦陪您輕鬆玩世界",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604travel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Reward951db7a6.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "暢遊韓國享回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb_koreastores/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewarde38a7831.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "百貨換季on sale",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Reward2d2ea056.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "日本實體店最高10%回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025jcb/arigato/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260108Reward1e5d2755.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "精選特店分期享回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604storeinstallment/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewardc81603b6.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "台灣虎航",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602tigerairtw/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260226Rewardf91869b2.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "指定通路最高享８％回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601supermarket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward22c36092.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "萊就５優惠～５％現折",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026hilife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward2efff485.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "New New Bank",
+    "url": "https://newnewbank.com.tw/autopaycreditcardbill.htm?openExternalBrowser=1",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward24bc3601.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "聯邦陪您輕鬆玩世界機票、訂房、精選旅行社、旅遊平台累積滿額拿萬元刷卡金！2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604travel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Reward951db7a6.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "暢遊韓國享回饋刷聯邦JCB卡登錄享10%刷卡金  2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb_koreastores/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewarde38a7831.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "百貨換季on sale百貨換季刷聯邦卡，滿額享2.2%回饋，再享分期０利率！  2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Reward2d2ea056.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "日本實體店最高10%回饋刷聯邦JCB卡登錄享10,000日圓回饋！  2026/01/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025jcb/arigato/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260108Reward1e5d2755.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "精選特店分期享回饋聯邦精選特店單筆分期滿額最高享２２００元刷卡金！2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604storeinstallment/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewardc81603b6.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "台灣虎航刷聯邦卡購買台灣虎航全航線來回機票享最優９５折優惠2026/03/02-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602tigerairtw/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260226Rewardf91869b2.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "指定通路最高享８％回饋天天聯邦日，美廉社、小北百貨、家樂福超市最高享８％回饋！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601supermarket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward22c36092.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "萊就５優惠～５％現折萊就５優惠～刷聯邦天天不限金額享５％現折無上限！  2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026hilife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward2efff485.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "New New Bank新戶自動扣繳聯邦信用卡款享15%回饋2026/01/01-2026/06/30",
+    "url": "https://newnewbank.com.tw/autopaycreditcardbill.htm?openExternalBrowser=1",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward24bc3601.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "指定通路最高10.5%",
+    "url": "https://activity.ubot.com.tw/LINEBankCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250729Reward8f572bb3.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "紅利換加密貨幣",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025MaiCoin/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251028Reward10b745e7.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "刷聯邦購機星升級",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603samsung/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260304Rewarda4f07ae8.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "2026年聯邦飯店優惠",
+    "url": "https://card.ubot.com.tw/eCard/activity/2026hotel/index.aspx",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward0952f21c.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "聯邦M卡",
+    "url": "https://activity.ubot.com.tw/2026Mcard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260106Rewarde5b340a3.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "指定通路最高10.5%消費回饋無上限，指定影音/網購/遊戲再享加碼 2025/08/01-2026/07/31",
+    "url": "https://activity.ubot.com.tw/LINEBankCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250729Reward8f572bb3.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "紅利換加密貨幣聯邦紅利點數換加密貨幣序號，再加碼送新戶禮！2025/11/03-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025MaiCoin/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251028Reward10b745e7.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "刷聯邦購機星升級三星購機刷聯邦 分期再送最高1,700元  2026/03/04-2026/05/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603samsung/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260304Rewarda4f07ae8.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "2026年聯邦飯店優惠精選國內飯店，聯邦卡友尊享入住禮遇2026/01/01-2026/12/31",
+    "url": "https://card.ubot.com.tw/eCard/activity/2026hotel/index.aspx",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward0952f21c.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "聯邦M卡聯邦M卡海外實體商店3%無上限2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/2026Mcard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260106Rewarde5b340a3.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "賴點卡高回饋再現國內LINE Pay最高11%/國外3%無上限！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/2026LaiDianCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward55543759.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "吉鶴卡日本最高11% 國內人氣餐廳&日系名店享加碼優惠！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward9a8bf41d.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "順發３Ｃ首刷禮順發３Ｃ聯名卡新戶首刷滿額享熱門精選好禮！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026sunfar/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251231Reward9c0b330a.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "大立大樂聯名卡首刷禮大立、大樂一卡通聯名卡首刷滿額贈優質好禮！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026H1DollarsMall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260102Reward4c0d14f8.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "農金卡新戶首刷禮農金卡新戶首刷滿額享超值首刷好禮！2025/12/31-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026agribank/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Reward809ef2e6.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "2026聯邦世界卡聯邦世界卡，遨遊世界便利通行！2025/12/31-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/ubworld/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Reward19fe85a0.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "2026聯邦無限卡聯邦無限卡，百貨餐廳無限尊寵！2025/12/31-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/ubinfinite/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Rewardb8838f77.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "賴點卡高回饋再現",
+    "url": "https://activity.ubot.com.tw/2026LaiDianCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward55543759.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "吉鶴卡日本最高11%",
+    "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward9a8bf41d.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "順發３Ｃ首刷禮",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026sunfar/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251231Reward9c0b330a.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "大立大樂聯名卡首刷禮",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026H1DollarsMall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260102Reward4c0d14f8.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "農金卡新戶首刷禮",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026agribank/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Reward809ef2e6.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "2026聯邦世界卡",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/ubworld/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Reward19fe85a0.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "2026聯邦無限卡",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/ubinfinite/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240205Rewardb8838f77.jpg",
+    "bank": "聯邦銀行",
+    "category": "卡片優惠"
+  },
+  {
+    "title": "全聯福利中心卡友日週末到全聯福利中心刷聯邦最高享６％回饋！2026/02/27-2026/04/09",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602pxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260225Reward57a6d555.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "萊趣泰國，就刷聯邦萊爾富刷聯邦，單筆滿168元筆筆抽泰國來回機票！  2026/04/01-2026/05/26",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401hilife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward0765ad1c.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "特力屋空調大方送馬年新氣象，特力屋空調刷聯邦大方送！  2026/02/26-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602trplus/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260203Reward40669489.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "大全聯刷聯邦卡單筆分期滿額贈4,000福利點2026/03/27-2026/05/10",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603megapxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Reward6db76f8c.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "微風女神節！聯名卡總回饋高達17.6%！滿額再送雙人牌砧板！2026/04/02-2026/05/10",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardd6bb6110.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "昇恆昌免稅購物昇恆昌刷聯邦分期０利率～滿額最高贈２千元刷卡金！  2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q2everrich/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260324Reward6f59fb46.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "全聯福利中心卡友日",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602pxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260225Reward57a6d555.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "萊趣泰國，就刷聯邦",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401hilife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward0765ad1c.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "特力屋空調大方送",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202602trplus/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260203Reward40669489.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "大全聯",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603megapxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Reward6db76f8c.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "微風女神節！",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardd6bb6110.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "昇恆昌免稅購物",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q2everrich/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260324Reward6f59fb46.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "屈臣氏刷聯邦最高享10%回饋2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604drugstore/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251217Rewarde5c91fa6.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "康是美刷聯邦滿額最高贈200元現金折價券2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604drugstore/index.htm?p=cosmed",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251217Rewardf23d80e9.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "新光三越金馬卡利HIGH115年金馬卡利HIGH活動點數查詢2026/03/30-2026/05/10",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601high/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Reward4d65ae0a.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "屈臣氏",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604drugstore/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251217Rewarde5c91fa6.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "康是美",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604drugstore/index.htm?p=cosmed",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251217Rewardf23d80e9.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "新光三越金馬卡利HIGH",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601high/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Reward4d65ae0a.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "Trip.com刷聯邦Visa卡訂房最高８％、機票最高３％折扣！  2025/05/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025visa_offers/tripcom07/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251016Reward0903ea79.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "KlookKlook全球體驗 / 交通８５折起，刷聯邦最高享２１％回饋2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601klook/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward098a1522.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Hotels.comHotels.com刷聯邦JCB卡預定日本飯店最高享１８％2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/hotelscom/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Rewardf0a3f0a5.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "ＫＫｄａｙ趣亞太ＫＫｄａｙ指定國家玩樂商品刷聯邦JCB卡享現折優惠！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/kkday/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward1aa86d41.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "台灣虎航台灣虎航刷聯邦JCB卡享最高9折及選位優惠2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/tigerairtw/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward7ff61406.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Trip.com",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025visa_offers/tripcom07/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251016Reward0903ea79.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Klook",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601klook/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward098a1522.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Hotels.com",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/hotelscom/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Rewardf0a3f0a5.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "ＫＫｄａｙ趣亞太",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/kkday/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward1aa86d41.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "日本指定大眾交通運輸刷聯邦JCB卡感應支付最高享50%回饋！2025/07/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025jcb/tag/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250716Rewardf26f5b6b.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "免費機場接送刷聯邦JCB卡滿額享免費機場接送2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/activity/2026jcb_airport_edm/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward196c53cf.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "太平洋旅行社太平洋旅行社刷聯邦卡最高現折２０００元2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/pac_group/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251229Reward2d1a2c0a.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "五福旅遊五福旅遊刷聯邦『泰國團體行程』尊享1,000元折抵優惠2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/lifetour/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewardd313c62a.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "AsiaoYOAsiaoYO刷聯邦卡訂房滿額最高現折８００元2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026asiayo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward6a10a1f4.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "可樂旅遊Club Med可樂旅遊Club Med自由行全系列商品刷聯邦卡享95折！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601colatour_clubmed/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward53741373.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "完美行．日本免稅購物旅日免稅購物先上完美行，刷聯邦卡最高享18%優惠！  2025/11/06-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/202510wamazing/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251030Rewardf601a187.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "聯邦租ｗｉｆｉ享優惠出國上網超ｅａｓｙ，刷聯邦租借ｗｉｆｉ、ｅｓｉｍ享優惠2025/12/31-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026wifi/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251231Reward35f3e792.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "多慶屋專屬優惠刷吉鶴卡享10%免稅及12%折扣！2025/07/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025TAKEYA/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250707Reward5873fff6.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "日本指定大眾交通運輸",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025jcb/tag/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250716Rewardf26f5b6b.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "免費機場接送",
+    "url": "https://activity.ubot.com.tw/activity/2026jcb_airport_edm/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward196c53cf.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "太平洋旅行社",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/pac_group/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251229Reward2d1a2c0a.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "五福旅遊",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/lifetour/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewardd313c62a.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "AsiaoYO",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026asiayo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward6a10a1f4.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "可樂旅遊Club Med",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601colatour_clubmed/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward53741373.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "完美行．日本免稅購物",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/202510wamazing/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251030Rewardf601a187.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "聯邦租ｗｉｆｉ享優惠",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026wifi/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251231Reward35f3e792.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "多慶屋專屬優惠",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025TAKEYA/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250707Reward5873fff6.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "三越伊勢丹5%現金回饋逛三越伊勢丹刷聯邦JCB卡 享5%現金回饋 2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601jcbmitsukoshi/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardb2d520e0.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "三越伊勢丹5%現金回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601jcbmitsukoshi/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardb2d520e0.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "全國加油站天天享優惠全國加油站刷聯邦卡，天天汽油每公升最高享１.２元降價優惠！ 2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601oil/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Rewardefa03cab.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "高鐵商務車廂升等優惠聯邦卡友尊榮優待｜高鐵購票刷聯邦享商務車廂升等優惠2026/01/01-2026/12/31",
+    "url": "https://card.ubot.com.tw/eCard/activity/202601THSRC/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward6c54f723.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "聯邦紅利換高鐵TGo聯邦紅利換高鐵TGo，樂享高鐵票價折抵、精選商品兌換！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026tgo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardf567be16.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "易遊網高鐵假期易遊網高鐵假期，高鐵聯票刷聯邦滿額現折180元2025/11/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/20251101eztravel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251104Rewarda10b9fb2.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "租車刷聯邦卡尊享優惠租車出遊刷聯邦卡，最高享6折優惠! 2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026car/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward61b1a68f.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "可樂旅遊高鐵假期  可樂旅遊高鐵假期刷聯邦卡，結帳輸入優惠代碼享9折優惠！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026colatour_hsr/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward6cfc877e.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "全國加油站天天享優惠",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601oil/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Rewardefa03cab.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "高鐵商務車廂升等優惠",
+    "url": "https://card.ubot.com.tw/eCard/activity/202601THSRC/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward6c54f723.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "聯邦紅利換高鐵TGo",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026tgo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardf567be16.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "易遊網高鐵假期",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/20251101eztravel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251104Rewarda10b9fb2.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "租車刷聯邦卡尊享優惠",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026car/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward61b1a68f.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "可樂旅遊高鐵假期",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026colatour_hsr/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward6cfc877e.jpg",
+    "bank": "聯邦銀行",
+    "category": "交通汽修"
+  },
+  {
+    "title": "網購4月購物節刷聯邦卡最高贈2,000元刷卡金！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401ec/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward93d62367.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "同樂購物節刷聯邦卡滿額贈2,000元刷卡金！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401momo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward44f31622.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "全月滿額贈刷聯邦卡享5%回饋！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401taobao/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardda2a6783.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "4.18會員日刷聯邦卡滿額贈2,000元刷卡金！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401shopee/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward3d0e2d58.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "天天都是網購聯邦日刷聯邦卡最高享12%回饋！2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260101ecubday/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward4c98668f.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "滿額享回饋刷聯邦卡最高享8%回饋！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401coupang/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward76462821.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "全月滿額贈刷聯邦卡最高贈1,800元刷卡金！2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401pchome/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward75db156d.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "foodpanda刷聯邦卡享回饋刷越多拿越多 滿額最高享10%刷卡金2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601delivery/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward27906bde.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "網購4月購物節",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401ec/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward93d62367.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "同樂購物節",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401momo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward44f31622.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "全月滿額贈",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401taobao/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardda2a6783.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "4.18會員日",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401shopee/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward3d0e2d58.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "天天都是網購聯邦日",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260101ecubday/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251222Reward4c98668f.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "滿額享回饋",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260401coupang/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward76462821.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "foodpanda",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601delivery/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward27906bde.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "Uber Eats 刷聯邦卡享回饋刷越多拿越多 滿額最高享10%刷卡金2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601delivery/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardedc1fd56.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "全國電子全月活動全國電子刷聯邦分期滿額最高贈3,000元2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604elife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward54accd15.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "Apple直營店/官網刷聯邦卡滿額登錄享最高6期0利率或最高1200回饋2026/01/01-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601apple/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Reward8ec3a1cb.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "ARS刷聯邦購機拿優惠APPLE購機刷聯邦享12期0利率 再送最高2,200元 2026/01/01-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601ars/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewarddb7a4359.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "電信優惠機不可失刷聯邦卡分期滿額最高贈1000刷卡金2026/01/01-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601phone/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewardd0878053.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "yesgogogo即食購卡友註冊yesgogogo美食電商會員，免費送價值仟元加碼禮2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026yesgogogo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardf42d6cb6.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "Uber Eats",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601delivery/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardedc1fd56.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "全國電子全月活動",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604elife/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward54accd15.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "Apple直營店/官網",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601apple/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Reward8ec3a1cb.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "ARS刷聯邦購機拿優惠",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601ars/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewarddb7a4359.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "電信優惠機不可失",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601phone/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewardd0878053.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "yesgogogo即食購",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026yesgogogo/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Rewardf42d6cb6.jpg",
+    "bank": "聯邦銀行",
+    "category": "網購數位"
+  },
+  {
+    "title": "保費輕鬆繳繳保費刷聯邦Visa卡滿額享12期0%優惠2025/12/30-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ins/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward03749bbb.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "學費分期輕鬆繳繳學費免手續費～登錄享分期優利2.38%起！  2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604school/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260323Reward13ea83e6.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "牌照稅分期0利率繳納牌照稅免手續費，滿額再享３期０利率～讓您輕鬆繳！ 2026/04/01-2026/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604licensetax/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward02a646df.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "紅利換Hi點【聯邦紅利換萊爾富Hi點】折抵店內消費好好用！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026HiPoint/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240821Reward3b8c0011.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "世界展望會 紅包傳愛世界展望會紅包傳愛，陪伴孩子成為更好的大人！2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026redpocket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260119Reward0d5879e2.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "2026年聯邦卡做公益2026年聯邦卡做公益 紅利點數變愛心  2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026donation/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260120Rewardfcb1cded.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "保費輕鬆繳",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ins/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251223Reward03749bbb.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "學費分期輕鬆繳",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604school/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260323Reward13ea83e6.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "牌照稅分期0利率",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604licensetax/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Reward02a646df.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "紅利換Hi點",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026HiPoint/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/240821Reward3b8c0011.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "世界展望會 紅包傳愛",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026redpocket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260119Reward0d5879e2.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "2026年聯邦卡做公益",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026donation/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260120Rewardfcb1cded.jpg",
+    "bank": "聯邦銀行",
+    "category": "生活繳費"
+  },
+  {
+    "title": "iPASS MONEYiPASS MONEY綁定聯邦卡消費享10%回饋！  2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoney/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward3f8e2120.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "全支付全支付綁定聯邦卡消費最高享２３％回饋2026/01/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601pxpayplus/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewarda81b7e2c.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "OPEN錢包OPEN錢包綁定聯邦卡最高享10%回饋2026/03/27-2026/06/30",
+    "url": "https://card.ubot.com.tw/eCard/activity/2026Q2OPWALLET/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Rewardcd383a1d.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "王品瘋Pay享６％週五、週六刷王品瘋Pay綁聯邦信用卡享６％瘋點數回饋2026/04/01-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604wowfoods/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewarde05cee62.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "頂級饗宴刷聯邦Visa御璽卡預訂指定餐廳享兩人同行8折優惠2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa/food/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260130Reward99f545d1.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "饗食紓壓刷聯邦Visa 御璽卡預訂享400元優惠折扣2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa/funnow/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260130Rewarde8e0bfde.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "吃瓦城刷聯邦優惠多更多美食優惠讓你wa! 刷聯邦拿瓦城集團限量美食優惠券2026/03/15-2026/04/15",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603ttfb/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260316Reward3daeb78c.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "和風饗宴刷聯邦JCB晶緻卡指定餐廳享兩人同行六折優惠  2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/restaurant/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward6eb68ba2.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "食在韓系指定韓式料理刷聯邦JCB晶緻卡享50元現折優惠  2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/koreanfood/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward43f4bdf5.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "iPASS MONEY",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoney/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251230Reward3f8e2120.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "全支付",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601pxpayplus/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260105Rewarda81b7e2c.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "OPEN錢包",
+    "url": "https://card.ubot.com.tw/eCard/activity/2026Q2OPWALLET/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260326Rewardcd383a1d.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "王品瘋Pay享６％",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202604wowfoods/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260331Rewarde05cee62.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "頂級饗宴",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa/food/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260130Reward99f545d1.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "饗食紓壓",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa/funnow/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260130Rewarde8e0bfde.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "吃瓦城刷聯邦優惠多更多",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202603ttfb/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260316Reward3daeb78c.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "和風饗宴",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/restaurant/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward6eb68ba2.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "食在韓系",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/koreanfood/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward43f4bdf5.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "食在日系指定日系美饌刷聯邦JCB晶緻卡享50元現折優惠  2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/japanesefood/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward31a583fe.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "JCB綁定行動支付滿額贈綁定Google Pay國內滿200贈50！韓國最高10%！2026/03/31-2026/06/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/jcb_googlepay/index.htm ",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardb637510d.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "買床刷聯邦 送好禮溫暖你聯邦助你安心好眠 買床墊刷聯邦 好禮優惠溫暖你  2026/01/19-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601sealy/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260116Reward01b38ef0.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "聯邦陪你一起變美麗ORBIS刷聯邦單筆滿額贈100元購物金！2025/11/01-2026/10/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/202511orbis/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251031Reward179cde83.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "聯邦好友健康力免費送填寫資料立即免費索取體驗包2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/20251114010/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251202Reward59deb073.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "國賓看電影６５折起全台國賓影城刷聯邦卡，尊享優惠票價６５折起2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ambassador/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward4801e887.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "食在日系",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/japanesefood/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260318Reward31a583fe.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "JCB綁定行動支付滿額贈",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/jcb_googlepay/index.htm ",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260330Rewardb637510d.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "買床刷聯邦 送好禮溫暖你",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601sealy/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260116Reward01b38ef0.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "聯邦陪你一起變美麗",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/202511orbis/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251031Reward179cde83.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "聯邦好友健康力免費送",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/20251114010/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251202Reward59deb073.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
+  },
+  {
+    "title": "國賓看電影６５折起",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ambassador/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward4801e887.jpg",
+    "bank": "聯邦銀行",
+    "category": "購物娛樂"
   }
 ]

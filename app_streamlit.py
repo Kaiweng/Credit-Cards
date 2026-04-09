@@ -19,6 +19,9 @@ import requests
 import base64
 from streamlit_option_menu import option_menu
 from streamlit_extras.metric_cards import style_metric_cards
+import folium
+from streamlit_folium import st_folium
+from streamlit_js_eval import get_geolocation
 
 
 # ============================================================
@@ -158,6 +161,42 @@ def fetch_image_bytes(url):
     except:
         pass
     return None
+
+# ============================================================
+# 進階地圖功能 (Overpass API)
+# ============================================================
+@st.cache_data(ttl=3600, show_spinner=False)
+def search_nearby_pois(keyword, lat, lon, radius=5000):
+    """使用 Overpass API 搜尋周邊興趣點"""
+    overpass_url = "https://overpass-api.de/api/interpreter"
+    # 建立 Overpass QL 查詢
+    query = f"""
+    [out:json][timeout:25];
+    (
+      node["name"~"{keyword}"](around:{radius}, {lat}, {lon});
+      way["name"~"{keyword}"](around:{radius}, {lat}, {lon});
+      node["brand"~"{keyword}"](around:{radius}, {lat}, {lon});
+    );
+    out center;
+    """
+    try:
+        response = requests.get(overpass_url, params={'data': query}, timeout=15)
+        if response.status_code == 200:
+            data = response.json()
+            pois = []
+            for element in data.get('elements', []):
+                poi = {
+                    'name': element.get('tags', {}).get('name', keyword),
+                    'lat': element.get('lat') or element.get('center', {}).get('lat'),
+                    'lon': element.get('lon') or element.get('center', {}).get('lon'),
+                    'addr': element.get('tags', {}).get('addr:full', '') or element.get('tags', {}).get('addr:street', '')
+                }
+                if poi['lat'] and poi['lon']:
+                    pois.append(poi)
+            return pois
+    except Exception as e:
+        st.error(f"搜尋據點時出錯: {e}")
+    return []
 
 # Session state
 if "theme" not in st.session_state:
@@ -375,43 +414,66 @@ if page == "💰 優惠瀏覽":
                                 </div>
                             ''', unsafe_allow_html=True)
 
-    # --- 右側：地圖整合 (固定高度視窗) ---
+    # --- 右側：地圖整合 (Folium 互動版) ---
     with right_panel:
         with st.container(border=True, height=600):
-            st.subheader("🗺️ 地點搜尋")
+            st.subheader("🗺️ 據點搜尋地圖")
             
-            # 只有當有搜尋關鍵字時，才嘗試顯示相關地圖
-            if search_term:
-                st.info(f"📍 搜尋：'{search_term}'")
-                
-                try:
-                    # 建立 geolocator
-                    geolocator = Nominatim(user_agent="credit_card_app_taiwan_refine_v4")
-                    location = geolocator.geocode(search_term)
-                    
-                    if location:
-                        map_data = pd.DataFrame([{
-                            'lat': location.latitude,
-                            'lon': location.longitude,
-                            'name': search_term
-                        }])
-                        st.map(map_data, zoom=15, use_container_width=True)
-                        
-                        # Google Maps 按鈕
-                        google_maps_url = f"https://www.google.com/maps/search/?api=1&query={search_term}"
-                        st.link_button("🌏 在 Google 地圖開啟 (查看評論/導航)", google_maps_url, use_container_width=True)
-                        
-                    else:
-                        st.warning(f"⚠️ 無法在地圖上找到 '{search_term}'")
-                        default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
-                        st.map(default_map, zoom=12, use_container_width=True)
-                        
-                except Exception as e:
-                    st.error("地圖服務暫時忙碌中")
+            # 取得用戶位置 (如果允許)
+            user_loc = get_geolocation()
+            current_lat, current_lon = 25.0478, 121.5171  # 預設台北車站
+            
+            if user_loc:
+                current_lat = user_loc['coords']['latitude']
+                current_lon = user_loc['coords']['longitude']
+                st.caption(f"📍 已定位：您當前的位置")
             else:
-                st.caption("👈 請在左上方輸入關鍵字搜尋")
-                default_map = pd.DataFrame([{'lat': 25.0478, 'lon': 121.5171, 'name': '台北車站'}])
-                st.map(default_map, zoom=12, use_container_width=True)
+                st.caption("📍 預設中心：台北車站 (可允許瀏覽器定位以查看附近)")
+
+            # 建立地圖
+            m = folium.Map(location=[current_lat, current_lon], zoom_start=14, tiles="cartodbpositron")
+            
+            # 如果有搜尋關鍵字，執行 POI 搜尋
+            if search_term:
+                with st.spinner(f"正在尋找附近的 {search_term}..."):
+                    # 1. 嘗試搜尋多個據點
+                    pois = search_nearby_pois(search_term, current_lat, current_lon)
+                    
+                    if pois:
+                        st.success(f"找到 {len(pois)} 個 '{search_term}' 據點")
+                        for poi in pois:
+                            folium.Marker(
+                                [poi['lat'], poi['lon']],
+                                popup=f"<b>{poi['name']}</b><br>{poi['addr']}",
+                                tooltip=poi['name'],
+                                icon=folium.Icon(color="red", icon="info-sign")
+                            ).add_to(m)
+                        
+                        # 重新定位地圖中心到第一個結果
+                        m.location = [pois[0]['lat'], pois[0]['lon']]
+                    else:
+                        # 2. 如果 POI 找不到，嘗試單點定位
+                        try:
+                            geolocator = Nominatim(user_agent="credit_card_app_v5")
+                            loc = geolocator.geocode(search_term)
+                            if loc:
+                                folium.Marker(
+                                    [loc.latitude, loc.longitude],
+                                    popup=search_term,
+                                    icon=folium.Icon(color="blue")
+                                ).add_to(m)
+                                m.location = [loc.latitude, loc.longitude]
+                                st.info(f"定位到：{search_term}")
+                        except:
+                            st.warning("無法在地圖上找到該據點")
+
+            # 顯示 Folium 地圖
+            st_folium(m, width="100%", height=400, returned_objects=[])
+            
+            # 其他連結
+            if search_term:
+                google_maps_url = f"https://www.google.com/maps/search/?api=1&query={search_term}"
+                st.link_button("🌏 在 Google 地圖開啟", google_maps_url, use_container_width=True)
 
 
 # ============================================================

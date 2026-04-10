@@ -4,6 +4,7 @@
 - 中國信託 (CTBC)
 - 國泰世華 (Cathay)
 - 聯邦銀行 (Union Bank / UBot)
+- 玉山銀行 (E.SUN Bank)
 """
 
 import asyncio
@@ -31,113 +32,74 @@ CTBC_CATEGORIES = [
 ]
 
 # 中國信託提取優惠的 JavaScript
-CTBC_EXTRACT_SCRIPT = """
+CTBC_EXTRACT_SCRIPT = r"""
 () => {
     const offers = [];
     const seen = new Set();
     
-    // 模式 1: 精選優惠頁面 (使用 a.twrbo-c-thumb)
-    const style1 = Array.from(document.querySelectorAll('a.twrbo-c-thumb'));
-    style1.forEach(el => {
-        let title = el.getAttribute('title') || el.innerText.trim();
-        let href = el.getAttribute('href');
-        
-        let image = null;
-        // 1. 嘗試找 img 標籤
-        let img = el.querySelector('img');
-        if (img) image = img.src;
-        
-        // 2. 嘗試找 style background-image
-        if (!image) {
-            let style = el.getAttribute('style');
-            if (style) {
-                let match = style.match(/background-image:\s*url\(['"]?(.*?)['"]?\)/);
-                if (match) image = match[1];
-            }
-        }
-        
-        // 3. 嘗試找 data-src (常見於 span)
-        if (!image) {
-            let span = el.querySelector('[data-src]');
-            if (span) image = span.getAttribute('data-src');
+    // 工具函式: 判斷是否為無效圖示 (如時鐘標籤)
+    const isGenericIcon = (src) => {
+        if (!src) return false;
+        const low = src.toLowerCase();
+        return low.includes('icon_clock') || low.includes('icon_dark') || low.includes('.svg');
+    };
+
+    // 工具函式: 尋找卡片內的最佳圖片
+    const findBestImage = (card) => {
+        // 1. 優先找 data-src (常見於延遲載入的宣傳圖)
+        const lazyImg = card.querySelector('[data-src]');
+        if (lazyImg) {
+            const src = lazyImg.getAttribute('data-src');
+            if (src && !isGenericIcon(src)) return src;
         }
 
-        if (title && href && href !== '#' && !seen.has(title)) {
-            seen.add(title);
-            offers.push({ title, url: href, image });
+        // 2. 找所有 img 標籤，排除時鐘圖示
+        const imgs = Array.from(card.querySelectorAll('img'));
+        for (const img of imgs) {
+            const src = img.src || img.getAttribute('src');
+            if (src && !isGenericIcon(src)) return src;
         }
-    });
 
-    // 模式 2: 分類明細頁面 (使用 ng-scope 卡片結構)
-    const allDivs = Array.from(document.querySelectorAll('div.ng-scope, li.ng-scope'));
-    allDivs.forEach(card => {
-        const titleEl = card.querySelector('h3, .twrbo-c-h3, strong');
-        if (!titleEl) return;
-        
-        let title = titleEl.innerText.trim();
+        // 3. 找 background-image
+        const bgEls = Array.from(card.querySelectorAll('[style*="background-image"]'));
+        for (const el of bgEls) {
+            const style = el.getAttribute('style');
+            const match = style.match(/background-image:\s*url\(['"]?(.*?)['"]?\)/);
+            if (match && !isGenericIcon(match[1])) return match[1];
+        }
+
+        // 如果真的沒找到，才勉強用第一個 img (即使是 icon)
+        const firstImg = card.querySelector('img');
+        return firstImg ? firstImg.src : null;
+    };
+
+    // 模式 1: 通用卡片結構
+    const cards = Array.from(document.querySelectorAll('a.twrbo-c-thumb, .twrbo-l-productCard, div.ng-scope, li.ng-scope'));
+    cards.forEach(el => {
+        // 標題提取
+        const titleEl = el.querySelector('h3, .twrbo-c-h3, .twrbo-c-thumb__title, strong') || (el.classList.contains('twrbo-c-thumb') ? el : null);
+        let title = titleEl ? (titleEl.getAttribute('title') || titleEl.innerText.trim()) : "";
         if (!title || seen.has(title)) return;
-        
-        // 找圖片
-        let img = card.querySelector('img');
-        let image = img ? img.src : null;
-        
-        const links = Array.from(card.querySelectorAll('a'));
-        let activityLink = links.find(a => {
-            const href = a.getAttribute('href') || '';
-            if (href.startsWith('tel:')) return false;
-            return (a.innerText.includes('活動網頁') || 
-                    a.innerText.includes('網址') ||
-                    a.classList.contains('twrbo-h-linkEffect-url--gy')) &&
-                   href.startsWith('http');
-        });
-        
-        if (!activityLink) {
-            activityLink = links.find(a => {
-                const href = a.getAttribute('href') || '';
-                return href.startsWith('http') && !href.includes('ctbcbank.com/twrbo');
-            });
-        }
-        
-        let href = activityLink ? activityLink.getAttribute('href') : null;
-        if (title && href && href !== '#') {
-            seen.add(title);
-            offers.push({ title, url: href, image });
-        }
-    });
 
-    // 模式 3: 使用 twrbo-l-productCard
-    const style3 = Array.from(document.querySelectorAll('.twrbo-l-productCard'));
-    style3.forEach(card => {
-        const titleEl = card.querySelector('.twrbo-c-h3, h3');
-        let img = card.querySelector('img');
-        let image = img ? img.src : null;
-        
-        const links = Array.from(card.querySelectorAll('a'));
-        let activityLink = links.find(a => {
-            const href = a.getAttribute('href') || '';
-            return !href.startsWith('tel:') && a.innerText.includes('活動網頁') && href.startsWith('http');
-        }) || links.find(a => {
-            const href = a.getAttribute('href') || '';
-            return href.startsWith('http') && !href.startsWith('tel:');
-        });
-        
-        let title = titleEl ? titleEl.innerText.trim() : null;
-        let href = activityLink ? activityLink.getAttribute('href') : null;
-        
-        if (title && href && href !== '#' && !href.startsWith('tel:') && !seen.has(title)) {
-            seen.add(title);
-            offers.push({ title, url: href, image });
+        // 連結提取
+        let href = el.getAttribute('href');
+        if (!href) {
+            const link = el.querySelector('a[href^="http"]');
+            href = link ? link.getAttribute('href') : null;
         }
+        if (!href || href === '#' || href.startsWith('tel:')) return;
+
+        // 圖片提取
+        const image = findBestImage(el);
+
+        seen.add(title);
+        offers.push({ title, url: href, image });
     });
 
     return offers.map(o => {
+        // 處理相對路徑
         let finalUrl = o.url;
         if (finalUrl && !finalUrl.startsWith('http')) {
-            try {
-                finalUrl = new URL(finalUrl, window.location.href).href;
-            } catch(e) {
-                finalUrl = window.location.origin + finalUrl;
-            }
         }
         // 處理圖片相對路徑
         let finalImage = o.image;
@@ -281,6 +243,39 @@ UBOT_GET_PAGES_SCRIPT = """
 () => {
     const pages = document.querySelectorAll('.pagingNumber');
     return Array.from(pages).map(p => p.innerText.trim()).filter(t => t);
+}
+"""
+
+
+# ============================================================
+# 玉山銀行 (E.SUN) 設定
+# ============================================================
+ESUN_URL = "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all"
+
+ESUN_EXTRACT_SCRIPT = """
+() => {
+    const offers = [];
+    const seen = new Set();
+    const cards = document.querySelectorAll('a.l-cardDiscountAllContent__discount');
+    
+    cards.forEach(card => {
+        let title = card.getAttribute('title');
+        if (!title) {
+            const pTags = card.querySelectorAll('p');
+            title = Array.from(pTags).map(p => p.innerText.trim()).join(' ');
+        }
+        const img = card.querySelector('img');
+        let image = img ? img.src : null;
+        let href = card.getAttribute('href');
+        
+        if (title && !seen.has(title)) {
+            seen.add(title);
+            if (href && !href.startsWith('http')) href = window.location.origin + href;
+            if (image && !image.startsWith('http')) image = window.location.origin + image;
+            offers.push({ title, url: href, image });
+        }
+    });
+    return offers;
 }
 """
 
@@ -498,6 +493,64 @@ async def scrape_ubot(page) -> list:
     return all_offers
 
 
+async def scrape_esun(page) -> list:
+    """爬取玉山銀行優惠"""
+    print("\n" + "=" * 50)
+    print("開始爬取: 玉山銀行 (E.SUN)")
+    print("=" * 50)
+    
+    all_offers = []
+    try:
+        await page.goto(ESUN_URL, wait_until="networkidle", timeout=60000)
+        await page.wait_for_timeout(3000)
+        
+        page_num = 1
+        while True:
+            print(f"  正在處理第 {page_num} 頁...")
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await page.wait_for_timeout(1000)
+            
+            current_offers = await page.evaluate(ESUN_EXTRACT_SCRIPT)
+            existing_titles = {o["title"] for o in all_offers}
+            for offer in current_offers:
+                if offer["title"] not in existing_titles:
+                    offer["bank"] = "玉山銀行"
+                    offer["category"] = "全台優惠"
+                    all_offers.append(offer)
+            
+            # 分頁處理
+            next_page_clicked = False
+            next_btn = await page.query_selector('a.page-link[title="前往下一頁"]')
+            if next_btn:
+                # 確保按鈕在視圖中
+                await next_btn.scroll_into_view_if_needed()
+                await page.wait_for_timeout(500)
+                
+                is_disabled = await next_btn.evaluate('el => el.classList.contains("disabled") || el.parentElement.classList.contains("disabled")')
+                if not is_disabled:
+                    try:
+                        # 使用 evaluate 進行點擊以繞過可視性檢查
+                        await next_btn.evaluate('el => el.click()')
+                        await page.wait_for_timeout(3000)
+                        page_num += 1
+                        next_page_clicked = True
+                    except Exception as e:
+                        print(f"  點擊下一頁失敗: {e}")
+                else:
+                    print("  已達最後一頁。")
+            else:
+                print("  找不到下一頁按鈕。")
+            
+            if not next_page_clicked or page_num > 40:
+                break
+                
+        print(f"\n  玉山銀行總計: {len(all_offers)} 筆")
+    except Exception as e:
+        print(f"  錯誤: {e}")
+        
+    return all_offers
+
+
 def deduplicate(offers: list) -> list:
     """去除重複"""
     seen = set()
@@ -543,17 +596,28 @@ async def main():
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             viewport={"width": 1920, "height": 1080}
         )
-        page = await context.new_page()
-        
-        # 爬取各銀行
-        ctbc_offers = await scrape_ctbc(page)
+        # 爬取各銀行 (隔離分頁執行以增加穩定性)
+        async def run_safely(bank_name, func, context):
+            try:
+                page = await context.new_page()
+                results = await func(page)
+                await page.close()
+                return results
+            except Exception as e:
+                print(f"[{bank_name}] 爬取過程中斷: {e}")
+                return []
+
+        ctbc_offers = await run_safely("中國信託", scrape_ctbc, context)
         all_offers.extend(ctbc_offers)
         
-        cathay_offers = await scrape_cathay(page)
+        cathay_offers = await run_safely("國泰世華", scrape_cathay, context)
         all_offers.extend(cathay_offers)
         
-        ubot_offers = await scrape_ubot(page)
+        ubot_offers = await run_safely("聯邦銀行", scrape_ubot, context)
         all_offers.extend(ubot_offers)
+        
+        esun_offers = await run_safely("玉山銀行", scrape_esun, context)
+        all_offers.extend(esun_offers)
         
         await browser.close()
     

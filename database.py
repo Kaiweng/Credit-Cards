@@ -5,10 +5,13 @@
 """
 
 import sqlite3
+import os
 from datetime import datetime
 from typing import List, Dict, Optional
 
-DB_NAME = "credit_cards.db"
+# 使用相對路徑確保在不同執行目錄下都能讀取到資料庫
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_NAME = os.path.join(BASE_DIR, "credit_cards.db")
 
 
 def get_connection():

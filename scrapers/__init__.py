@@ -7,12 +7,14 @@ from .base import BaseScraper
 from .ctbc import CTBCScraper
 from .cathay import CathayScraper
 from .ubot import UBotScraper
+from .esun import ESUNScraper
 
 __all__ = [
     "BaseScraper",
     "CTBCScraper",
     "CathayScraper",
     "UBotScraper",
+    "ESUNScraper",
 ]
 
 # 可用的爬蟲列表
@@ -20,6 +22,7 @@ AVAILABLE_SCRAPERS = {
     "ctbc": CTBCScraper,
     "cathay": CathayScraper,
     "ubot": UBotScraper,
+    "esun": ESUNScraper,
 }
 
 
@@ -29,6 +32,7 @@ def get_all_scrapers():
         CTBCScraper(),
         CathayScraper(),
         UBotScraper(),
+        ESUNScraper(),
     ]
 
 

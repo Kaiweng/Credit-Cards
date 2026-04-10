@@ -130,6 +130,7 @@ BANK_COLORS = {
     "中國信託": "#00A651",
     "國泰世華": "#E60012", 
     "聯邦銀行": "#0066CC",
+    "玉山銀行": "#009944",
 }
 
 def get_bank_color(bank_name: str) -> str:
@@ -150,15 +151,26 @@ def fetch_image_bytes(url):
     if not url or not isinstance(url, str):
         return None
     try:
+        # 動態設定 Referer 以繞過防盜連
+        referer = ""
+        if "ctbcbank.com" in url:
+            referer = "https://www.ctbcbank.com/"
+        elif "cathay-cube.com" in url or "cathaybk.com" in url:
+            referer = "https://www.cathaybk.com.tw/"
+        elif "ubot.com.tw" in url:
+            referer = "https://card.ubot.com.tw/"
+        elif "esunbank.com" in url:
+            referer = "https://www.esunbank.com/"
+
         # User-Agent to mimic a browser
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Referer": "" # Empty referer sometimes helps, or mimic the bank site
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": referer
         }
-        r = requests.get(url, headers=headers, timeout=5)
+        r = requests.get(url, headers=headers, timeout=4)
         if r.status_code == 200:
             return r.content
-    except:
+    except Exception:
         pass
     return None
 
@@ -245,7 +257,7 @@ with st.sidebar:
             <div style="font-size: 0.8rem; color: #a0a0a0;">總優惠數</div>
             <div style="font-size: 1.2rem; font-weight: bold; color: white;">{stats.get('total', 0)} 筆</div>
             <div style="font-size: 0.7rem; color: #a0a0a0; margin-top: 5px;">
-                🟢 中信 {by_bank.get('中國信託', 0)} | 🔴 國泰 {by_bank.get('國泰世華', 0)} | 🔵 聯邦 {by_bank.get('聯邦銀行', 0)}
+                🟢 中信 {by_bank.get('中國信託', 0)} | 🔴 國泰 {by_bank.get('國泰世華', 0)} | 🔵 聯邦 {by_bank.get('聯邦銀行', 0)} | 🟡 玉山 {by_bank.get('玉山銀行', 0)}
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -327,164 +339,130 @@ style_metric_cards(background_color=theme['bg_secondary'], border_left_color=the
 # ============================================================
 if page == "💰 優惠瀏覽":
     
-    # 搜尋與篩選
-    col1, col2, col3, col4 = st.columns([3, 1.5, 1.5, 2])
+    # 搜尋與主要篩選列
+    col1, col2, col3 = st.columns([3, 2, 2.5])
     with col1:
         search_term = st.text_input("🔍 搜尋優惠", placeholder="輸入關鍵字...")
     with col2:
-        banks = ["全部"] + get_banks()
-        selected_bank = st.selectbox("銀行", banks)
-    with col3:
         categories = ["全部"] + get_categories()
         selected_category = st.selectbox("分類", categories)
-    with col4:
+    with col3:
         # 我的卡片篩選
         my_cards = get_cards()
         card_options = ["不限"] + [f"{c['bank']} - {c['card_name']}" for c in my_cards]
         selected_my_card = st.selectbox("🎯 我的信用卡", card_options)
     
-    # 根據選擇的信用卡自動設定銀行篩選
-    bank_filter = ""
-    if selected_my_card != "不限":
-        # 從選擇的卡片提取銀行名
-        bank_filter = selected_my_card.split(" - ")[0]
-    elif selected_bank != "全部":
-        bank_filter = selected_bank
+    # 取得定位資訊 (全域一次)
+    user_loc = get_geolocation()
     
-    cat_filter = selected_category if selected_category != "全部" else ""
-    offers = get_offers(search=search_term, bank=bank_filter, category=cat_filter)
+    # 銀行標籤頁
+    bank_list = ["全部", "中國信託", "國泰世華", "聯邦銀行", "玉山銀行"]
+    tabs = st.tabs([f"🏦 {b}" for b in bank_list])
     
-    st.caption(f"共 {len(offers)} 筆優惠")
-    
-    # ============================================================
-    # V4 佈局：左右分割 (左列表 | 右地圖)
-    # ============================================================
-    # 使用 st.columns 建立左右區塊 (比例 3:2)
-    left_panel, right_panel = st.columns([3, 2])
-    
-    # --- 左側：優惠列表 (可捲動) ---
-    with left_panel:
-        with st.container(border=True, height=600):
-            st.subheader("📋 優惠列表")
+    for idx, tab in enumerate(tabs):
+        with tab:
+            selected_bank = bank_list[idx]
             
-            # 使用較小的字體 CSS
-            st.markdown("""
-            <style>
-                .small-font { font-size: 0.9rem !important; }
-                .offer-title { font-size: 1.05rem !important; font-weight: bold; }
-            </style>
-            """, unsafe_allow_html=True)
-            
-            
-            # 多欄卡片式排版
-            num_cols = 3  # 每列顯示3張卡片
-            
-            # 將 offers 分成多列
-            for row_start in range(0, len(offers), num_cols):
-                row_offers = offers[row_start:row_start + num_cols]
-                cols = st.columns(num_cols)
+            # 根據標籤或信用卡決定篩選
+            bank_filter = ""
+            if selected_my_card != "不限":
+                bank_filter = selected_my_card.split(" - ")[0]
+                if selected_bank != "全部" and selected_bank not in bank_filter:
+                    st.info(f"💡 目前正在篩選「{bank_filter}」的卡片優惠，請切換至該分頁查看。")
+                    continue
+            elif selected_bank != "全部":
+                bank_filter = selected_bank
                 
-                for idx, offer in enumerate(row_offers):
-                    bank = offer.get("bank", "")
-                    category = offer.get("category", "")
-                    title = offer.get("title", "")
-                    url = offer.get("url", "")
-                    image = offer.get("image", "")
-                    bank_color = get_bank_color(bank)
-                    
-                    with cols[idx]:
-                        with st.container(border=True):
-                            # 圖片區 (無 caption，避免重複標題)
-                            valid_image = image
-                            if image and "icon_clock" in image:
-                                valid_image = None
-                            
-                            if valid_image:
-                                try:
-                                    img_bytes = fetch_image_bytes(valid_image)
-                                    if img_bytes:
-                                        st.image(img_bytes, use_container_width=True)
-                                    else:
-                                        st.image(valid_image, use_container_width=True)
-                                except Exception:
-                                    st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
-                            else:
-                                st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
-                            
-                            # 標題 (連結)
-                            if url:
-                                st.markdown(f'<a href="{url}" target="_blank" style="text-decoration:none; color:inherit; font-weight:bold; font-size:0.9rem; display:block; margin-top:8px;">{title}</a>', unsafe_allow_html=True)
-                            else:
-                                st.markdown(f'<span style="font-weight:bold; font-size:0.9rem; display:block; margin-top:8px;">{title}</span>', unsafe_allow_html=True)
-                            
-                            # 銀行 + 分類標籤
-                            st.markdown(f'''
-                                <div style="margin-top:6px;">
-                                    <span style="background:{bank_color}; color:white; padding:3px 8px; border-radius:4px; font-size:0.7rem;">{bank}</span>
-                                    <span style="color:gray; font-size:0.75rem; margin-left:6px;">{category}</span>
-                                </div>
-                            ''', unsafe_allow_html=True)
+            cat_filter = selected_category if selected_category != "全部" else ""
+            offers = get_offers(search=search_term, bank=bank_filter, category=cat_filter)
+            
+            st.caption(f"共 {len(offers)} 筆優惠")
+            
+            # --- 載入更多機制 ---
+            limit_key = f"limit_all_{selected_bank}_{idx}"
+            if limit_key not in st.session_state:
+                st.session_state[limit_key] = False
+            
+            display_limit = 60
+            has_more = len(offers) > display_limit
+            
+            show_all = st.session_state[limit_key]
+            
+            current_offers = offers if show_all else offers[:display_limit]
+            
+            if has_more and not show_all:
+                if st.button(f"顯示全部 {len(offers)} 筆優惠", key=f"btn_{limit_key}"):
+                    st.session_state[limit_key] = True
+                    st.rerun()
 
-    # --- 右側：地圖整合 (Folium 互動版) ---
-    with right_panel:
-        with st.container(border=True, height=600):
-            st.subheader("🗺️ 據點搜尋地圖")
+            # --- 佈局：左列表 | 右地圖 ---
+            left_panel, right_panel = st.columns([3, 2])
             
-            # 取得用戶位置 (如果允許)
-            user_loc = get_geolocation()
-            current_lat, current_lon = 25.0478, 121.5171  # 預設台北車站
-            
-            if user_loc:
-                current_lat = user_loc['coords']['latitude']
-                current_lon = user_loc['coords']['longitude']
-                st.caption(f"📍 已定位：您當前的位置")
-            else:
-                st.caption("📍 預設中心：台北車站 (可允許瀏覽器定位以查看附近)")
-
-            # 建立地圖
-            m = folium.Map(location=[current_lat, current_lon], zoom_start=14, tiles="cartodbpositron")
-            
-            # 如果有搜尋關鍵字，執行 POI 搜尋
-            if search_term:
-                with st.spinner(f"正在尋找附近的 {search_term}..."):
-                    # 1. 嘗試搜尋多個據點
-                    pois = search_nearby_pois(search_term, current_lat, current_lon)
+            with left_panel:
+                with st.container(border=True, height=600):
+                    st.subheader(f"📋 {selected_bank}優惠列表")
                     
-                    if pois:
-                        st.success(f"找到 {len(pois)} 個 '{search_term}' 據點")
-                        for poi in pois:
-                            folium.Marker(
-                                [poi['lat'], poi['lon']],
-                                popup=f"<b>{poi['name']}</b><br>{poi['addr']}",
-                                tooltip=poi['name'],
-                                icon=folium.Icon(color="red", icon="info-sign")
-                            ).add_to(m)
+                    # 網格排版
+                    num_cols = 3
+                    for row_start in range(0, len(current_offers), num_cols):
+                        row_offers = current_offers[row_start:row_start + num_cols]
+                        cols = st.columns(num_cols)
                         
-                        # 重新定位地圖中心到第一個結果
-                        m.location = [pois[0]['lat'], pois[0]['lon']]
-                    else:
-                        # 2. 如果 POI 找不到，嘗試單點定位
-                        try:
-                            geolocator = Nominatim(user_agent="credit_card_app_v5")
-                            loc = geolocator.geocode(search_term)
-                            if loc:
-                                folium.Marker(
-                                    [loc.latitude, loc.longitude],
-                                    popup=search_term,
-                                    icon=folium.Icon(color="blue")
-                                ).add_to(m)
-                                m.location = [loc.latitude, loc.longitude]
-                                st.info(f"定位到：{search_term}")
-                        except:
-                            st.warning("無法在地圖上找到該據點")
+                        for i_idx, offer in enumerate(row_offers):
+                            bank = offer.get("bank", "")
+                            category = offer.get("category", "")
+                            title = offer.get("title", "")
+                            url = offer.get("url", "")
+                            image = offer.get("image", "")
+                            bank_color = get_bank_color(bank)
+                            
+                            with cols[i_idx]:
+                                with st.container(border=True):
+                                    # 圖片處理
+                                    valid_image = image if (image and "icon_clock" not in image) else None
+                                    if valid_image:
+                                        img_bytes = fetch_image_bytes(valid_image)
+                                        if img_bytes:
+                                            st.image(img_bytes, use_container_width=True)
+                                        else:
+                                            st.image(valid_image, use_container_width=True)
+                                    else:
+                                        st.markdown('<div style="height:80px; background:#f0f2f6; border-radius:5px; display:flex; align-items:center; justify-content:center;">🖼️</div>', unsafe_allow_html=True)
+                                    
+                                    # 標題及連結
+                                    if url:
+                                        st.markdown(f'<a href="{url}" target="_blank" style="text-decoration:none; color:inherit; font-weight:bold; font-size:0.85rem; display:block; margin-top:8px;">{title}</a>', unsafe_allow_html=True)
+                                    else:
+                                        st.markdown(f'<span style="font-weight:bold; font-size:0.85rem; display:block; margin-top:8px;">{title}</span>', unsafe_allow_html=True)
+                                    
+                                    # 標籤
+                                    st.markdown(f'''
+                                        <div style="margin-top:6px;">
+                                            <span style="background:{bank_color}; color:white; padding:2px 6px; border-radius:4px; font-size:0.65rem;">{bank}</span>
+                                            <span style="color:gray; font-size:0.7rem; margin-left:4px;">{category}</span>
+                                        </div>
+                                    ''', unsafe_allow_html=True)
 
-            # 顯示 Folium 地圖
-            st_folium(m, width="100%", height=400, returned_objects=[])
-            
-            # 其他連結
-            if search_term:
-                google_maps_url = f"https://www.google.com/maps/search/?api=1&query={search_term}"
-                st.link_button("🌏 在 Google 地圖開啟", google_maps_url, use_container_width=True)
+            with right_panel:
+                with st.container(border=True, height=600):
+                    st.subheader("🗺️ 據點搜尋地圖")
+                    current_lat, current_lon = 25.0478, 121.5171
+                    if user_loc:
+                        current_lat = user_loc['coords']['latitude']
+                        current_lon = user_loc['coords']['longitude']
+                    
+                    m = folium.Map(location=[current_lat, current_lon], zoom_start=14, tiles="cartodbpositron")
+                    if search_term:
+                        with st.spinner(f"正在搜尋 {search_term}..."):
+                            pois = search_nearby_pois(search_term, current_lat, current_lon)
+                            if pois:
+                                for poi in pois:
+                                    folium.Marker([poi['lat'], poi['lon']], popup=poi['name'], tooltip=poi['name']).add_to(m)
+                                m.location = [pois[0]['lat'], pois[0]['lon']]
+                    
+                    st_folium(m, width="100%", height=400, key=f"map_{selected_bank}_{idx}", returned_objects=[])
+                    if search_term:
+                        st.link_button("🌏 Google 地圖", f"https://www.google.com/maps/search/?api=1&query={search_term}", use_container_width=True)
 
 
 # ============================================================
@@ -498,7 +476,7 @@ elif page == "💳 信用卡管理":
         with st.form("add_card_form"):
             col1, col2, col3 = st.columns(3)
             with col1:
-                new_bank = st.selectbox("銀行 *", ["中國信託", "國泰世華", "聯邦銀行", "其他"])
+                new_bank = st.selectbox("銀行 *", ["中國信託", "國泰世華", "聯邦銀行", "玉山銀行", "其他"])
                 if new_bank == "其他":
                     new_bank = st.text_input("請輸入銀行名稱")
                 new_name = st.text_input("卡片名稱 *")

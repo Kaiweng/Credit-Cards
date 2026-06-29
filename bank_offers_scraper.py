@@ -585,72 +585,87 @@ async def main():
     print(f"開始時間: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
     
-    all_offers = []
-    
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=IS_CI,  # CI 環境用 headless，本機可開視窗
-            args=["--disable-blink-features=AutomationControlled"]
-        )
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            viewport={"width": 1920, "height": 1080}
-        )
-        # 爬取各銀行 (隔離分頁執行以增加穩定性)
-        async def run_safely(bank_name, func, context):
-            try:
-                page = await context.new_page()
-                results = await func(page)
-                await page.close()
-                return results
-            except Exception as e:
-                print(f"[{bank_name}] 爬取過程中斷: {e}")
-                return []
-
-        ctbc_offers = await run_safely("中國信託", scrape_ctbc, context)
-        all_offers.extend(ctbc_offers)
-        
-        cathay_offers = await run_safely("國泰世華", scrape_cathay, context)
-        all_offers.extend(cathay_offers)
-        
-        ubot_offers = await run_safely("聯邦銀行", scrape_ubot, context)
-        all_offers.extend(ubot_offers)
-        
-        esun_offers = await run_safely("玉山銀行", scrape_esun, context)
-        all_offers.extend(esun_offers)
-        
-        await browser.close()
-    
-    # 去重
-    all_offers = deduplicate(all_offers)
-    
-    print("\n" + "=" * 60)
-    print(f"總計: {len(all_offers)} 筆優惠 (已去重)")
-    print("=" * 60)
-    
-    # 儲存
-    save_to_csv(all_offers)
-    save_to_json(all_offers)
-    
-    # 更新資料庫
+    status_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "status.json")
     try:
-        from database import init_db, clear_offers, add_offers
-        print("\n正在更新資料庫...")
-        init_db()  # 確保資料表存在
-        clear_offers()  # 清除舊資料
-        add_offers(all_offers)  # 匯入新資料
-        print("資料庫更新完成！")
+        with open(status_file, "w", encoding="utf-8") as f:
+            json.dump({"status": "更新中..."}, f, ensure_ascii=False)
     except Exception as e:
-        print(f"資料庫更新失敗: {e}")
-    
-    # 顯示各銀行統計
-    print("\n各銀行統計:")
-    from collections import Counter
-    bank_counts = Counter(o["bank"] for o in all_offers)
-    for bank, count in sorted(bank_counts.items(), key=lambda x: -x[1]):
-        print(f"  {bank}: {count} 筆")
-    
-    print(f"\n完成時間: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"初始化 status.json 失敗: {e}")
+
+    try:
+        all_offers = []
+        
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=IS_CI,  # CI 環境用 headless，本機可開視窗
+                args=["--disable-blink-features=AutomationControlled"]
+            )
+            context = await browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                viewport={"width": 1920, "height": 1080}
+            )
+            # 爬取各銀行 (隔離分頁執行以增加穩定性)
+            async def run_safely(bank_name, func, context):
+                try:
+                    page = await context.new_page()
+                    results = await func(page)
+                    await page.close()
+                    return results
+                except Exception as e:
+                    print(f"[{bank_name}] 爬取過程中斷: {e}")
+                    return []
+
+            ctbc_offers = await run_safely("中國信託", scrape_ctbc, context)
+            all_offers.extend(ctbc_offers)
+            
+            cathay_offers = await run_safely("國泰世華", scrape_cathay, context)
+            all_offers.extend(cathay_offers)
+            
+            ubot_offers = await run_safely("聯邦銀行", scrape_ubot, context)
+            all_offers.extend(ubot_offers)
+            
+            esun_offers = await run_safely("玉山銀行", scrape_esun, context)
+            all_offers.extend(esun_offers)
+            
+            await browser.close()
+        
+        # 去重
+        all_offers = deduplicate(all_offers)
+        
+        print("\n" + "=" * 60)
+        print(f"總計: {len(all_offers)} 筆優惠 (已去重)")
+        print("=" * 60)
+        
+        # 儲存
+        save_to_csv(all_offers)
+        save_to_json(all_offers)
+        
+        # 更新資料庫
+        try:
+            from database import init_db, clear_offers, add_offers
+            print("\n正在更新資料庫...")
+            init_db()  # 確保資料表存在
+            clear_offers()  # 清除舊資料
+            add_offers(all_offers)  # 匯入新資料
+            print("資料庫更新完成！")
+        except Exception as e:
+            print(f"資料庫更新失敗: {e}")
+        
+        # 顯示各銀行統計
+        print("\n各銀行統計:")
+        from collections import Counter
+        bank_counts = Counter(o["bank"] for o in all_offers)
+        for bank, count in sorted(bank_counts.items(), key=lambda x: -x[1]):
+            print(f"  {bank}: {count} 筆")
+        
+        print(f"\n完成時間: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    finally:
+        try:
+            with open(status_file, "w", encoding="utf-8") as f:
+                json.dump({"status": "空閒"}, f, ensure_ascii=False)
+            print("已將狀態重設為空閒。")
+        except Exception as e:
+            print(f"將 status 設回空閒失敗: {e}")
 
 
 if __name__ == "__main__":

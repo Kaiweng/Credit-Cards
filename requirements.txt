@@ -7,3 +7,8 @@ streamlit-lottie
 streamlit-folium
 folium
 streamlit-js-eval
+fastapi
+uvicorn
+requests
+playwright
+

@@ -1,0 +1,27 @@
+/* assets/style.css - 信用卡優惠戰情室全域樣式 */
+
+/* 基礎佈局 */
+.stApp { transition: background-color 0.3s ease; }
+
+/* 銀行標籤 */
+.bank-tag {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: white;
+    display: inline-block;
+}
+
+/* 優惠卡片組件 */
+.offer-container {
+    border: 1px solid rgba(128,128,128,0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    transition: transform 0.2s;
+}
+.offer-container:hover { transform: translateY(-2px); }
+
+/* 側邊欄調整 */
+[data-testid="stSidebar"] { padding-top: 1rem; }

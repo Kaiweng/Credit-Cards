@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💳 信用卡優惠戰情室</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'Noto Sans TC', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.37)',
+                        'neon': '0 0 15px rgba(99, 102, 241, 0.15)',
+                        'neon-hover': '0 0 25px rgba(99, 102, 241, 0.35)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.45);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .glass-card:hover {
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+        /* 自訂滾動條 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.8);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(99, 102, 241, 0.4);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(99, 102, 241, 0.6);
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.15; }
+            50% { opacity: 0.3; }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#030712] text-slate-100 min-h-screen relative overflow-x-hidden font-sans">
+    <!-- 背景裝飾漸層球 -->
+    <div class="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-indigo-900/10 blur-[120px] pointer-events-none animate-pulse-slow"></div>
+    <div class="absolute bottom-[-10%] right-[-10%] w-[50vw] h-[50vw] rounded-full bg-emerald-950/10 blur-[120px] pointer-events-none animate-pulse-slow"></div>
+
+    <div class="max-w-7xl mx-auto px-4 py-8 relative z-10">
+        <!-- 頂部 Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10 pb-6 border-b border-slate-800/60">
+            <div>
+                <div class="flex items-center gap-3">
+                    <span class="text-3xl">💳</span>
+                    <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">
+                        信用卡優惠戰情室
+                    </h1>
+                </div>
+                <p id="last-update" class="text-xs md:text-sm text-slate-400 mt-2 flex items-center gap-2">
+                    <span class="inline-block w-2 h-2 rounded-full bg-slate-600"></span>
+                    資料初始化中...
+                </p>
+            </div>
+            
+            <div class="flex items-center gap-4 w-full md:w-auto">
+                <div id="status-container" class="hidden items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-950/40 border border-indigo-500/30 text-indigo-400 text-xs font-semibold">
+                    <span class="relative flex h-2.5 w-2.5">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-indigo-500"></span>
+                    </span>
+                    <span id="status-text">爬蟲工作中...</span>
+                </div>
+                
+                <button id="refresh-btn" onclick="refreshData()" class="relative overflow-hidden group bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white px-6 py-2.5 rounded-xl font-semibold shadow-neon hover:shadow-neon-hover transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0 flex items-center gap-2 text-sm w-full md:w-auto justify-center">
+                    <span id="btn-icon" class="inline-block transition-transform group-hover:rotate-180 duration-500">🔄</span>
+                    <span id="btn-text">同步最新優惠</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- 數據統計板 -->
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="glass-panel p-4 rounded-2xl shadow-glass">
+                <p class="text-xs text-slate-400 font-medium">總優惠數量</p>
+                <h3 id="stat-total" class="text-2xl md:text-3xl font-bold text-indigo-400 mt-1">--</h3>
+            </div>
+            <div class="glass-panel p-4 rounded-2xl shadow-glass">
+                <p class="text-xs text-slate-400 font-medium">中國信託</p>
+                <h3 id="stat-ctbc" class="text-2xl md:text-3xl font-bold text-emerald-400 mt-1">--</h3>
+            </div>
+            <div class="glass-panel p-4 rounded-2xl shadow-glass">
+                <p class="text-xs text-slate-400 font-medium">國泰世華</p>
+                <h3 id="stat-cathay" class="text-2xl md:text-3xl font-bold text-amber-400 mt-1">--</h3>
+            </div>
+            <div class="glass-panel p-4 rounded-2xl shadow-glass">
+                <p class="text-xs text-slate-400 font-medium">聯邦 / 玉山</p>
+                <h3 id="stat-others" class="text-2xl md:text-3xl font-bold text-rose-400 mt-1">--</h3>
+            </div>
+        </section>
+
+        <!-- 篩選與搜尋欄 -->
+        <div class="glass-panel p-4 rounded-2xl shadow-glass border border-slate-800/80 mb-8 flex flex-col md:flex-row gap-4 items-center">
+            <div class="w-full md:w-48">
+                <select id="bank" class="bg-slate-900/80 border border-slate-700/60 text-slate-200 p-2.5 rounded-xl text-sm w-full outline-none focus:border-indigo-500 transition" onchange="loadOffers()">
+                    <option value="">所有銀行</option>
+                </select>
+            </div>
+            <div class="w-full md:w-48">
+                <select id="category" class="bg-slate-900/80 border border-slate-700/60 text-slate-200 p-2.5 rounded-xl text-sm w-full outline-none focus:border-indigo-500 transition" onchange="loadOffers()">
+                    <option value="">所有分類</option>
+                </select>
+            </div>
+            <div class="relative w-full flex-grow">
+                <span class="absolute inset-y-0 left-3 flex items-center text-slate-400 pointer-events-none">🔍</span>
+                <input type="text" id="search" placeholder="輸入關鍵字搜尋優惠資訊..." class="bg-slate-900/80 border border-slate-700/60 text-slate-200 pl-10 pr-4 py-2.5 rounded-xl text-sm w-full outline-none focus:border-indigo-500 transition placeholder-slate-500" onkeyup="debouncedLoad()">
+            </div>
+        </div>
+
+        <!-- 優惠卡片列表 -->
+        <main id="offers" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></main>
+    </div>
+
+    <!-- 提示通知 (Toast) -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 glass-panel px-6 py-3.5 rounded-2xl flex items-center gap-3 border border-indigo-500/30 text-slate-100 max-w-sm shadow-2xl">
+        <span class="text-xl">🔔</span>
+        <div>
+            <p class="font-bold text-sm" id="toast-title">提示訊息</p>
+            <p class="text-xs text-slate-400 mt-0.5" id="toast-desc">內容說明</p>
+        </div>
+    </div>
+
+    <script>
+        // 自適應後端 API 網址：若為本地開發則使用 localhost，否則請替換為您部署至 Render 的網址
+        const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+            ? 'http://localhost:8001'
+            : 'https://ccard-api.onrender.com'; // <--- 請替換為您部署在 Render 上的 API 網址
+        let searchTimer;
+
+        // 銀行專屬樣式映射
+        const BANK_STYLES = {
+            '中國信託': { badge: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20', glow: 'hover:shadow-[0_0_20px_rgba(16,185,129,0.15)]' },
+            '國泰世華': { badge: 'bg-amber-500/10 text-amber-400 border-amber-500/20', glow: 'hover:shadow-[0_0_20px_rgba(245,158,11,0.15)]' },
+            '聯邦銀行': { badge: 'bg-blue-500/10 text-blue-400 border-blue-500/20', glow: 'hover:shadow-[0_0_20px_rgba(59,130,246,0.15)]' },
+            '玉山銀行': { badge: 'bg-teal-500/10 text-teal-400 border-teal-500/20', glow: 'hover:shadow-[0_0_20px_rgba(20,184,166,0.15)]' }
+        };
+
+        function getBankStyle(bank) {
+            for (const key in BANK_STYLES) {
+                if (bank.includes(key)) return BANK_STYLES[key];
+            }
+            return { badge: 'bg-slate-500/10 text-slate-400 border-slate-500/20', glow: 'hover:shadow-[0_0_20px_rgba(148,163,184,0.15)]' };
+        }
+
+        function showToast(title, desc) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-title').innerText = title;
+            document.getElementById('toast-desc').innerText = desc;
+            
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+            
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 4000);
+        }
+
+        function debouncedLoad() {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(loadOffers, 350);
+        }
+
+        async function init() {
+            try {
+                const res = await fetch(`${API_BASE}/api/filters`);
+                const f = await res.json();
+                
+                // 更新時間
+                document.getElementById('last-update').innerHTML = `
+                    <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    最後更新: ${f.last_update || '無資料'}
+                `;
+                
+                // 下拉選單
+                document.getElementById('bank').innerHTML = '<option value="">所有銀行</option>' + f.banks.map(x => `<option value="${x}">${x}</option>`).join('');
+                document.getElementById('category').innerHTML = '<option value="">所有分類</option>' + f.categories.map(x => `<option value="${x}">${x}</option>`).join('');
+                
+                loadOffers();
+                checkStatus();
+            } catch(e) {
+                console.error("初始化失敗:", e);
+                document.getElementById('last-update').innerHTML = `
+                    <span class="inline-block w-2 h-2 rounded-full bg-rose-500"></span>
+                    無法連線至 API 後端服務，請確認服務已啟動。
+                `;
+            }
+        }
+
+        async function checkStatus() {
+            try {
+                const res = await fetch(`${API_BASE}/api/status`);
+                const s = await res.json();
+                const statusContainer = document.getElementById('status-container');
+                const refreshBtn = document.getElementById('refresh-btn');
+                const btnText = document.getElementById('btn-text');
+                const btnIcon = document.getElementById('btn-icon');
+                
+                if (s.status === '更新中...') {
+                    statusContainer.classList.remove('hidden');
+                    statusContainer.classList.add('flex');
+                    refreshBtn.disabled = true;
+                    refreshBtn.classList.add('opacity-70', 'cursor-not-allowed');
+                    btnText.innerText = "爬取更新中...";
+                    btnIcon.classList.add('animate-spin');
+                    // 持續輪詢
+                    setTimeout(checkStatus, 3000);
+                } else {
+                    statusContainer.classList.remove('flex');
+                    statusContainer.classList.add('hidden');
+                    refreshBtn.disabled = false;
+                    refreshBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+                    btnText.innerText = "同步最新優惠";
+                    btnIcon.classList.remove('animate-spin');
+                }
+            } catch(e) {
+                console.error("狀態輪詢失敗:", e);
+            }
+        }
+
+        // 顯示骨架屏
+        function showSkeletons() {
+            const list = document.getElementById('offers');
+            list.innerHTML = Array(6).fill(0).map(() => `
+                <div class="glass-panel p-5 rounded-2xl border border-slate-800/80 shadow-glass animate-pulse">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="h-5 bg-slate-800 rounded w-16"></div>
+                        <div class="h-4 bg-slate-800 rounded w-12"></div>
+                    </div>
+                    <div class="w-full h-32 bg-slate-800 rounded-xl mb-4"></div>
+                    <div class="h-6 bg-slate-800 rounded w-full mb-3"></div>
+                    <div class="h-6 bg-slate-800 rounded w-2/3 mb-4"></div>
+                    <div class="h-9 bg-slate-800 rounded-lg w-full"></div>
+                </div>
+            `).join('');
+        }
+
+        async function loadOffers() {
+            showSkeletons();
+            const bankVal = document.getElementById('bank').value;
+            const catVal = document.getElementById('category').value;
+            const searchVal = document.getElementById('search').value;
+            
+            try {
+                const url = `${API_BASE}/api/offers?search=${encodeURIComponent(searchVal)}&bank=${encodeURIComponent(bankVal)}&category=${encodeURIComponent(catVal)}`;
+                const res = await fetch(url);
+                const data = await res.json();
+                
+                // 更新統計面板上的數值
+                document.getElementById('stat-total').innerText = data.length + " 筆";
+                document.getElementById('stat-ctbc').innerText = data.filter(o => o.bank.includes('中信') || o.bank.includes('中國信託')).length + " 筆";
+                document.getElementById('stat-cathay').innerText = data.filter(o => o.bank.includes('國泰')).length + " 筆";
+                document.getElementById('stat-others').innerText = data.filter(o => !o.bank.includes('中信') && !o.bank.includes('中國信託') && !o.bank.includes('國泰')).length + " 筆";
+                
+                const list = document.getElementById('offers');
+                list.innerHTML = '';
+                
+                if (data.length === 0) {
+                    list.innerHTML = `
+                        <div class="col-span-full py-16 text-center text-slate-500">
+                            <span class="text-4xl block mb-3">🔍</span>
+                            <p>找不到符合篩選條件的優惠資訊</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                data.forEach(o => {
+                    const style = getBankStyle(o.bank);
+                    const proxyImg = o.image ? `${API_BASE}/api/image-proxy?url=${encodeURIComponent(o.image)}` : null;
+                    
+                    list.innerHTML += `
+                        <div class="glass-card p-5 rounded-2xl transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between ${style.glow}">
+                            <div>
+                                <div class="flex justify-between items-center gap-2 mb-4">
+                                    <span class="text-xs font-bold px-2.5 py-0.5 rounded-full border ${style.badge}">
+                                        ${o.bank}
+                                    </span>
+                                    <span class="text-xs text-slate-400 bg-slate-800/40 px-2 py-0.5 rounded border border-slate-700/30">
+                                        ${o.category || '一般'}
+                                    </span>
+                                </div>
+                                ${proxyImg ? `
+                                    <div class="w-full h-36 overflow-hidden rounded-xl mb-4 bg-slate-900/60 flex items-center justify-center border border-slate-800/40">
+                                        <img src="${proxyImg}" onerror="this.src='https://images.unsplash.com/photo-1589758438368-0ad531db3366?auto=format&fit=crop&w=400&q=80'; this.onerror=null;" class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" loading="lazy">
+                                    </div>
+                                ` : ''}
+                                <h3 class="font-bold text-slate-100 mb-4 text-base line-clamp-2 min-h-[3rem]" title="${o.title}">
+                                    ${o.title}
+                                </h3>
+                            </div>
+                            <a href="${o.url}" target="_blank" class="block w-full text-center bg-indigo-600/10 hover:bg-indigo-600/20 border border-indigo-500/20 hover:border-indigo-500/40 py-2.5 rounded-xl text-xs font-semibold text-indigo-300 hover:text-indigo-200 transition duration-300">
+                                查看詳細內容 ↗
+                            </a>
+                        </div>
+                    `;
+                });
+            } catch(e) {
+                console.error("載入優惠資料失敗:", e);
+                const list = document.getElementById('offers');
+                list.innerHTML = `
+                    <div class="col-span-full py-16 text-center text-rose-400/80">
+                        <span class="text-4xl block mb-3">⚠️</span>
+                        <p>載入優惠資料失敗，請確認 API 服務是否正常。</p>
+                    </div>
+                `;
+            }
+        }
+
+        async function refreshData() {
+            // 從 localStorage 取得金鑰（可開啟主控台執行 localStorage.setItem('apiKey', '您的金鑰') 進行設定）
+            const apiKey = localStorage.getItem('apiKey') || '';
+            const headers = { 'Content-Type': 'application/json' };
+            if (apiKey) {
+                headers['X-API-Key'] = apiKey;
+            }
+
+            try {
+                const res = await fetch(`${API_BASE}/api/refresh`, { 
+                    method: 'POST',
+                    headers: headers
+                });
+                
+                if (res.status === 403) {
+                    showToast("同步失敗", "無權限：API 金鑰無效或未設定。請於開發者工具主控台執行 localStorage.setItem('apiKey', '您的金鑰')。");
+                    return;
+                }
+                
+                const data = await res.json();
+                
+                if (data.error) {
+                    showToast("同步失敗", data.error);
+                } else {
+                    showToast("已啟動同步", "爬蟲已在背景啟動，更新可能需要幾分鐘的時間，進度將顯示在頁面頂部。");
+                    checkStatus();
+                }
+            } catch(e) {
+                showToast("同步失敗", "無法連接至後端伺服器，請稍後再試。");
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

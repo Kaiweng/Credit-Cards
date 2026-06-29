@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Response, Header, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 from typing import Optional
 import uvicorn
 import sys
@@ -62,9 +63,11 @@ async def image_proxy(url: str):
             content_type = r.headers.get("Content-Type", "image/jpeg")
             return Response(content=r.content, media_type=content_type)
         else:
-            return Response(status_code=r.status_code)
+            print(f"圖片 Proxy 失敗 (HTTP {r.status_code})，網址: {url}。將重定向至原網址。")
+            return RedirectResponse(url=url)
     except Exception as e:
-        return Response(status_code=500)
+        print(f"圖片 Proxy 異常 (錯誤: {e})，網址: {url}。將重定向至原網址。")
+        return RedirectResponse(url=url)
 
 @app.get("/api/map-locate")
 async def get_location(query: str):

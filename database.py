@@ -27,7 +27,6 @@ def init_db():
     cursor = conn.cursor()
     
     # 優惠表
-    # Note: Adding image column. If table exists, this won't run unless dropped.
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS offers (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -36,9 +35,23 @@ def init_db():
             title TEXT NOT NULL,
             url TEXT,
             image TEXT,
-            scraped_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            scraped_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     """)
+    
+    # 檢查 offers 表是否已有 created_at 欄位，若無則新增 (適用於已存在的舊資料庫)
+    cursor.execute("PRAGMA table_info(offers)")
+    columns = [row[1] for row in cursor.fetchall()]
+    if "created_at" not in columns:
+        try:
+            # 由於 SQLite 限制，我們分步執行 ALTER 與 UPDATE
+            cursor.execute("ALTER TABLE offers ADD COLUMN created_at DATETIME")
+            cursor.execute("UPDATE offers SET created_at = scraped_at WHERE created_at IS NULL")
+            conn.commit()
+            print("資料庫已成功新增 created_at 欄位")
+        except Exception as e:
+            print(f"新增 created_at 欄位失敗: {e}")
     
     # 信用卡表
     cursor.execute("""
@@ -85,15 +98,99 @@ def add_offers(offers: List[Dict]):
     cursor = conn.cursor()
     now = datetime.now().isoformat()
     
+    cursor.execute("PRAGMA table_info(offers)")
+    columns = [row[1] for row in cursor.fetchall()]
+    has_created_at = "created_at" in columns
+    
     for o in offers:
-        cursor.execute("""
-            INSERT INTO offers (bank, category, title, url, image, scraped_at)
-            VALUES (?, ?, ?, ?, ?, ?)
-        """, (o.get("bank"), o.get("category"), o.get("title"), o.get("url"), o.get("image"), now))
+        if has_created_at:
+            cursor.execute("""
+                INSERT INTO offers (bank, category, title, url, image, scraped_at, created_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (o.get("bank"), o.get("category"), o.get("title"), o.get("url"), o.get("image"), now, now))
+        else:
+            cursor.execute("""
+                INSERT INTO offers (bank, category, title, url, image, scraped_at)
+                VALUES (?, ?, ?, ?, ?, ?)
+            """, (o.get("bank"), o.get("category"), o.get("title"), o.get("url"), o.get("image"), now))
     
     conn.commit()
     conn.close()
     print(f"已新增 {len(offers)} 筆優惠")
+
+
+def upsert_bank_offers(bank: str, offers: List[Dict]):
+    """
+    增量更新特定銀行的優惠。
+    如果 offers 為 None，代表爬取失敗，不對資料庫做任何該銀行的變更以防止誤刪。
+    """
+    if offers is None:
+        print(f"\n[{bank}] 傳入之優惠資料為 None (可能爬取失敗)，跳過資料庫更新以防止誤刪。")
+        return
+        
+    conn = get_connection()
+    cursor = conn.cursor()
+    now = datetime.now().isoformat()
+    
+    try:
+        # 1. 取得資料庫中該銀行現有的所有優惠
+        cursor.execute("SELECT id, title, url FROM offers WHERE bank = ?", (bank,))
+        db_rows = cursor.fetchall()
+        
+        # 建立 (title, url) -> id 的對照表
+        db_offers = {}
+        for row in db_rows:
+            db_offers[(row["title"], row["url"])] = row["id"]
+            
+        keep_ids = set()
+        
+        # 2. 遍歷本次爬到的優惠進行新增或更新
+        insert_count = 0
+        update_count = 0
+        
+        for o in offers:
+            title = o.get("title")
+            url = o.get("url")
+            category = o.get("category")
+            image = o.get("image")
+            
+            key = (title, url)
+            if key in db_offers:
+                db_id = db_offers[key]
+                cursor.execute("""
+                    UPDATE offers 
+                    SET category = ?, image = ?, scraped_at = ?
+                    WHERE id = ?
+                """, (category, image, now, db_id))
+                keep_ids.add(db_id)
+                update_count += 1
+            else:
+                cursor.execute("""
+                    INSERT INTO offers (bank, category, title, url, image, scraped_at, created_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                """, (bank, category, title, url, image, now, now))
+                insert_count += 1
+                
+        # 3. 刪除該銀行在資料庫中已失效（即本次沒爬到）的舊優惠
+        all_db_ids = set(db_offers.values())
+        delete_ids = all_db_ids - keep_ids
+        
+        if delete_ids:
+            placeholders = ",".join("?" for _ in delete_ids)
+            cursor.execute(f"""
+                DELETE FROM offers 
+                WHERE id IN ({placeholders})
+            """, tuple(delete_ids))
+            print(f"[{bank}] 已從資料庫刪除 {len(delete_ids)} 筆失效優惠")
+            
+        conn.commit()
+        print(f"[{bank}] 增量更新完成。新增 {insert_count} 筆，更新 {update_count} 筆。")
+    except Exception as e:
+        conn.rollback()
+        print(f"[{bank}] 增量更新失敗: {e}")
+        raise e
+    finally:
+        conn.close()
 
 
 def get_offers(search: str = "", bank: str = "", category: str = "") -> List[Dict]:

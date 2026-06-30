@@ -613,19 +613,64 @@ async def main():
                     return results
                 except Exception as e:
                     print(f"[{bank_name}] 爬取過程中斷: {e}")
-                    return []
+                    return None
 
+            # 初始化資料庫
+            try:
+                from database import init_db, upsert_bank_offers
+                print("\n正在初始化資料庫...")
+                init_db()  # 確保資料表存在且包含 created_at 欄位
+            except Exception as e:
+                print(f"資料庫初始化失敗: {e}")
+                upsert_bank_offers = None
+
+            # 爬取 中國信託
             ctbc_offers = await run_safely("中國信託", scrape_ctbc, context)
-            all_offers.extend(ctbc_offers)
+            if ctbc_offers is not None:
+                all_offers.extend(ctbc_offers)
+                if upsert_bank_offers:
+                    try:
+                        upsert_bank_offers("中國信託", ctbc_offers)
+                    except Exception as e:
+                        print(f"[中國信託] 更新至資料庫出錯: {e}")
+            else:
+                print("[中國信託] 爬取失敗，跳過資料庫更新以防止誤刪。")
             
+            # 爬取 國泰世華
             cathay_offers = await run_safely("國泰世華", scrape_cathay, context)
-            all_offers.extend(cathay_offers)
+            if cathay_offers is not None:
+                all_offers.extend(cathay_offers)
+                if upsert_bank_offers:
+                    try:
+                        upsert_bank_offers("國泰世華", cathay_offers)
+                    except Exception as e:
+                        print(f"[國泰世華] 更新至資料庫出錯: {e}")
+            else:
+                print("[國泰世華] 爬取失敗，跳過資料庫更新以防止誤刪。")
             
+            # 爬取 聯邦銀行
             ubot_offers = await run_safely("聯邦銀行", scrape_ubot, context)
-            all_offers.extend(ubot_offers)
+            if ubot_offers is not None:
+                all_offers.extend(ubot_offers)
+                if upsert_bank_offers:
+                    try:
+                        upsert_bank_offers("聯邦銀行", ubot_offers)
+                    except Exception as e:
+                        print(f"[聯邦銀行] 更新至資料庫出錯: {e}")
+            else:
+                print("[聯邦銀行] 爬取失敗，跳過資料庫更新以防止誤刪。")
             
+            # 爬取 玉山銀行
             esun_offers = await run_safely("玉山銀行", scrape_esun, context)
-            all_offers.extend(esun_offers)
+            if esun_offers is not None:
+                all_offers.extend(esun_offers)
+                if upsert_bank_offers:
+                    try:
+                        upsert_bank_offers("玉山銀行", esun_offers)
+                    except Exception as e:
+                        print(f"[玉山銀行] 更新至資料庫出錯: {e}")
+            else:
+                print("[玉山銀行] 爬取失敗，跳過資料庫更新以防止誤刪。")
             
             await browser.close()
         
@@ -639,17 +684,6 @@ async def main():
         # 儲存
         save_to_csv(all_offers)
         save_to_json(all_offers)
-        
-        # 更新資料庫
-        try:
-            from database import init_db, clear_offers, add_offers
-            print("\n正在更新資料庫...")
-            init_db()  # 確保資料表存在
-            clear_offers()  # 清除舊資料
-            add_offers(all_offers)  # 匯入新資料
-            print("資料庫更新完成！")
-        except Exception as e:
-            print(f"資料庫更新失敗: {e}")
         
         # 顯示各銀行統計
         print("\n各銀行統計:")

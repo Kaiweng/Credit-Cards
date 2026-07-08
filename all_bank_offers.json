@@ -765,7 +765,7 @@
   {
     "title": "World Gym領券刷CUBE信用卡\n最高享3%小樹點(信用卡)回饋(上限600點)",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202607/wg.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_WG_2.png",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_WG_new.png",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -773,6 +773,13 @@
     "title": "LG線上商城領券\n刷CUBE信用卡最高5%回饋",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202607/lg.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/1050x630_LG%E7%B7%9A%E4%B8%8A%E5%95%86%E5%9F%8E2026.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "微風之夜\n刷卡滿額享回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202607/depq3.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/dep2026mom_1050x630_01.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1163,7 +1170,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*ztjj0g*_gcl_au*ODIzODU3MDY3LjE3ODMzOTI0MjQ.*_ga*MTUwODkwMzI1OS4xNzgzMzkyNDI1*_ga_T2T689XRGT*czE3ODMzOTI0MjQkbzEkZzEkdDE3ODMzOTI1ODQkajIyJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1tzhsox*_gcl_au*NzM4OTAwNjcxLjE3ODM0Nzc1MDc.*_ga*MTUzNTczNDg0OS4xNzgzNDc3NTA3*_ga_T2T689XRGT*czE3ODM0Nzc1MDckbzEkZzEkdDE3ODM0Nzc2ODQkajgkbDAkaDA.",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1666,9 +1673,9 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "全家便利商店",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/20260626familymart/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward96171873.jpg",
+    "title": "7-ELEVEN",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260708_7ELEVEN/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward3ef409da.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1729,9 +1736,9 @@
     "category": "強打優惠"
   },
   {
-    "title": "全家便利商店刷聯邦卡滿額贈20,000 Fa點2026/06/26-2026/07/07",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/20260626familymart/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward96171873.jpg",
+    "title": "7-ELEVEN統一超商刷聯邦卡滿額現折300元！2026/07/08-2026/07/14",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260708_7ELEVEN/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward3ef409da.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },

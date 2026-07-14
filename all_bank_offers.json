@@ -175,7 +175,7 @@
     "category": "餐飲優惠"
   },
   {
-    "title": "23",
+    "title": "26",
     "url": "https://www.freeliving.com.tw/EVENT/ctbcrewards/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000018.jpg",
     "bank": "中國信託",
@@ -196,9 +196,23 @@
     "category": "旅遊玩家"
   },
   {
+    "title": "【中信卡】滿額送Trip.com鑽石級會籍",
+    "url": "https://mkt.ctbcbank.com/recent/202703/N2026032000035_01-31/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260710.jpg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
     "title": "【中信卡】近鐵百貨 KINTETSU",
     "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/japan.html#s2-harukas",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260130.jpg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】指定旅行社滿額回饋",
+    "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelSP/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260711.jpg",
     "bank": "中國信託",
     "category": "旅遊玩家"
   },
@@ -322,6 +336,13 @@
     "category": "旅遊玩家"
   },
   {
+    "title": "【中信卡】易遊網 717年中慶",
+    "url": "https://www.eztravel.com.tw/activity/flashsale/",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260709.jpg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
     "title": "【中信卡】JetFi Mobile",
     "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/air.html#jetfi",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260304.jpg",
@@ -332,13 +353,6 @@
     "title": "【中信卡】可樂旅遊訂購迪士尼探險號",
     "url": "https://mkt.ctbcbank.com/long/creditcard/N2026022400009_01-31/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260302.jpg",
-    "bank": "中國信託",
-    "category": "旅遊玩家"
-  },
-  {
-    "title": "【中信卡】中國東方航空",
-    "url": "https://www.ceair.com/global/hk_TWD/landing/202508/t20250801_28705.html",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H250801.jpg",
     "bank": "中國信託",
     "category": "旅遊玩家"
   },
@@ -518,7 +532,7 @@
     "category": "百貨藥妝"
   },
   {
-    "title": "4",
+    "title": "5",
     "url": "http://www.santacruz.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000038.jpg",
     "bank": "中國信託",
@@ -553,11 +567,11 @@
     "category": "超商量販"
   },
   {
-    "title": "5",
-    "url": "http://www.ctmall.com.tw",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000040.jpg",
+    "title": "【中信卡】統一超商門市活動",
+    "url": "https://mkt.ctbcbank.com/recent/202607/N2026070300001_01-14/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/400x240.jpg",
     "bank": "中國信託",
-    "category": "線上購物"
+    "category": "超商量販"
   },
   {
     "title": "【中信卡】CTMall紅利市集",
@@ -1184,7 +1198,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*76l481*_gcl_au*OTc5NjczNDY5LjE3ODM5MDk3MjQ.*_ga*NTEyNDAwNjM1LjE3ODM5MDk3MjQ.*_ga_T2T689XRGT*czE3ODM5MDk3MjQkbzEkZzAkdDE3ODM5MDk3MzAkajU0JGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1ab2dul*_gcl_au*NjYyNTU0OTQuMTc4Mzk5NDkyMw..*_ga*MjAzODQxNjM4OC4xNzgzOTk0OTI0*_ga_T2T689XRGT*czE3ODM5OTQ5MjMkbzEkZzEkdDE3ODM5OTUxMDckajYwJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -3759,7 +3773,7 @@
     "category": "全台優惠"
   },
   {
-    "title": "Hotels.com 精選飯店最高40%優惠，滿額再享玉山限時最高12%折扣",
+    "title": "Hotels.com 玉山Unicard訂房滿額享10%折扣無上限！再享卡片最高4.5%回饋",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3014",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3014.jpg?h=532&w=532&hash=D14355E58B8F4B024436EA6A07CA500B",
     "bank": "玉山銀行",

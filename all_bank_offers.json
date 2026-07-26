@@ -602,7 +602,7 @@
     "category": "線上購物"
   },
   {
-    "title": "33",
+    "title": "32",
     "url": "http://www.taiwantaxi.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000001.jpg",
     "bank": "中國信託",
@@ -735,13 +735,6 @@
     "category": "更多優惠"
   },
   {
-    "title": "【中信卡】2026新點子實驗場",
-    "url": "https://m.ntch.art/7NFg2q",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/POINT05250725.jpg",
-    "bank": "中國信託",
-    "category": "更多優惠"
-  },
-  {
     "title": "【中信卡】優人神鼓《我回來了》",
     "url": "https://www.opentix.life/event/2057670301236293632",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/UTHEATRE09051011.jpg",
@@ -759,6 +752,13 @@
     "title": "【中信卡】MUZIKids",
     "url": "https://www.opentix.life/o/1893874568376971264",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/MUZI09250927.png",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】《囍宴》2026年9/27場次",
+    "url": "https://huaent.tw/en18Jaa6n",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/WEEDING0927.png",
     "bank": "中國信託",
     "category": "更多優惠"
   },
@@ -1233,7 +1233,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*gfrp0t*_gcl_au*MTE2NzAzMzI2MS4xNzg0OTQ2MTUw*_ga*MTk5OTA0NTc1NS4xNzg0OTQ2MTUx*_ga_T2T689XRGT*czE3ODQ5NDYxNTAkbzEkZzAkdDE3ODQ5NDYxNTckajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*v0qrw0*_gcl_au*MTQ1NjU0NTk5LjE3ODUwMzI5MzY.*_ga*MTYyODk4MTMwNC4xNzg1MDMyOTM2*_ga_T2T689XRGT*czE3ODUwMzI5MzYkbzEkZzAkdDE3ODUwMzI5NDEkajU1JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"

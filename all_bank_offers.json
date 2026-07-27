@@ -1233,7 +1233,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*v0qrw0*_gcl_au*MTQ1NjU0NTk5LjE3ODUwMzI5MzY.*_ga*MTYyODk4MTMwNC4xNzg1MDMyOTM2*_ga_T2T689XRGT*czE3ODUwMzI5MzYkbzEkZzAkdDE3ODUwMzI5NDEkajU1JGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*167cxwv*_gcl_au*MTYyMzY2NDE5NS4xNzg1MTE5Nzgy*_ga*MTQzNDM1NTg5NS4xNzg1MTE5Nzgy*_ga_T2T689XRGT*czE3ODUxMTk3ODIkbzEkZzAkdDE3ODUxMTk3ODgkajU0JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1708,23 +1708,9 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "MyJapan+ by",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/myjapan/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260715Reward2cfdae77.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
     "title": "iPASS MONEY",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoneybill/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward66899f2b.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "新光三越夏天HIGH",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1739,6 +1725,20 @@
     "title": "精選特店分期享回饋",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607storeinstallment/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward9e25cedd.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "新光三越夏天HIGH",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "MyJapan+ by",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/myjapan/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260715Reward2cfdae77.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1771,23 +1771,9 @@
     "category": "強打優惠"
   },
   {
-    "title": "MyJapan+ by刷聯邦JCB日本實體店最高10%回饋！2026/07/01-2026/09/30",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/myjapan/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260715Reward2cfdae77.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
     "title": "iPASS MONEYiPASS MONEY繳信用卡費月月享1%回饋2026/06/17-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoneybill/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward66899f2b.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "新光三越夏天HIGH刷聯邦卡綁定skm pay最高享7%回饋 2026/07/09-2026/08/13",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1802,6 +1788,20 @@
     "title": "精選特店分期享回饋精選特店分期０利率，滿額再享最高３６００元刷卡金！2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607storeinstallment/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward9e25cedd.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "新光三越夏天HIGH刷聯邦卡綁定skm pay最高享7%回饋 2026/07/09-2026/08/13",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "MyJapan+ by刷聯邦JCB日本實體店最高10%回饋！2026/07/01-2026/09/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/myjapan/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260715Reward2cfdae77.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -2100,13 +2100,6 @@
     "category": "百貨零售"
   },
   {
-    "title": "微風南山之夜！聯名卡最高回饋17.6%！滿額再享金色三麥套餐！2026/07/09-2026/07/26",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260707Reward75655ac0.jpg",
-    "bank": "聯邦銀行",
-    "category": "百貨零售"
-  },
-  {
     "title": "萊爾富刷聯邦不限金額５%",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026hilife/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260701Reward96dd0b6b.jpg",
@@ -2145,13 +2138,6 @@
     "title": "特力屋空調大方送",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202602trplus/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260203Reward40669489.jpg",
-    "bank": "聯邦銀行",
-    "category": "百貨零售"
-  },
-  {
-    "title": "微風南山之夜！",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260707Reward75655ac0.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },

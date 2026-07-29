@@ -7,7 +7,7 @@
     "category": "餐飲優惠"
   },
   {
-    "title": "【中信卡】島語-EZTABLE保留位",
+    "title": "【中信卡】島語保留位",
     "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/EZTABLE1.jpg",
     "bank": "中國信託",
@@ -28,7 +28,7 @@
     "category": "餐飲優惠"
   },
   {
-    "title": "【中信卡】EZTABLE滿額享10%",
+    "title": "【中信卡】饗饗/旭集/URBAN PARADISE保留位",
     "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/EZTABLE2.jpg",
     "bank": "中國信託",
@@ -45,6 +45,13 @@
     "title": "【中信卡】台北艾麗酒店",
     "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/foodsedm/content1-1.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/F202302.jpg",
+    "bank": "中國信託",
+    "category": "餐飲優惠"
+  },
+  {
+    "title": "【中信卡】EZTABLE滿額享10%",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/eztable/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/EZTABLE3.jpg",
     "bank": "中國信託",
     "category": "餐飲優惠"
   },
@@ -525,7 +532,7 @@
     "category": "百貨藥妝"
   },
   {
-    "title": "5",
+    "title": "6",
     "url": "http://www.santacruz.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000038.jpg",
     "bank": "中國信託",
@@ -553,6 +560,13 @@
     "category": "超商量販"
   },
   {
+    "title": "【中信卡】大全聯與愛買量販店",
+    "url": "https://mkt.ctbcbank.com/recent/202609/N2026070900009_01-03/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/SALEpxa2026gost.jpg",
+    "bank": "中國信託",
+    "category": "超商量販"
+  },
+  {
     "title": "【中信卡】全聯PX Pay",
     "url": "https://mkt.ctbcbank.com/long/creditcard/pxmart/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/PX_400.jpg",
@@ -565,6 +579,13 @@
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/OP_400.jpg",
     "bank": "中國信託",
     "category": "超商量販"
+  },
+  {
+    "title": "5",
+    "url": "http://www.ctmall.com.tw",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000040.jpg",
+    "bank": "中國信託",
+    "category": "線上購物"
   },
   {
     "title": "【中信卡】CTMall紅利市集",
@@ -787,6 +808,13 @@
     "title": "【點數兌換】蔡健雅 除此之外 Into The B-Sides 另一面的蔡健雅 雙人互動套票",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/TANYA-Kaohsiung.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/%E8%94%A1%E5%81%A5%E9%9B%85%E9%AB%98%E9%9B%84.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華銀行 彭佳慧《數著時間的日子》巡迴演唱會",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/JuliaPeng.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/JuliaPeng_KV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1218,6 +1246,13 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "長榮航空極致無限卡，\n享行李特工行李運送費用8折優惠！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202606/luggagent.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01_AM%E5%8D%A1/LuggAgent.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
     "title": "全盈+PAY首綁新戶，全家消費滿額贈點",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202605/202605-3_PlusPay.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/aem_logo_4.png",
@@ -1233,7 +1268,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*2bu7xf*_gcl_au*ODY4NzI5MzExLjE3ODUyMDQ2Nzc.*_ga*NjYwMjcwMjk1LjE3ODUyMDQ2Nzg.*_ga_T2T689XRGT*czE3ODUyMDQ2NzckbzEkZzAkdDE3ODUyMDQ2ODUkajUyJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*lu0w4k*_gcl_au*MTI4MjEwODA3OC4xNzg1MjkxNjIy*_ga*NDU3NDcyNTM0LjE3ODUyOTE2MjM.*_ga_T2T689XRGT*czE3ODUyOTE2MjIkbzEkZzAkdDE3ODUyOTE2MjgkajU0JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1743,6 +1778,13 @@
     "category": "強打優惠"
   },
   {
+    "title": "愛買中元節",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260729market/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Rewardd319fd97.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
     "title": "全國電子",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607elife/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward3e740036.jpg",
@@ -1760,13 +1802,6 @@
     "title": "吉鶴卡日本旅遊最高11%",
     "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260624Reward1f1cbb7a.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "萬家福開幕慶",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607market/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260713Reward909cbaa4.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1806,6 +1841,13 @@
     "category": "強打優惠"
   },
   {
+    "title": "愛買中元節刷聯邦卡天天最高贈500元2026/07/29-2026/08/06",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260729market/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Rewardd319fd97.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
     "title": "全國電子刷聯邦分期滿額最高贈3,000元2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607elife/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward3e740036.jpg",
@@ -1827,7 +1869,7 @@
     "category": "強打優惠"
   },
   {
-    "title": "萬家福開幕慶刷聯邦卡滿額贈1,000元2026/07/15-2026/08/11",
+    "title": "萬家福開幕慶",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607market/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260713Reward909cbaa4.jpg",
     "bank": "聯邦銀行",
@@ -1879,6 +1921,13 @@
     "title": "2026年聯邦飯店優惠",
     "url": "https://card.ubot.com.tw/eCard/activity/2026hotel/index.aspx",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward0952f21c.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "萬家福開幕慶刷聯邦卡滿額贈1,000元2026/07/15-2026/08/11",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607market/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260713Reward909cbaa4.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -3038,6 +3087,13 @@
     "category": "全台優惠"
   },
   {
+    "title": "前往易遊網機票滿額現折600元，筆筆再抽雙人「西堤餐券」",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3278.jpg?h=532&w=532&hash=18E20537EBBB127EDAE61F032A6D81A7",
+    "bank": "玉山銀行",
+    "category": "全台優惠"
+  },
+  {
     "title": "前往大全聯刷卡滿額登錄贈刷卡金",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=5041",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/F_Lifestyle/532_5041.jpg?h=532&w=532&hash=220EFB917FF15DE7B0BC9AF70B2A6F56",
@@ -3055,13 +3111,6 @@
     "title": "前往同黨劇團《父親母親》刷玉山信用卡購買台北水源場次，享9折優惠",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=9023",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/I_Movie/532_9023.jpg?h=532&w=532&hash=1CA2BF1511D5DAB7DAE50848664CA917",
-    "bank": "玉山銀行",
-    "category": "全台優惠"
-  },
-  {
-    "title": "前往玉山信用卡夏日百貨購物季全台指定百貨刷卡滿額好禮一夏帶回家",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=10011",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/NEW/532_10011.jpg?h=532&w=532&hash=AA05C1DD453BA6DD861EC3A9D8190939",
     "bank": "玉山銀行",
     "category": "全台優惠"
   }

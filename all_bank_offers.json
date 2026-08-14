@@ -343,13 +343,6 @@
     "category": "旅遊玩家"
   },
   {
-    "title": "24",
-    "url": "https://www.feds.com.tw/",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000076.jpg",
-    "bank": "中國信託",
-    "category": "百貨藥妝"
-  },
-  {
     "title": "【中信卡】遠東百貨",
     "url": "https://www.feds.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000076.jpg",
@@ -507,13 +500,6 @@
     "title": "【中信卡】香草集",
     "url": "https://mkt.ctbcbank.com/recent/202612/N2025121800014_02-31/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/JUST202601.jpg",
-    "bank": "中國信託",
-    "category": "百貨藥妝"
-  },
-  {
-    "title": "新光三越夏天卡利HIGH",
-    "url": "https://mkt.ctbcbank.com/long/creditcard/NB20231222189/index.html?item=21",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/SKM202602.jpg",
     "bank": "中國信託",
     "category": "百貨藥妝"
   },
@@ -1001,13 +987,6 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "新光三越夏天卡利HIGH\n刷CUBE信用卡最高享10.3%回饋",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202607/skm2026q3.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_%E5%8D%A1%E5%88%A9HIGH_KV.png",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
     "title": "CUBE卡友到臺虎來場微醺聚會！大杯升級、卡友日9折等多重優惠！CUBE App 完成臺虎任務，解鎖7%小樹點(信用卡)回饋",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202607/taihu26.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/%E8%87%BA%E8%99%8E12%E6%9C%88AEM%E6%A0%BC%E5%BC%8F_2.jpg",
@@ -1324,7 +1303,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*isa66b*_gcl_au*MTY3NDc4NzcyNi4xNzg2NTg1MzYw*_ga*MTAwMTczMDA4LjE3ODY1ODUzNjA.*_ga_T2T689XRGT*czE3ODY1ODUzNjAkbzEkZzAkdDE3ODY1ODUzNjckajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1au5ono*_gcl_au*MjAxODQ1Nzg2OC4xNzg2NjcxNjMy*_ga*NjAzNzUyMzU5LjE3ODY2NzE2MzM.*_ga_T2T689XRGT*czE3ODY2NzE2MzIkbzEkZzAkdDE3ODY2NzE2MzkkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1785,6 +1764,20 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "聯邦陪您輕鬆玩世界",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607travel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward2e88b500.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "學費分期０利率",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607school/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260615Reward26423760.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
     "title": "iPASS MONEY",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoneybill/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward66899f2b.jpg",
@@ -1792,23 +1785,9 @@
     "category": "強打優惠"
   },
   {
-    "title": "大全聯中元節",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/20260807market/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Reward69a39ed4.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
     "title": "精選特店分期享回饋",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607storeinstallment/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward9e25cedd.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "夏天卡利HIGH",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1834,16 +1813,30 @@
     "category": "強打優惠"
   },
   {
-    "title": "聯邦陪您輕鬆玩世界",
+    "title": "吉鶴卡日本旅遊最高11%",
+    "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260624Reward1f1cbb7a.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "百貨樂一夏",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "聯邦陪您輕鬆玩世界航空、飯店、精選旅行社/旅遊及訂房網站滿額拿９５００元刷卡金2026/07/01-2026/09/30",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607travel/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward2e88b500.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
   {
-    "title": "吉鶴卡日本旅遊最高11%",
-    "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260624Reward1f1cbb7a.jpg",
+    "title": "學費分期０利率繳學費刷聯邦免手續費，登錄享最高６期０利率、紅利折抵100%2026/07/01-2026/10/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607school/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260615Reward26423760.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1855,23 +1848,9 @@
     "category": "強打優惠"
   },
   {
-    "title": "大全聯中元節刷聯邦卡滿額最高贈1,000元2026/08/07-2026/09/03",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/20260807market/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Reward69a39ed4.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
     "title": "精選特店分期享回饋精選特店分期０利率，滿額再享最高３６００元刷卡金！2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607storeinstallment/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward9e25cedd.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "夏天卡利HIGH刷聯邦卡綁定skm pay最高享7%回饋 2026/07/09-2026/08/13",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607high/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260708Rewardaecabd63.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1897,13 +1876,6 @@
     "category": "強打優惠"
   },
   {
-    "title": "聯邦陪您輕鬆玩世界航空、飯店、精選旅行社/旅遊及訂房網站滿額拿９５００元刷卡金2026/07/01-2026/09/30",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607travel/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward2e88b500.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
     "title": "吉鶴卡日本旅遊最高11%日本交通卡最高1.5%，11大熱門商店享加碼優惠！2026/06/24-2026/12/31",
     "url": "https://activity.ubot.com.tw/2026JiHoCard/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260624Reward1f1cbb7a.jpg",
@@ -1911,7 +1883,7 @@
     "category": "強打優惠"
   },
   {
-    "title": "百貨樂一夏",
+    "title": "百貨樂一夏刷聯邦分期０利率，滿額再送好禮！2026/08/10-2026/08/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
     "bank": "聯邦銀行",
@@ -1949,13 +1921,6 @@
     "title": "2026年聯邦飯店優惠",
     "url": "https://card.ubot.com.tw/eCard/activity/2026hotel/index.aspx",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward0952f21c.jpg",
-    "bank": "聯邦銀行",
-    "category": "強打優惠"
-  },
-  {
-    "title": "百貨樂一夏刷聯邦分期０利率，滿額再送好禮！2026/08/10-2026/08/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -2142,9 +2107,9 @@
     "category": "百貨零售"
   },
   {
-    "title": "美廉社、小北百貨最高８％美廉社、小北百貨刷聯邦卡滿額享最高８％回饋！2026/07/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607supermarket/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward7d9be33b.jpg",
+    "title": "大全聯中元節刷聯邦卡滿額最高贈1,000元2026/08/07-2026/09/03",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260807market/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Reward69a39ed4.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2152,6 +2117,13 @@
     "title": "特力屋空調大方送馬年新氣象，特力屋空調刷聯邦大方送！  2026/02/26-2026/08/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202602trplus/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260203Reward40669489.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "美廉社、小北百貨最高８％美廉社、小北百貨刷聯邦卡滿額享最高８％回饋！2026/07/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607supermarket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward7d9be33b.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2184,9 +2156,9 @@
     "category": "百貨零售"
   },
   {
-    "title": "美廉社、小北百貨最高８％",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607supermarket/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward7d9be33b.jpg",
+    "title": "大全聯中元節",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260807market/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260728Reward69a39ed4.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2194,6 +2166,13 @@
     "title": "特力屋空調大方送",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202602trplus/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260203Reward40669489.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "美廉社、小北百貨最高８％",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607supermarket/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward7d9be33b.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2254,9 +2233,16 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "KlookKlook全球交通／體驗８５折起，刷聯邦卡最高享２１％回饋2026/07/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607klook/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward6b1cfdab.jpg",
+    "title": "聯邦ｘ肯驛旅遊商城肯驛旅遊商城刷聯邦卡機票、訂房、機接、機場貴賓室享專屬優惠！2026/08/13-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ubcanlead/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260813Rewardaf971cda.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Trip.com刷聯邦JCB卡訂房享最高14%、機票最高10%現折優惠  2026/05/15-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202605jcb_trip/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260611Reward7ee7140f.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2268,9 +2254,9 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "Trip.com刷聯邦JCB卡訂房享最高14%、機票最高10%現折優惠  2026/05/15-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202605jcb_trip/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260611Reward7ee7140f.jpg",
+    "title": "KlookKlook全球交通／體驗８５折起，刷聯邦卡最高享２１％回饋2026/07/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607klook/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward6b1cfdab.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2289,13 +2275,6 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "台灣虎航台灣虎航刷聯邦JCB卡享最高9折及選位優惠2026/01/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/tigerairtw/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward7ff61406.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
     "title": "海外實體消費優惠層層加碼",
     "url": "https://activity.ubot.com.tw/aws_act/2026/20260607overseas/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260630Reward6fa5d217.jpg",
@@ -2303,16 +2282,9 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "Klook",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607klook/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward6b1cfdab.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
-    "title": "Agoda",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026agoda/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250625Reward5a7551fa.jpg",
+    "title": "聯邦ｘ肯驛旅遊商城",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026ubcanlead/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260813Rewardaf971cda.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2324,9 +2296,30 @@
     "category": "旅遊優惠"
   },
   {
+    "title": "Agoda",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026agoda/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250625Reward5a7551fa.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Klook",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607klook/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260629Reward6b1cfdab.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
     "title": "Trip.com月底救星",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/tripcom/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260429Rewarda37ea98e.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "台灣虎航台灣虎航刷聯邦JCB卡享最高9折及選位優惠2026/01/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/tigerairtw/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward7ff61406.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2380,13 +2373,6 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "可樂旅遊Club Med可樂旅遊Club Med自由行全系列商品刷聯邦卡享95折！2026/01/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202601colatour_clubmed/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward53741373.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
     "title": "ＫＫｄａｙ趣亞太",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/kkday/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward1aa86d41.jpg",
@@ -2436,7 +2422,7 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "可樂旅遊Club Med",
+    "title": "可樂旅遊Club Med可樂旅遊Club Med自由行全系列商品刷聯邦卡享95折！2026/01/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202601colatour_clubmed/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward53741373.jpg",
     "bank": "聯邦銀行",
@@ -2460,6 +2446,13 @@
     "title": "東京三越伊勢丹百貨刷聯邦JCB卡最高享3萬日圓回饋 2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607jcbmitsukoshi/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260702Reward38816ef7.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "可樂旅遊Club Med",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202601colatour_clubmed/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260107Reward53741373.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2793,13 +2786,6 @@
     "category": "生活繳費"
   },
   {
-    "title": "學費分期０利率繳學費刷聯邦免手續費，登錄享最高６期０利率、紅利折抵100%2026/07/01-2026/10/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607school/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260615Reward26423760.jpg",
-    "bank": "聯邦銀行",
-    "category": "生活繳費"
-  },
-  {
     "title": "生活代扣輕鬆繳使用聯邦卡新申辦指定生活代扣最高贈150元刷卡金  2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607autopay/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260625Rewardcbda901d.jpg",
@@ -2831,13 +2817,6 @@
     "title": "聯邦好友健康力免費送",
     "url": "https://activity.ubot.com.tw/aws_act/2025/20251114010/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251202Reward59deb073.jpg",
-    "bank": "聯邦銀行",
-    "category": "生活繳費"
-  },
-  {
-    "title": "學費分期０利率",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607school/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260615Reward26423760.jpg",
     "bank": "聯邦銀行",
     "category": "生活繳費"
   },
@@ -3129,13 +3108,6 @@
     "category": "全台優惠"
   },
   {
-    "title": "前往玉山信用卡夏日百貨購物季全台指定百貨刷卡滿額好禮一夏帶回家",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=10011",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/NEW/532_10011.jpg?h=532&w=532&hash=AA05C1DD453BA6DD861EC3A9D8190939",
-    "bank": "玉山銀行",
-    "category": "全台優惠"
-  },
-  {
     "title": "前往5SOS搶票必備玉山萬事達卡！5SECONDSOFSUMMER:EVERYONE’SASTAR!WORLDTOUR優先購票就刷玉山萬事達卡",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8067",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8067.jpg?h=532&w=532&hash=031349667AE56880045F32FD790F410E",
@@ -3143,15 +3115,15 @@
     "category": "全台優惠"
   },
   {
-    "title": "玉山Pi拍錢包信用卡 不限通路，一般消費享最高3%P幣，滿額再送1,500P幣！",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=pi",
+    "title": "前往玉山Pi拍錢包信用卡旅遊通路，一般消費享最高3%P幣，滿額再送1,500P幣！",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=pi2",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/ALL/532_Pi.jpg?h=532&w=532&hash=7F78BBF147B282684D14519466D3C1AD",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "玉山Pi拍錢包信用卡 旅遊通路，一般消費享最高3%P幣，滿額再送1,500P幣！",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=pi2",
+    "title": "玉山Pi拍錢包信用卡 不限通路，一般消費享最高3%P幣，滿額再送1,500P幣！",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=pi",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/ALL/532_Pi.jpg?h=532&w=532&hash=7F78BBF147B282684D14519466D3C1AD",
     "bank": "玉山銀行",
     "category": "全台優惠"
@@ -3304,16 +3276,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "香草集 刷玉山信用卡享專屬優惠",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=4104",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/E_Daily/532_4104.jpg?h=532&w=532&hash=BF5AD110282368BF8F5B6196533E538C",
+    "title": "維也納少年合唱團 刷玉山卡購票享優惠",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=9067",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/I_Movie/532_9067.jpg?h=532&w=532&hash=5F9EB2E369E980D39263957C7AC889DD",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "維也納少年合唱團 刷玉山卡購票享優惠",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=9067",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/I_Movie/532_9067.jpg?h=532&w=532&hash=5F9EB2E369E980D39263957C7AC889DD",
+    "title": "香草集 刷玉山信用卡享專屬優惠",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=4104",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/E_Daily/532_4104.jpg?h=532&w=532&hash=BF5AD110282368BF8F5B6196533E538C",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3465,13 +3437,6 @@
     "category": "全台優惠"
   },
   {
-    "title": "【新光三越 卡利high】 skm pay滿額加碼升級最高回饋7%",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1001",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/532_1001.jpg?h=532&w=532&hash=AA735E55278F8476800555CD78046BE9",
-    "bank": "玉山銀行",
-    "category": "全台優惠"
-  },
-  {
     "title": "Gogoro購車享優惠 刷卡購車滿額登錄最高贈玉山e point 2,100點!",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7017",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7017_2.jpg?h=532&w=532&hash=AA4DCEAA1C4F76BE936837DCDC9AB4FC",
@@ -3507,16 +3472,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "VOLVO夏季好禮 分期滿額最高享玉山e point 2,000點回饋",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7021",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7021.jpg?h=532&w=532&hash=8D3010818D80EC8C566EB2A791DBFD37",
+    "title": "eSIM4Travel 買eSIM刷玉山信用卡享八折優惠",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=0021",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/D_3C/532_0021.jpg?h=532&w=532&hash=330F6184935B5072CF32F3962E8B8533",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "eSIM4Travel 買eSIM刷玉山信用卡享八折優惠",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=0021",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/D_3C/532_0021.jpg?h=532&w=532&hash=330F6184935B5072CF32F3962E8B8533",
+    "title": "VOLVO夏季好禮 分期滿額最高享玉山e point 2,000點回饋",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7021",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7021.jpg?h=532&w=532&hash=8D3010818D80EC8C566EB2A791DBFD37",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3598,16 +3563,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "玉山Unicard｜特爾電力 玉山Unicard充電消費最高享12%回饋！",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7011",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7011.jpg?h=532&w=532&hash=2BA9126B0F7CAF9A6785557D89FFA366",
+    "title": "神腦國際 刷玉山U Bear信用卡，最高享10%回饋！",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=0019",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/D_3C/532_0019.jpg?h=532&w=532&hash=66B9BDF7E9EBFCB47BAE02809E3B34BE",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "神腦國際 刷玉山U Bear信用卡，最高享10%回饋！",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=0019",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/D_3C/532_0019.jpg?h=532&w=532&hash=66B9BDF7E9EBFCB47BAE02809E3B34BE",
+    "title": "玉山Unicard｜特爾電力 玉山Unicard充電消費最高享12%回饋！",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7011",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7011.jpg?h=532&w=532&hash=2BA9126B0F7CAF9A6785557D89FFA366",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3955,7 +3920,7 @@
     "category": "全台優惠"
   },
   {
-    "title": "找到了旅行社 刷玉山Unicard享卡片最高4.5%回饋＋旅遊滿額最高享4,000元回饋！",
+    "title": "找到了旅行社 歐洲熱門團旅現折1,000元，刷玉山Unicard同享卡片最高4.5%回饋！",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3008",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3008.jpg?h=532&w=532&hash=EE775F15FAE3674DB8C866BB25386724",
     "bank": "玉山銀行",

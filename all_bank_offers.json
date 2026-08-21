@@ -756,7 +756,7 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "【點數兌換】JAM JAM ASIA 亞洲音樂節雙日優先入場權益",
+    "title": "【兌換完畢】JAM JAM ASIA 亞洲音樂節雙日優先入場權益",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/trendytaipei-fastpass.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/1050x630.png",
     "bank": "國泰世華",
@@ -962,13 +962,6 @@
     "title": "長榮航空高爾夫公開賽\n刷長榮航空極致無限卡\n新卡戶最高享4,500元刷卡金",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202607/eva_golf_20261.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01-EVA%E5%8D%A1/EVA_GOLF_0714_01.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "萬家福中元節限時活動\n滿額再加贈(限量/需登錄)",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202607/PROSPERiTY-PLAZA_202607.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E5%AE%B6%E6%A8%82%E7%A6%8Fkv%20ok.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1310,7 +1303,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1ceed0k*_gcl_au*MjQ2ODUwMTg2LjE3ODcxODc3MDE.*_ga*MTU5NDM3MjcyNC4xNzg3MTg3NzAy*_ga_T2T689XRGT*czE3ODcxODc3MDEkbzEkZzAkdDE3ODcxODc3MDgkajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1ehdy9r*_gcl_au*Njc5NTk5OTUyLjE3ODcyNzQzMTc.*_ga*MTg5NTQwMzc2MC4xNzg3Mjc0MzE4*_ga_T2T689XRGT*czE3ODcyNzQzMTgkbzEkZzAkdDE3ODcyNzQzMjUkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1792,6 +1785,13 @@
     "category": "強打優惠"
   },
   {
+    "title": "全家便利商店",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260821familymart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260820Reward307cfeda.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
     "title": "學費分期０利率",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607school/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260615Reward26423760.jpg",
@@ -1841,16 +1841,16 @@
     "category": "強打優惠"
   },
   {
-    "title": "百貨樂一夏",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
+    "title": "聯邦陪您輕鬆玩世界航空、飯店、精選旅行社/旅遊及訂房網站滿額拿９５００元刷卡金2026/07/01-2026/09/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607travel/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward2e88b500.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
   {
-    "title": "聯邦陪您輕鬆玩世界航空、飯店、精選旅行社/旅遊及訂房網站滿額拿９５００元刷卡金2026/07/01-2026/09/30",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607travel/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward2e88b500.jpg",
+    "title": "全家便利商店刷聯邦卡滿額贈10,000 Fa點2026/08/21-2026/08/27",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/20260821familymart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260820Reward307cfeda.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -1904,7 +1904,7 @@
     "category": "強打優惠"
   },
   {
-    "title": "百貨樂一夏刷聯邦分期０利率，滿額再送好禮！2026/08/10-2026/08/31",
+    "title": "百貨樂一夏",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
     "bank": "聯邦銀行",
@@ -1942,6 +1942,13 @@
     "title": "2026年聯邦飯店優惠",
     "url": "https://card.ubot.com.tw/eCard/activity/2026hotel/index.aspx",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251226Reward0952f21c.jpg",
+    "bank": "聯邦銀行",
+    "category": "強打優惠"
+  },
+  {
+    "title": "百貨樂一夏刷聯邦分期０利率，滿額再送好禮！2026/08/10-2026/08/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260811Reward9670d8de.jpg",
     "bank": "聯邦銀行",
     "category": "強打優惠"
   },
@@ -2149,13 +2156,6 @@
     "category": "百貨零售"
   },
   {
-    "title": "微風信義耀黑極致之夜聯名卡最高回饋18.8%！滿額再享樂天皇朝套餐！2026/08/06-2026/08/23",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260805Rewardec4f3f4c.jpg",
-    "bank": "聯邦銀行",
-    "category": "百貨零售"
-  },
-  {
     "title": "萊爾富刷聯邦不限金額５%",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026hilife/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260701Reward96dd0b6b.jpg",
@@ -2198,7 +2198,7 @@
     "category": "百貨零售"
   },
   {
-    "title": "微風信義耀黑極致之夜",
+    "title": "微風信義耀黑極致之夜聯名卡最高回饋18.8%！滿額再享樂天皇朝套餐！2026/08/06-2026/08/23",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260805Rewardec4f3f4c.jpg",
     "bank": "聯邦銀行",
@@ -2222,6 +2222,13 @@
     "title": "屈臣氏刷聯邦最高享10%回饋2026/07/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607drugstore/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260626Reward5f5e64e7.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "微風信義耀黑極致之夜",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026breeze/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260805Rewardec4f3f4c.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },

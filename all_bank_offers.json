@@ -1282,7 +1282,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*16xzbgh*_gcl_au*NzAyNTY1MTUzLjE3ODg0ODk5NDA.*_ga*MjQ2Mzk5NzY3LjE3ODg0ODk5NDA.*_ga_T2T689XRGT*czE3ODg0ODk5NDAkbzEkZzAkdDE3ODg0ODk5NDckajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1ppxh1z*_gcl_au*MTI4MzUyMzUyNS4xNzg4NTc2NDMz*_ga*MTUxODMxNDcxMS4xNzg4NTc2NDMz*_ga_T2T689XRGT*czE3ODg1NzY0MzMkbzEkZzAkdDE3ODg1NzY0MzkkajU0JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -2142,6 +2142,13 @@
     "category": "百貨零售"
   },
   {
+    "title": "百貨週年慶刷聯邦最高3%回饋，再享分期0利率！  2026/09/01-2026/11/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202609departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260904Reward97be14ef.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
     "title": "昇恆昌免稅購物第一站昇恆昌刷聯邦卡，每滿1萬元最贈200元刷卡金！2026/07/01-2026/09/30",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026q3everrich/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260625Reward4a0bf659.jpg",
@@ -2187,6 +2194,13 @@
     "title": "美廉社、小北百貨最高８％",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202607supermarket/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260623Reward7d9be33b.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "百貨週年慶",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202609departmentstoreall/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260904Reward97be14ef.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },

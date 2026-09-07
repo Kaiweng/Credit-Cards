@@ -735,6 +735,13 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "國泰世華信用卡友限定 │Perfect Pair極致餐酒饗宴",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202609/perfect_pair.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/AEM%E5%9C%962.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
     "title": "【萬事達卡卡友限定】\n熱血開跑!奔向東京馬拉松2027",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202608/mastercardtokyomarathon.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01-260813-Cathay-TW-Website-Header-1050x630px-01.png",
@@ -1282,7 +1289,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*i9w40x*_gcl_au*MTc1MTkyNDgyNi4xNzg4NjYyNjk1*_ga*MTc1MDEwNzg3My4xNzg4NjYyNjk2*_ga_T2T689XRGT*czE3ODg2NjI2OTUkbzEkZzAkdDE3ODg2NjI3MDEkajU0JGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*ebb9o8*_gcl_au*MzUyMDk0MjAuMTc4ODc0ODk2Ng..*_ga*NTQ1NzI2MTA0LjE3ODg3NDg5NjY.*_ga_T2T689XRGT*czE3ODg3NDg5NjYkbzEkZzAkdDE3ODg3NDg5NzIkajU0JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -3045,6 +3052,13 @@
     "category": "全台優惠"
   },
   {
+    "title": "前往HenryMoodie演唱會優先購票持玉山萬事達卡9/910:00搶先卡位",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8067",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8067.jpg?h=532&w=532&hash=031349667AE56880045F32FD790F410E",
+    "bank": "玉山銀行",
+    "category": "全台優惠"
+  },
+  {
     "title": "前往小行動，大獎勵，減碳生活一起GO！完成指定任務，萬元刷卡金等你抽，完成越多，抽獎機會越多！",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8031",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8031.jpg?h=532&w=532&hash=6A9DD5CCA60F4EF5735E7AD7E62AB667",
@@ -3066,16 +3080,9 @@
     "category": "全台優惠"
   },
   {
-    "title": "前往玉山為U18台灣青棒加油刷卡滿額送全家中冰拿，持玉山卡購票享優惠！",
+    "title": "玉山為U18台灣青棒加油 刷卡滿額送全家中冰拿，持玉山卡購票享優惠！",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8113",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8113.jpg?h=532&w=532&hash=7A3848139229AD65867DE6B55B0F54C0",
-    "bank": "玉山銀行",
-    "category": "全台優惠"
-  },
-  {
-    "title": "耐斯廣場購物中心 百貨shopping就愛刷玉山信用卡",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1050",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1050.jpg?h=532&w=532&hash=7C58C2061D9D347363A4E00F093DB0FC",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3083,6 +3090,13 @@
     "title": "玉山Wallet粉絲號召令 首次註冊拿50點",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8041",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8041.jpg?h=532&w=532&hash=5CE45C23B0FA7C8D8E90D42CFE3D72E4",
+    "bank": "玉山銀行",
+    "category": "全台優惠"
+  },
+  {
+    "title": "耐斯廣場購物中心 百貨shopping就愛刷玉山信用卡",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1050",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1050.jpg?h=532&w=532&hash=7C58C2061D9D347363A4E00F093DB0FC",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3286,6 +3300,13 @@
     "title": "寶雅今夏你最美 美力加倍最高10%回饋 至寶雅實體門市 消費滿799元立折80元！",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8040",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8040.jpg?h=532&w=532&hash=9BD15C52FBF3F3959BA02486A5D01548",
+    "bank": "玉山銀行",
+    "category": "全台優惠"
+  },
+  {
+    "title": "廣三SOGO百貨 消費累積滿額贈好禮",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1027",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1027.jpg?h=532&w=532&hash=6F25F5705153E0F831D84CB187892297",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3556,16 +3577,9 @@
     "category": "全台優惠"
   },
   {
-    "title": "PChome線上購物9月網購活動 刷卡分期滿額最高享2,500元回饋",
+    "title": "PChome線上購物9月網購活動 全站刷卡分期滿額最高享2,500元；Apple旗艦館最高享4,000元回饋",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=2006_09",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/B_OnlineShop/532_2006.jpg?h=532&w=532&hash=8D4A2A681E9FACA9A554A12CA9E04387",
-    "bank": "玉山銀行",
-    "category": "全台優惠"
-  },
-  {
-    "title": "漢神百貨 消費累積滿額送漢神商品券",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1036",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1036.jpg?h=532&w=532&hash=CCFB957F23B2B634400D2531C3D8AF30",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3573,6 +3587,13 @@
     "title": "玉山Wallet 郵日本 玉山Wallet綁定郵局帳戶至日本消費筆筆享5%回饋！",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8083",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8083.jpg?h=532&w=532&hash=729CF0089BCCF6DC1F18D6320EACB10E",
+    "bank": "玉山銀行",
+    "category": "全台優惠"
+  },
+  {
+    "title": "漢神百貨 消費累積滿額送漢神商品券",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1036",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1036.jpg?h=532&w=532&hash=CCFB957F23B2B634400D2531C3D8AF30",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3605,16 +3626,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "昇恆昌刷卡分期滿額贈 最高享1,700點玉山e point回饋",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1060",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1060.jpg?h=532&w=532&hash=C29633E519B9312CCEA07264C40758EB",
+    "title": "【玉山e point 生活圈大串連】 把玉山e point 轉成你最愛的點數",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8060",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8060.jpg?h=532&w=532&hash=E740C9B1EA16D5EC64B589FA476182D6",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "【玉山e point 生活圈大串連】 把玉山e point 轉成你最愛的點數",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8060",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8060.jpg?h=532&w=532&hash=E740C9B1EA16D5EC64B589FA476182D6",
+    "title": "昇恆昌刷卡分期滿額贈 最高享1,700點玉山e point回饋",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1060",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1060.jpg?h=532&w=532&hash=C29633E519B9312CCEA07264C40758EB",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
@@ -3780,7 +3801,7 @@
     "category": "全台優惠"
   },
   {
-    "title": "玉山漢神巨蛋聯名卡滿額活動 滿額最高回饋玉山e point 3,000點",
+    "title": "漢神巨蛋購物廣場 滿額最高回饋7,000元商品券",
     "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1034",
     "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1034.jpg?h=532&w=532&hash=AD3C542F7A584989785D8D68D11FDDD8",
     "bank": "玉山銀行",
@@ -3948,16 +3969,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "微風 消費累計滿額贈電子酬賓券",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1009",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1009.jpg?h=532&w=532&hash=ADE5E962842F4F52E760DFC6469FE4C6",
+    "title": "GLOBAL WiFi無限全球通 玉山信用卡享海內外旅遊上網優惠",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3117",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3117.jpg?h=532&w=532&hash=948AFAB021A07A5CE46190C27CE96586",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "GLOBAL WiFi無限全球通 玉山信用卡享海內外旅遊上網優惠",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3117",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3117.jpg?h=532&w=532&hash=948AFAB021A07A5CE46190C27CE96586",
+    "title": "微風 消費累計滿額贈電子酬賓券",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=1009",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/A_DeptStore/1009.jpg?h=532&w=532&hash=ADE5E962842F4F52E760DFC6469FE4C6",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },

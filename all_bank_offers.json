@@ -581,7 +581,7 @@
     "category": "線上購物"
   },
   {
-    "title": "34",
+    "title": "33",
     "url": "https://mkt.ctbcbank.com/recent/202609/N2026070900022_01-30/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/ETpet400x240.jpg",
     "bank": "中國信託",
@@ -714,13 +714,6 @@
     "category": "更多優惠"
   },
   {
-    "title": "【中信卡】《囍宴》2026年9/25與9/26場次",
-    "url": "https://huaent.tw/en18eA3Mb",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/WEEDING09250926.png",
-    "bank": "中國信託",
-    "category": "更多優惠"
-  },
-  {
     "title": "【中信卡】優人神鼓《我回來了》",
     "url": "https://www.opentix.life/event/2057670301236293632",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/UTHEATRE09051011.jpg",
@@ -738,6 +731,13 @@
     "title": "【中信卡】MUZIKids",
     "url": "https://www.opentix.life/o/1893874568376971264",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/MUZI09250927.png",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
+    "title": "【中信卡】迪士尼金曲派對",
+    "url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DJYOXZ",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/DISNEY092627.jpg",
     "bank": "中國信託",
     "category": "更多優惠"
   },
@@ -1338,7 +1338,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*jqj3fl*_gcl_au*MTY0MzU5OTIyMS4xNzkwMzkyODI0*_ga*MjU1OTU1ODkxLjE3OTAzOTI4MjU.*_ga_T2T689XRGT*czE3OTAzOTI4MjQkbzEkZzAkdDE3OTAzOTI4MzEkajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1f3ozm4*_gcl_au*MTAyODEzNTQ2My4xNzkwNDc5NzAz*_ga*ODUyNTgxNTYxLjE3OTA0Nzk3MDM.*_ga_T2T689XRGT*czE3OTA0Nzk3MDMkbzEkZzAkdDE3OTA0Nzk3MTAkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"

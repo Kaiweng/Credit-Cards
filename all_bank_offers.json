@@ -511,7 +511,7 @@
     "category": "百貨藥妝"
   },
   {
-    "title": "3",
+    "title": "4",
     "url": "http://www.santacruz.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000038.jpg",
     "bank": "中國信託",
@@ -525,16 +525,16 @@
     "category": "超商量販"
   },
   {
-    "title": "【中信卡】全聯PX Pay",
-    "url": "https://mkt.ctbcbank.com/long/creditcard/pxmart/index.html",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/PX_400.jpg",
+    "title": "【中信卡】統一超商OP錢包",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/open/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/OP_400.jpg",
     "bank": "中國信託",
     "category": "超商量販"
   },
   {
-    "title": "【中信卡】統一超商OP錢包",
-    "url": "https://mkt.ctbcbank.com/long/creditcard/open/index.html",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/OP_400.jpg",
+    "title": "【中信卡】全聯PX Pay",
+    "url": "https://mkt.ctbcbank.com/long/creditcard/pxmart/index.html",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/PX_400.jpg",
     "bank": "中國信託",
     "category": "超商量販"
   },
@@ -756,6 +756,20 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "CUBE JCB 信用卡 & 星悅航空 Starflyer 專屬優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202609/Starflyer.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%98%9F%E6%82%85%E8%88%AA%E7%A9%BA_%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%873.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "新光三越卡利HIGH兌換",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202509/skmcardlihigh.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/skm1050x630_01.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
     "title": "遠東SOGO就刷CUBE信用卡\n領券加碼最高享4%回饋",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/2026sogojp.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/SOGOJPKV.jpg",
@@ -770,6 +784,34 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "屈臣氏官方網路商店/APP，單筆滿額現折NT$110",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202610/2026-watsons-ec-10.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/watsons1.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "肯德基 | 必勝客 專屬訂餐享優惠",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202507/JARDINE-FOOD.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/KFCPH_.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰世華 CUBE 信用卡 × 摩斯漢堡，多重優惠美味加碼！2026/11/30前刷 CUBE 信用卡切換「秋日遊」，於摩斯漢堡消費享 3.5% 小樹點（信用卡）回饋，美味每一餐，回饋再升級！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202610/mos.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/202610_MOS.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "電器愛好者必逛日本愛電王\n掃碼消費指定商品享最高7%折扣+10%免稅\n切換秋日遊領券刷CUBE信用卡再享最高10.2%小樹點(信用卡)回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/JPEDION.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%84%9B%E9%9B%BB%E7%8E%8B3D%20(4).jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
     "title": "國泰世華 CUBE 信用卡 & 【期間限定秋日遊】權益加碼由你決定｜國泰世華信用卡優惠活動",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/prejpr202610.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/JPR202610_1050x630.jpg",
@@ -777,9 +819,86 @@
     "category": "信用卡優惠"
   },
   {
+    "title": "財富管理貴賓 「秋日遊」專屬任務，加碼享最高2%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/JPVIP.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/1050x630_%E6%A9%9F%E5%A0%B4VIP%E7%A7%8B%E6%97%A5%E9%81%8A.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰航空秋日遊限時機票優惠\n指定航點最高折抵2,000元！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/cathaypacific.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E5%9C%8B%E6%B3%B0%E8%88%AA%E7%A9%BA_2026%E7%A7%8B%E6%97%A5%E9%81%8A.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "Nippon SIM點兌優惠｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/NipponSIM.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/Nippon%20SIM%20%E8%A6%96%E8%A6%BA.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "Xpark 都會型水生公園｜CUBE卡友禮遇",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/2026Q4Xpark.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/Xpark-2.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "玩沖繩刷 CUBE JCB 信用卡\n指定商家限時獨家10%回饋！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/jcbokinawa.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/jcb_okinawa_AEM_202610.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "秋日遊消費馬拉松｜國泰世華信用卡優惠活動",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202609/shoppingmarathon.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/1050x630_%E6%97%A5%E6%9C%AC%E8%B3%BC%E7%89%A9.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "CUBE信用卡 秋日遊\n全新登場 精彩日本每一刻",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/japanrewards/index.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/1050x630_%E7%A7%8B%E6%97%A5%E9%81%8A%E4%B8%BBKV.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "點數轉換指定航空里程/飯店積分限時加碼活動！",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202609/miles20251011.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/AM_KV_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "國泰產險刷CUBE信用卡贈最高550點小樹點(信用卡)\n領券再享最高6.2%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/payment/2026/2026insq4.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/payment/%E4%BF%9D%E8%B2%BBQ4(with%E7%94%A2%E9%9A%AA).jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【童樂匯專屬】期間限定！童樂匯通路 領券再加碼3%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/202610/2026Q4kidsbonus.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/Q4kidscampaign_KV_1050x630.png",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
     "title": "PChome24h購物 iPhone新機獨家優惠｜刷卡滿額加碼最高1,000P幣回饋",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202609/pchomeonline202609_4.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/PC_1050x630_new_4.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "遠東百貨週年慶\n數位3C最高享5%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/feds2026q4.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E9%81%A0%E7%99%BEKV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -850,13 +969,6 @@
     "title": "康是美網購eShop",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/cosmed_eshop_202609.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/%E5%BA%B7%E6%98%AF%E7%BE%8EAEM%E8%83%8C%E6%99%AF%E5%9C%96_NEW.png",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "屈臣氏官方網路商店/APP，單筆滿額現折NT$110",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/2026-watsons-ec-09.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/watsons1.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -962,13 +1074,6 @@
     "title": "YOASOBI 超惑星 “SUPER PLANET” IN TAIPEI",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/yoasobi.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/yoasobi_KV.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "桃園捷運2026 8-9月乘車優惠活動",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2026/TYMetro2026Q3.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/TYMetro2025Q3_1050x630.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1155,13 +1260,6 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "肯德基 | 必勝客 專屬訂餐享優惠",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202507/JARDINE-FOOD.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/KFCPH_.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
     "title": "CUBE信用卡&麥當勞專屬優惠 | 國泰世華信用卡優惠活動",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202604/mcdonalds_202604.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/MCD_1.jpg",
@@ -1281,13 +1379,6 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "Xpark 都會型水生公園｜CUBE卡友禮遇",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/entertainment/2026/2026xpark2.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/Xpark-2.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
     "title": "韓國樂天免稅店 國泰世華卡友購物享三重專屬優惠",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202606/KR-LOTTE-DFS.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/BUSAN%20Store.jpg",
@@ -1338,15 +1429,8 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*ja0qgc*_gcl_au*ODg4NDIxNzc5LjE3OTA2NTQ1NDg.*_ga*MTk1NjQ3NjczNi4xNzkwNjU0NTQ4*_ga_T2T689XRGT*czE3OTA2NTQ1NDgkbzEkZzAkdDE3OTA2NTQ1NTUkajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*4pt32m*_gcl_au*MzEwMjQwMTY1LjE3OTA3NDAxNzk.*_ga*Nzc5NjUwNDA2LjE3OTA3NDAxODA.*_ga_T2T689XRGT*czE3OTA3NDAxNzkkbzEkZzAkdDE3OTA3NDAxODYkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "電器愛好者必逛日本愛電王\n掃碼消費指定商品享最高7%折扣+10%免稅\n切換趣旅行領券刷CUBE信用卡再享最高10%小樹點(信用卡)回饋",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202603/JPEDION.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%84%9B%E9%9B%BB%E7%8E%8B3D%20(4).jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1393,7 +1477,7 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "《國泰世華 x 詹記麻辣火鍋》聯名冰品、專屬訂位、領券消費加碼2%小樹點(信用卡)回饋！",
+    "title": "國泰世華饗美食 | 詹記麻辣火鍋 專屬訂位、啤酒加碼送、領券消費加碼2%小樹點(信用卡)回饋！",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/dining/202603/chanchihotpotlab.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Dining/AEM%E6%96%B0KV(%E8%A9%B9%E8%A8%98).jpg",
     "bank": "國泰世華",
@@ -1437,7 +1521,7 @@
   {
     "title": "全球通派車App訂車享最高3.8%小樹點(信用卡)回饋",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/transportation/2025/Global-Rental.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/214.jpg",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/transportation/%E8%83%8C%E6%99%AF%E5%9C%96.PNG",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1659,9 +1743,9 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "【權益套餐-快閃套餐】蔡健雅 除此之外 Into The B-Sides 另一面的蔡健雅 雙人互動套票",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/202607/TANYA-VIP.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/%E8%94%A1%E5%81%A5%E9%9B%85%E9%AB%98%E9%9B%84.jpg",
+    "title": "【權益套餐-快閃套餐】YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 超惑星 “SUPER PLANET” IN TAIPEI 雙人套票",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/product/YOASOBI-VIP.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/yoasobi_KV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1669,6 +1753,13 @@
     "title": "CUBE Level 3 專屬\nCUBE 權益套餐",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/202607/cube_benefits.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/bonus/AEM_CUBE_Benefits_1050x630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【權益套餐-快閃套餐】蔡健雅 除此之外 Into The B-Sides 另一面的蔡健雅 雙人互動套票",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/bonus/202607/TANYA-VIP.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/entertainment/%E8%94%A1%E5%81%A5%E9%9B%85%E9%AB%98%E9%9B%84.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1767,6 +1858,13 @@
     "title": "智能投資基金全平台終身 0 管理費",
     "url": "https://www.cathayrobo.com/welcome/activity/2024gbi",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/1201robo_1050X630.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "換日圓專屬好康",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Deposit/All/2026/fxjpy.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E5%AD%98%E6%AC%BE/fxjpy_KV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },

@@ -1443,7 +1443,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*v4exky*_gcl_au*MzEyNDE2MjQ5LjE3OTEzNDYwMzU.*_ga*MTM2NTAxMTMwNC4xNzkxMzQ2MDM2*_ga_T2T689XRGT*czE3OTEzNDYwMzUkbzEkZzAkdDE3OTEzNDYwNDIkajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*w5emo9*_gcl_au*MTQwNDc0OTQzMi4xNzkxNDMzMTg5*_ga*MzUwOTEyMzEuMTc5MTQzMzE5MA..*_ga_T2T689XRGT*czE3OTE0MzMxOTAkbzEkZzAkdDE3OTE0MzMxOTUkajU1JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -2289,9 +2289,9 @@
     "category": "百貨零售"
   },
   {
-    "title": "昇恆昌免稅店刷聯邦樂享免稅優惠，滿額最高贈2000元刷卡金！  2026/10/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q4everrich/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261001Reward71313dd7.jpg",
+    "title": "全聯福利中心週六日刷聯邦滿額贈780點福利點！  2026/10/07-2026/10/11",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202610pxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261002Reward3114dd77.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2352,6 +2352,20 @@
     "category": "百貨零售"
   },
   {
+    "title": "全聯福利中心",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202610pxmart/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261002Reward3114dd77.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
+    "title": "昇恆昌免稅店刷聯邦樂享免稅優惠，滿額最高贈2000元刷卡金！  2026/10/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q4everrich/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261001Reward71313dd7.jpg",
+    "bank": "聯邦銀行",
+    "category": "百貨零售"
+  },
+  {
     "title": "昇恆昌免稅店",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026q4everrich/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261001Reward71313dd7.jpg",
@@ -2408,9 +2422,9 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "Trip.com刷聯邦Visa卡訂房最高８％、機票最高３％折扣！  2025/05/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2025/2025visa_offers/tripcom07/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251016Reward0903ea79.jpg",
+    "title": "MyJapan+ APP刷聯邦JCB登錄享博多指定商店最高30%回饋！2026/09/15-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/hakata/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261007Reward06f2c508.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2457,6 +2471,27 @@
     "category": "旅遊優惠"
   },
   {
+    "title": "MyJapan+ APP",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/hakata/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261007Reward06f2c508.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "MyJapan+ APP刷聯邦JCB登錄享札幌指定商店最高30%回饋！2026/09/15-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/hakata/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261007Reward592cbf57.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "Trip.com刷聯邦Visa卡訂房最高８％、機票最高３％折扣！  2025/05/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2025/2025visa_offers/tripcom07/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251016Reward0903ea79.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
     "title": "真航空刷聯邦JCB卡回國托運行李可達上限20kg免費！  2026/09/01-2027/03/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/jinair/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260914Reward80a4ecad.jpg",
@@ -2485,6 +2520,13 @@
     "category": "旅遊優惠"
   },
   {
+    "title": "日本商店刷聯邦Visa卡高島屋及BicCamera門市享10%現金回饋！2026/09/01-2026/11/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/BicCamera/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261007Reward1fb333ce.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
     "title": "台灣虎航台灣虎航刷聯邦JCB卡享最高9折及選位優惠2026/01/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/tigerairtw/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward7ff61406.jpg",
@@ -2495,27 +2537,6 @@
     "title": "ＫＫｄａｙ趣亞太ＫＫｄａｙ指定國家玩樂商品刷聯邦JCB卡享現折優惠！2026/01/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/kkday/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward1aa86d41.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
-    "title": "Booking.comBooking.com訂房刷聯邦Visa卡享最高７％旅遊點數2025/12/31-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/bookingcom/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260513Reward0630d7e3.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
-    "title": "Hotels.com刷聯邦JCB卡訂房享最高18%現折優惠 2026/05/01-2027/04/30",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202605jcb_hotels/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260608Reward35d29ebc.jpg",
-    "bank": "聯邦銀行",
-    "category": "旅遊優惠"
-  },
-  {
-    "title": "免費機場接送刷聯邦JCB卡滿額享免費機場接送2026/01/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/airport/index.htm?",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward196c53cf.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2548,6 +2569,13 @@
     "category": "旅遊優惠"
   },
   {
+    "title": "日本商店刷聯邦Visa卡",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/BicCamera/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261007Reward1fb333ce.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
     "title": "台灣虎航",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/tigerairtw/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward7ff61406.jpg",
@@ -2562,21 +2590,21 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "Booking.com",
+    "title": "Booking.comBooking.com訂房刷聯邦Visa卡享最高７％旅遊點數2025/12/31-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/bookingcom/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260513Reward0630d7e3.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
   {
-    "title": "Hotels.com",
+    "title": "Hotels.com刷聯邦JCB卡訂房享最高18%現折優惠 2026/05/01-2027/04/30",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202605jcb_hotels/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260608Reward35d29ebc.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
   {
-    "title": "免費機場接送",
+    "title": "免費機場接送刷聯邦JCB卡滿額享免費機場接送2026/01/01-2026/12/31",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/airport/index.htm?",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward196c53cf.jpg",
     "bank": "聯邦銀行",
@@ -2618,16 +2646,23 @@
     "category": "旅遊優惠"
   },
   {
-    "title": "多慶屋專屬優惠刷JCB吉鶴卡，結帳出示免費優惠券12% OFF2026/05/01-2027/04/30",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026TAKEYA/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250707Reward5873fff6.jpg",
+    "title": "Booking.com",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026visa_offers/bookingcom/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260513Reward0630d7e3.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
   {
-    "title": "東京三越伊勢丹百貨刷聯邦JCB卡最高享3萬日圓回饋 2026/07/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202607jcbmitsukoshi/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260702Reward38816ef7.jpg",
+    "title": "Hotels.com",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202605jcb_hotels/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260608Reward35d29ebc.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "免費機場接送",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026jcb/airport/index.htm?",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260113Reward196c53cf.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },
@@ -2663,6 +2698,20 @@
     "title": "聯邦租ｗｉｆｉ享優惠",
     "url": "https://activity.ubot.com.tw/aws_act/2026/2026wifi/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/251231Reward35f3e792.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "多慶屋專屬優惠刷JCB吉鶴卡，結帳出示免費優惠券12% OFF2026/05/01-2027/04/30",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026TAKEYA/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/250707Reward5873fff6.jpg",
+    "bank": "聯邦銀行",
+    "category": "旅遊優惠"
+  },
+  {
+    "title": "東京三越伊勢丹百貨刷聯邦JCB卡最高享3萬日圓回饋 2026/07/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/202607jcbmitsukoshi/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260702Reward38816ef7.jpg",
     "bank": "聯邦銀行",
     "category": "旅遊優惠"
   },

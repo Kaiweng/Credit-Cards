@@ -175,7 +175,7 @@
     "category": "餐飲優惠"
   },
   {
-    "title": "23",
+    "title": "22",
     "url": "https://www.freeliving.com.tw/EVENT/ctbcrewards/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000018.jpg",
     "bank": "中國信託",
@@ -206,13 +206,6 @@
     "title": "【中信卡】中國東方航空 伊斯坦堡機票優惠",
     "url": "https://www.ceair.com/global/hk_TWD/landing/202606/t20260625_30075.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260924.jpg",
-    "bank": "中國信託",
-    "category": "旅遊玩家"
-  },
-  {
-    "title": "【中信卡】雄獅旅遊 長榮機票買一送一",
-    "url": "https://lion.tours/z2v2rH9b",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260925.jpg",
     "bank": "中國信託",
     "category": "旅遊玩家"
   },
@@ -794,6 +787,13 @@
     "title": "CUBE JCB 信用卡 & 星悅航空 Starflyer 專屬優惠｜國泰世華信用卡優惠活動",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202609/Starflyer.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%98%9F%E6%82%85%E8%88%AA%E7%A9%BA_%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%873.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "【全聯家家購物節】指定期間刷CUBE信用卡單筆滿1,300元享最高7%回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202610/PXMart_202610.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/pxpay1050x630.jpeg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1443,7 +1443,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*w5emo9*_gcl_au*MTQwNDc0OTQzMi4xNzkxNDMzMTg5*_ga*MzUwOTEyMzEuMTc5MTQzMzE5MA..*_ga_T2T689XRGT*czE3OTE0MzMxOTAkbzEkZzAkdDE3OTE0MzMxOTUkajU1JGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1qwdmjm*_gcl_au*MTk5MzIxMjk4NS4xNzkxNTE5ODY3*_ga*MTI3NzI3MDU2OS4xNzkxNTE5ODY4*_ga_T2T689XRGT*czE3OTE1MTk4NjckbzEkZzAkdDE3OTE1MTk4NzQkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"

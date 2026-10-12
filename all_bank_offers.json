@@ -336,7 +336,7 @@
     "category": "旅遊玩家"
   },
   {
-    "title": "25",
+    "title": "24",
     "url": "https://www.feds.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000076.jpg",
     "bank": "中國信託",
@@ -504,13 +504,6 @@
     "category": "百貨藥妝"
   },
   {
-    "title": "【中信卡】誠品生活週年慶",
-    "url": "https://mkt.ctbcbank.com/long/creditcard/NB20231222189/index.html?item=27",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/ESL0001.jpg",
-    "bank": "中國信託",
-    "category": "百貨藥妝"
-  },
-  {
     "title": "【中信卡】雅詩蘭黛週年慶",
     "url": "https://mkt.ctbcbank.com/recent/202612/N2026090700004_01-20/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/ESTE202601.jpg",
@@ -518,7 +511,7 @@
     "category": "百貨藥妝"
   },
   {
-    "title": "3",
+    "title": "2",
     "url": "http://www.santacruz.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000038.jpg",
     "bank": "中國信託",
@@ -535,13 +528,6 @@
     "title": "【中信卡】統一超商OP錢包",
     "url": "https://mkt.ctbcbank.com/long/creditcard/open/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/OP_400.jpg",
-    "bank": "中國信託",
-    "category": "超商量販"
-  },
-  {
-    "title": "【中信卡】全聯PX Pay",
-    "url": "https://mkt.ctbcbank.com/long/creditcard/pxmart/index.html",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/PX_400.jpg",
     "bank": "中國信託",
     "category": "超商量販"
   },
@@ -588,7 +574,7 @@
     "category": "線上購物"
   },
   {
-    "title": "26",
+    "title": "25",
     "url": "http://www.taiwantaxi.com.tw/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000001.jpg",
     "bank": "中國信託",
@@ -693,13 +679,6 @@
     "category": "更多優惠"
   },
   {
-    "title": "【中信卡】優人神鼓《我回來了》",
-    "url": "https://www.opentix.life/event/2057670301236293632",
-    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/UTHEATRE09051011.jpg",
-    "bank": "中國信託",
-    "category": "更多優惠"
-  },
-  {
     "title": "【中信卡】會演是英雄2_英雄所賤略同",
     "url": "https://reurl.cc/181xOQ",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/HERO07241227.jpg",
@@ -749,6 +728,13 @@
     "category": "更多優惠"
   },
   {
+    "title": "【中信卡】安徒生和莫札特的創意劇場",
+    "url": "https://tixfun.com/UTK0401_?ORGANIZATION_ID=N0SRSOLN",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/AM0001.jpg",
+    "bank": "中國信託",
+    "category": "更多優惠"
+  },
+  {
     "title": "信用卡",
     "url": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview?category=credit-card",
     "image": null,
@@ -787,13 +773,6 @@
     "title": "CUBE JCB 信用卡 & 星悅航空 Starflyer 專屬優惠｜國泰世華信用卡優惠活動",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202609/Starflyer.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E6%98%9F%E6%82%85%E8%88%AA%E7%A9%BA_%E5%B0%81%E9%9D%A2%E5%9C%96%E7%89%873.jpg",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "【全聯家家購物節】指定期間刷CUBE信用卡單筆滿1,300元享最高7%回饋",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202610/PXMart_202610.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/pxpay1050x630.jpeg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1102,13 +1081,6 @@
     "title": "Goyard寶麗廣塲歡慶開幕\n刷卡滿額享最高4,300元酬賓券",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/Goyard.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/2026Goyard_1050x630_03.png",
-    "bank": "國泰世華",
-    "category": "信用卡優惠"
-  },
-  {
-    "title": "台北101購物中心週年慶暨珠寶腕錶展",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/shopping/202609/2026taipei101.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/1050x630_101KV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1443,7 +1415,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1ya4apk*_gcl_au*MTg1NDMzMzA3OC4xNzkxNjkwNDEw*_ga*MTM2NTU3MDAxNy4xNzkxNjkwNDEw*_ga_T2T689XRGT*czE3OTE2OTA0MTAkbzEkZzAkdDE3OTE2OTA0MTYkajU0JGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*10eixwp*_gcl_au*MTg5NjY3NjA1NC4xNzkxNzc4MTU4*_ga*MTQzMDM1NzM0NC4xNzkxNzc4MTU5*_ga_T2T689XRGT*czE3OTE3NzgxNTgkbzEkZzAkdDE3OTE3NzgxNjUkajUzJGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -2289,9 +2261,9 @@
     "category": "百貨零售"
   },
   {
-    "title": "全聯福利中心週六日刷聯邦滿額贈780點福利點！  2026/10/07-2026/10/11",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202610pxmart/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261002Reward3114dd77.jpg",
+    "title": "昇恆昌免稅店刷聯邦樂享免稅優惠，滿額最高贈2000元刷卡金！  2026/10/01-2026/12/31",
+    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q4everrich/index.htm",
+    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261001Reward71313dd7.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },
@@ -2348,20 +2320,6 @@
     "title": "居家生活再升級",
     "url": "https://activity.ubot.com.tw/aws_act/2026/202609trplus/index.htm",
     "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/260924Reward51395225.jpg",
-    "bank": "聯邦銀行",
-    "category": "百貨零售"
-  },
-  {
-    "title": "全聯福利中心",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/202610pxmart/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261002Reward3114dd77.jpg",
-    "bank": "聯邦銀行",
-    "category": "百貨零售"
-  },
-  {
-    "title": "昇恆昌免稅店刷聯邦樂享免稅優惠，滿額最高贈2000元刷卡金！  2026/10/01-2026/12/31",
-    "url": "https://activity.ubot.com.tw/aws_act/2026/2026q4everrich/index.htm",
-    "image": "https://activity.ubot.com.tw/App_Themes/ImgAdv/261001Reward71313dd7.jpg",
     "bank": "聯邦銀行",
     "category": "百貨零售"
   },

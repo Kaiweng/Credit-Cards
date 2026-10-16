@@ -175,7 +175,7 @@
     "category": "餐飲優惠"
   },
   {
-    "title": "22",
+    "title": "23",
     "url": "https://www.freeliving.com.tw/EVENT/ctbcrewards/",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/Redeem000018.jpg",
     "bank": "中國信託",
@@ -332,6 +332,13 @@
     "title": "【中信卡】可樂旅遊訂購迪士尼探險號",
     "url": "https://mkt.ctbcbank.com/long/creditcard/N2026022400009_01-31/index.html",
     "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H260302.jpg",
+    "bank": "中國信託",
+    "category": "旅遊玩家"
+  },
+  {
+    "title": "【中信卡】雄獅旅遊 ITF線上旅展",
+    "url": "https://lion.tours/GKyvDrHa",
+    "image": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/offer/H261013.jpg",
     "bank": "中國信託",
     "category": "旅遊玩家"
   },
@@ -752,6 +759,13 @@
     "title": "momo購物網 iPhone新機預購優惠 (10/16~10/23)",
     "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202610/momo202610_3.html",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E7%B6%B2%E8%B3%BCapp/momo_new_1050x630_2.jpg",
+    "bank": "國泰世華",
+    "category": "信用卡優惠"
+  },
+  {
+    "title": "韓國玩美趁現在！完成任務最高加碼3,000點回饋",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/travel/202610/k-beauty.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/%E9%9F%93%E5%9C%8B%E7%8E%A9%E7%BE%8E_A_1050X630.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -1408,7 +1422,7 @@
   },
   {
     "title": "全支付︱全家My FamiPay︱全盈+PAY 綁卡付 小樹點(信用卡)馬上折",
-    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*jdsnvo*_gcl_au*MTgxNDg0MTkyNi4xNzkyMDMzMzQz*_ga*ODM0ODIwMDguMTc5MjAzMzM0NA..*_ga_T2T689XRGT*czE3OTIwMzMzNDMkbzEkZzAkdDE3OTIwMzMzNTAkajUzJGwwJGgw",
+    "url": "https://www.cathaybk.com.tw/cathaybk/promo/event/credit-card/product/TPusenow/index.html?_gl=1*1nhwezr*_gcl_au*MjA5NDQ3MDAyMy4xNzkyMTE5NTk4*_ga*NDUzODMzMTc3LjE3OTIxMTk1OTg.*_ga_T2T689XRGT*czE3OTIxMTk1OTgkbzEkZzAkdDE3OTIxMTk2MDMkajU1JGwwJGgw",
     "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/Shopping/tpeuse%20web%20kv.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
@@ -1813,16 +1827,16 @@
     "category": "信用卡優惠"
   },
   {
-    "title": "讓投資 變 ∙ 簡 ∙ 單1對1免費專業人員諮詢",
-    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Invest/All/2026/roboconsult.html",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/roboconsult_KV.jpg",
+    "title": "智能投資基金全平台終身 0 管理費",
+    "url": "https://www.cathayrobo.com/welcome/activity/2024gbi",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/1201robo_1050X630.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
   {
-    "title": "智能投資基金全平台終身 0 管理費",
-    "url": "https://www.cathayrobo.com/welcome/activity/2024gbi",
-    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/1201robo_1050X630.jpg",
+    "title": "讓投資 變 ∙ 簡 ∙ 單1對1免費專業人員諮詢",
+    "url": "https://www.cathay-cube.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/Invest/All/2026/roboconsult.html",
+    "image": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/%E6%8A%95%E8%B3%87/roboconsult_KV.jpg",
     "bank": "國泰世華",
     "category": "信用卡優惠"
   },
@@ -3465,16 +3479,16 @@
     "category": "全台優惠"
   },
   {
-    "title": "《指揮大師提勒曼與柏林國家歌劇院管弦樂團》音樂會 玉山卡享精美節目冊禮遇",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=9120",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/I_Movie/532_9120.jpg?h=532&w=532&hash=03672A0840D1E0C97432B40F938A9647",
+    "title": "百貨購 旅遊GO 國旅卡指定百貨旅遊通路享加碼3%回饋！",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3265",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3265.jpg?h=532&w=532&hash=91E4CAB08656437F68D58233FCF9680A",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
   {
-    "title": "百貨購 旅遊GO 國旅卡指定百貨旅遊通路享加碼3%回饋！",
-    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3265",
-    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3265.jpg?h=532&w=532&hash=91E4CAB08656437F68D58233FCF9680A",
+    "title": "《指揮大師提勒曼與柏林國家歌劇院管弦樂團》音樂會 玉山卡享精美節目冊禮遇",
+    "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=9120",
+    "image": "https://www.esunbank.com/-/media/ESUNBANK-Mobile/Images/Discount/shops/I_Movie/532_9120.jpg?h=532&w=532&hash=03672A0840D1E0C97432B40F938A9647",
     "bank": "玉山銀行",
     "category": "全台優惠"
   },
